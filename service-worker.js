@@ -1,4 +1,4 @@
-const CACHE='slot-map-v12.3';
+const CACHE='slot-map-v12.5';
 const SHELL=['./','./index.html','./manifest.webmanifest','./establishments.js','./buffalo-theme.png'];
 
 self.addEventListener('install', event => {

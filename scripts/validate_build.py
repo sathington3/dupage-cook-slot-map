@@ -25,7 +25,7 @@ for r in mapped:
 # cache/version
 idx=(ROOT/'index.html').read_text(encoding='utf-8')
 sw=(ROOT/'service-worker.js').read_text(encoding='utf-8')
-EXPECTED_VERSION='12.3'
+EXPECTED_VERSION='12.5'
 if f'v={EXPECTED_VERSION}' not in idx: errors.append(f'index asset version not {EXPECTED_VERSION}')
 if f'slot-map-v{EXPECTED_VERSION}' not in sw: errors.append(f'service worker cache not {EXPECTED_VERSION}')
 print(json.dumps({'mapped_records':len(mapped),'master_records':len(rows),'errors':errors},indent=2))
