@@ -37,3 +37,19 @@ The ChatGPT code container used to assemble this release cannot make the require
 - Normalized live City and County display names to title case.
 - Preserved Illinois-specific casing such as McHenry, DeKalb, LaSalle, Du Quoin, St. Charles, O'Fallon, and La Harpe.
 - Future IGB licensee imports now normalize all-uppercase place names before merging.
+
+
+## v12.7.1 operator + AP foundation / second-pass geocoding
+- Formalized 650 prior IGB terminal-operator cross-reference records into `operator-crossref.json` and the statewide master.
+- Added a Terminal Operator filter to the app for locations with known operator data.
+- Added structured `ap-observations.json`; AP game lists contain only games explicitly identified as AP-relevant.
+- Added field-confirmed observations for STATS Sports Bar, Eva's Place, and Mrs. T's Pizza & Pub.
+- Added `scripts/geocode_second_pass.py` and a GitHub Action that retries unresolved official addresses using conservative normalized variants.
+- The second pass still accepts Census `Match + Exact` only; it does not loosen coordinate quality standards.
+
+
+## v12.7.1 audit
+- Fixed stale manifest/service-worker query versions.
+- Batched DOM card insertion and marker-cluster insertion for more efficient statewide rendering.
+- Added icon files to the offline shell cache.
+- Strengthened validation for version drift, all-caps place names, and operator cross-reference consistency.

@@ -94,7 +94,7 @@ def census_batch(rows, timeout=120, retries=6):
         req = urllib.request.Request(
             CENSUS_URL,
             data=body,
-            headers={"Content-Type": f"multipart/form-data; boundary={boundary}", "User-Agent": "SlotMap/12.4"},
+            headers={"Content-Type": f"multipart/form-data; boundary={boundary}", "User-Agent": "SlotMap/12.7"},
             method="POST",
         )
         try:
@@ -236,7 +236,7 @@ def rebuild_live_dataset(master):
     for r in master["establishments"]:
         if r.get("lat") in (None, "") or r.get("lon") in (None, ""):
             continue
-        d={k:r.get(k) for k in ("county","id","name","address","city","state","zip","license","type","lat","lon","vgts","played","won","nti","payback")}
+        d={k:r.get(k) for k in ("county","id","name","address","city","state","zip","license","type","lat","lon","vgts","played","won","nti","payback","terminal_operator","ap_status","ap_category")}
         if not d.get("id"):
             d["id"] = f"IL-{clean(r.get('license'))}"
         terms=[d.get(k) for k in ("name","address","city","state","zip","license","county")]

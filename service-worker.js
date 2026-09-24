@@ -1,5 +1,5 @@
-const CACHE='slot-map-v12.6';
-const SHELL=['./','./index.html','./manifest.webmanifest','./establishments.js','./buffalo-theme.png'];
+const CACHE='slot-map-v12.7.1';
+const SHELL=['./','./index.html','./manifest.webmanifest','./establishments.js','./buffalo-theme.png','./apple-touch-icon.png','./app-icon-512.png'];
 
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting()));

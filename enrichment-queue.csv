@@ -1764,7 +1764,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 160700379,New Shivkrupa LLC,Mascoutah,St. Clair,igb_licensee_list,40 N 6th st,Mascoutah,62258,,,needs_coordinates
 250701334,"Nextup Sports & Entertainment Sparta, Inc.",Sparta,Randolph,igb_licensee_list,1400 Sparta Centre Dr,Sparta,62286,,,needs_coordinates
 200701710,"NEXTUP SPORTS & ENTERTAINMENT, INC.",Freeburg,St. Clair,igb_licensee_list,301 Marketplace Dr,Freeburg,62243,,,needs_coordinates
-140703900,NGK MARENGO INC.,Marengo,McHenry,igb_licensee_list,106 S State St,Marengo,60152,,,needs_coordinate_verification
+140703900,NGK MARENGO INC.,Marengo,McHenry,igb_licensee_list,106 S State St,Marengo,60152,,,needs_coordinates
 170701856,NGK PINGREE GROVE LLC,Pingree Grove,Kane,igb_licensee_list,2401 W. RT 20,Pingree Grove,60140,,,needs_coordinates
 210700763,"NICK'S ON 6, LLC",La Salle,La Salle,igb_licensee_list,328 3RD ST STE A,LaSalle,613012350,,,needs_coordinates
 200700022,"Nickleshooters, Inc.",Godfrey,Madison,igb_licensee_list,901 West Delmar,Alton,62002,,,needs_coordinates
@@ -2028,7 +2028,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120711787,"RED IRON TAVERN, INC.",Woodstock,McHenry,igb_licensee_list,101 CHURCH ST,Woodstock,60098,,,needs_coordinates
 130700805,"RED WING BOWL, INC.",Atlanta,Logan,igb_licensee_list,200 SW 1st STREET,Atlanta,61723,,,needs_coordinates
 160703484,"Red's City Limits, INC.",La Salle County,La Salle,igb_licensee_list,2853 North Illinois 178,North Utica,61373,,,needs_coordinates
-180701868,"REG VENTURES, INC.",Marengo,McHenry,igb_licensee_list,100 S State St,Marengo,60152,,,needs_coordinate_verification
+180701868,"REG VENTURES, INC.",Marengo,McHenry,igb_licensee_list,100 S State St,Marengo,60152,,,needs_coordinates
 120706373,"REGIN, INC.",Monee,Will,igb_licensee_list,5355 MAIN STREET,Monee,60449,,,needs_coordinates
 240701363,Rend Lake Conservancy District,Franklin County,Franklin,igb_licensee_list,12476 Golf Course Dr.,Whittington,62897,,,needs_coordinates
 220702925,Renner Enterprises LLC,Streator,,,,,,,,needs_address_and_coordinates
@@ -2101,7 +2101,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 240702148,Roots Latin Grill LLC,Springfield,,,,,,,,needs_address_and_coordinates
 190702052,ROPI GAME 1 INC.,Lincoln,Logan,igb_licensee_list,708 KEOKUK ST SUITE B,Lincoln,62656,,,needs_coordinates
 240702018,Ropi Game 1 Inc.,Lincoln,Logan,igb_licensee_list,624 Woodlawn Rd Suite B,Lincoln,62656,,,needs_coordinates
-170701655,"Rosati's Pizza Pub Development - Ottawa, LLC",Ottawa,La Salle,igb_licensee_list,375 W. Stevenson Rd.,Ottawa,61350,,,needs_coordinate_verification
+170701655,"Rosati's Pizza Pub Development - Ottawa, LLC",Ottawa,La Salle,igb_licensee_list,375 W. Stevenson Rd.,Ottawa,61350,,,needs_coordinates
 170701656,"Rosati’s Pizza Pub Development – Robinson, LLC",Robinson,Crawford,igb_licensee_list,1302 E. Main St. Unit E,Robinson,62454,,,needs_coordinates
 120905903,"ROSCOE POST NO. 2955, VETERANS OF FOREIGN WARS OF THE UNITED STATES, INC.",Roscoe,Winnebago,igb_licensee_list,11385 2ND STREET,Roscoe,61073,,,needs_coordinates
 170704106,Rose General Stores Inc.,Kinmundy,Marion,igb_licensee_list,206 South Madison,Kinmundy,62854,,,needs_coordinates
@@ -2127,7 +2127,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 190701057,Royal Farms Inc,Virginia,Cass,igb_licensee_list,352 N. Morgan St,Virginia,62691,,,needs_coordinates
 120702226,Royco Inc.,Freeport,,,,,,,,needs_address_and_coordinates
 220703755,RR BUFFALO GROVE LLC,Buffalo Grove,Lake,igb_licensee_list,700 E LAKE COOK RD STE 101,Buffalo Grove,60089,,,needs_coordinates
-221002339,RR PONTIAC SOUTH LLC,Pontiac,Livingston,igb_licensee_list,1910 W REYNOLDS ST,Pontiac,61764,,,needs_coordinate_verification
+221002339,RR PONTIAC SOUTH LLC,Pontiac,Livingston,igb_licensee_list,1910 W REYNOLDS ST,Pontiac,61764,,,needs_coordinates
 240701009,RSKS Corp.,South Pekin,Tazewell,igb_licensee_list,807 Main Street,South Pekin,61564,,,needs_coordinates
 200702531,"RT 66 OLD SCHOOL BREWERY, INC.",Wilmington,Will,igb_licensee_list,110 BRIDGE STREET,Wilmington,60481,,,needs_coordinates
 210703183,RTP Liquor LLC,Springfield,Sangamon,igb_licensee_list,1249 Toronto Road,Springfield,62712,,,needs_coordinates
@@ -2215,7 +2215,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 210702347,SGWG LLC,Morrison,Whiteside,igb_licensee_list,113-115 W. Main Street,Morrison,61270,,,needs_coordinates
 130703041,SHADY OAKS COUNTRY CLUB,Lee County,Lee,igb_licensee_list,577 US ROUTE 52,Amboy,61310,,,needs_coordinates
 250700117,"Shady Spot, LLC",Kirkland,,,,,,,,needs_address_and_coordinates
-120700313,"Shaker's Lounge, Inc.",Ottawa,La Salle,igb_licensee_list,121 W. Stevenson Road,Ottawa,61350,,,needs_coordinate_verification
+120700313,"Shaker's Lounge, Inc.",Ottawa,La Salle,igb_licensee_list,121 W. Stevenson Road,Ottawa,61350,,,needs_coordinates
 200700731,Sharon Laffoon,Sheldon,Iroquois,igb_licensee_list,101 S 4TH STREET,Sheldon,60966,,,needs_coordinates
 120711577,Sharon Miller,Ashton,,,,,,,,needs_address_and_coordinates
 160703635,"Shaw's Shack Redemption, INC.",Clinton County,Clinton,igb_licensee_list,214 Main Street (Jamestown),Pocahontas,62275,,,needs_coordinates
@@ -2254,7 +2254,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 150703680,"Silver Oaks II, Inc.",Lake Zurich,Lake,igb_licensee_list,790 S Rand Rd,Lake Zurich,60047,,,needs_coordinates
 220703375,"Silver Oaks Orchard, Inc.",North Aurora,Kane,igb_licensee_list,243 Genesis Drive,North Aurora,60542,,,needs_coordinates
 210701316,Silver Oaks Partnership Park City Inc.,North Chicago,Lake,igb_licensee_list,1251 N Skokie Highway Suite D,Lake Bluff,60044,,,needs_coordinates
-160701588,Silver Oaks South Inc.,Pontiac,Livingston,igb_licensee_list,1826 W Reynolds St,Pontiac,61764,,,needs_coordinate_verification
+160701588,Silver Oaks South Inc.,Pontiac,Livingston,igb_licensee_list,1826 W Reynolds St,Pontiac,61764,,,needs_coordinates
 120803198,Silvis FOE # 1839,Carbon Cliff,Rock Island,igb_licensee_list,911 Mansur Ave. P.O Box 436,Carbon Cliff,61239,,,needs_coordinates
 220703275,Sin City Slots and Cafe LLC,Beckemeyer,Clinton,igb_licensee_list,290 Old US Hwy 50 E,Beckemeyer,62219,,,needs_coordinates
 190700847,"Singh Brothers, Inc.",East Alton,,,,,,,,needs_address_and_coordinates

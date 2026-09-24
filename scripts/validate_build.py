@@ -25,8 +25,24 @@ for r in mapped:
 # cache/version
 idx=(ROOT/'index.html').read_text(encoding='utf-8')
 sw=(ROOT/'service-worker.js').read_text(encoding='utf-8')
-EXPECTED_VERSION='12.6'
-if f'v={EXPECTED_VERSION}' not in idx: errors.append(f'index asset version not {EXPECTED_VERSION}')
-if f'slot-map-v{EXPECTED_VERSION}' not in sw: errors.append(f'service worker cache not {EXPECTED_VERSION}')
-print(json.dumps({'mapped_records':len(mapped),'master_records':len(rows),'errors':errors},indent=2))
+EXPECTED_VERSION='12.7.1'
+for asset in ['manifest.webmanifest','establishments.js','service-worker.js']:
+    if f"{asset}?v={EXPECTED_VERSION}" not in idx: errors.append(f'{asset} reference not {EXPECTED_VERSION}')
+if f"slot-map-v{EXPECTED_VERSION}" not in sw: errors.append(f'service worker cache not {EXPECTED_VERSION}')
+# display-name hygiene
+for fld in ['city','county']:
+    bad=[r.get(fld) for r in rows if isinstance(r.get(fld),str) and len(r.get(fld).strip())>2 and r.get(fld).strip().isupper()]
+    if bad: errors.append(f'all-caps {fld} names remain: {len(bad)}')
+# operator/AP metadata sanity
+opx=ROOT/'operator-crossref.json'; apx=ROOT/'ap-observations.json'
+# operator cross-reference consistency
+op=json.loads(opx.read_text(encoding='utf-8')) if opx.exists() else {}
+row_by_license={str(r.get('license') or ''):r for r in rows}
+for lic,name in op.items():
+    if isinstance(name,dict): name=name.get('operator')
+    hit=row_by_license.get(str(lic))
+    if hit and name and hit.get('terminal_operator')!=name: errors.append(f'operator mismatch for {lic}')
+if not opx.exists(): errors.append('missing operator-crossref.json')
+if not apx.exists(): errors.append('missing ap-observations.json')
+print(json.dumps({'mapped_records':len(mapped),'master_records':len(rows),'known_operator_records':sum(1 for r in rows if r.get('terminal_operator')),'ap_observation_records':sum(1 for r in rows if r.get('ap_status')),'errors':errors},indent=2))
 sys.exit(1 if errors else 0)

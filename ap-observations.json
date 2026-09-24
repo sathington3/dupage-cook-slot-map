@@ -1,0 +1,141 @@
+{
+  "150701306": {
+    "status": "confirmed",
+    "category": "current",
+    "label": "🏴‍☠️ Confirmed AP Set",
+    "sets": [
+      "Wild Pirates · Scarab"
+    ],
+    "coverage": "partial",
+    "source": "field_confirmed"
+  },
+  "150701307": {
+    "status": "likely",
+    "category": "current",
+    "label": "🟡 Likely AP Set",
+    "sets": [
+      "Target set remembered here"
+    ],
+    "coverage": "partial",
+    "source": "field_recollection"
+  },
+  "130704086": {
+    "status": "confirmed",
+    "category": "current",
+    "label": "🎰 Confirmed AP Set",
+    "sets": [
+      "Regal Riches · Wheel of Fortune · Thunder Stampede"
+    ],
+    "coverage": "partial",
+    "source": "field_confirmed"
+  },
+  "200700150": {
+    "status": "confirmed",
+    "category": "current",
+    "label": "🎰 Confirmed AP Set",
+    "sets": [
+      "Regal Riches · Sphinx · Ocean Magic"
+    ],
+    "coverage": "partial",
+    "source": "field_confirmed"
+  },
+  "130700291": {
+    "status": "confirmed",
+    "category": "current",
+    "label": "🎰 Two Confirmed AP Sets",
+    "sets": [
+      "Frankenstein · Rich Little Piggies · Rich Little Hens",
+      "Wild Mermaid · Jungle Riches"
+    ],
+    "coverage": "partial",
+    "source": "field_confirmed"
+  },
+  "130702485": {
+    "status": "confirmed",
+    "category": "current",
+    "label": "🎰 Confirmed AP Set",
+    "sets": [
+      "Ocean Magic · Wheel of Fortune · Wolf Run Eclipse"
+    ],
+    "coverage": "partial",
+    "source": "field_confirmed"
+  },
+  "130700238": {
+    "status": "confirmed",
+    "category": "current",
+    "label": "🎰 Confirmed AP Set",
+    "sets": [
+      "Rich Little Piggies · Rich Little Hens · Cash Falls · Voodoo"
+    ],
+    "coverage": "partial",
+    "source": "field_confirmed",
+    "notes": "Frankenstein confirmed absent"
+  },
+  "160700955": {
+    "status": "confirmed",
+    "category": "current",
+    "label": "🎰 Two Confirmed AP Sets",
+    "sets": [
+      "Rich Little Piggies · Rich Little Hens · Cash Falls",
+      "Wild Mermaid · Jungle Riches"
+    ],
+    "coverage": "partial",
+    "source": "field_confirmed"
+  },
+  "130703101": {
+    "status": "confirmed",
+    "category": "legacy",
+    "label": "🎰 Legacy AP Set",
+    "sets": [
+      "Wild Mermaid · Jungle Riches"
+    ],
+    "coverage": "partial",
+    "source": "field_confirmed"
+  },
+  "140701036": {
+    "status": "confirmed",
+    "category": "current",
+    "label": "🎰 Two Confirmed AP Sets",
+    "sets": [
+      "Frankenstein · Rich Little Hens",
+      "Regal Riches · Wolf Peak · Golden Egypt"
+    ],
+    "coverage": "complete",
+    "machine_count_observed": 6,
+    "ap_machines": 2,
+    "non_ap_machines": 4,
+    "source": "field_confirmed_2026-09-23"
+  },
+  "200701496": {
+    "status": "confirmed",
+    "category": "mixed",
+    "label": "🎰 Current + Legacy AP Sets",
+    "sets": [
+      "Frankenstein · Rich Little Hens",
+      "Wild Mermaid · Jungle Riches"
+    ],
+    "coverage": "partial",
+    "machine_count_observed": 3,
+    "total_vgts": 6,
+    "ap_machines_observed": 2,
+    "non_ap_machines_observed": 1,
+    "unknown_machines": 3,
+    "source": "field_confirmed_2026-09-23",
+    "notes": "Jungle Riches / Wild Mermaid is legacy AP. Planet Moolah photographed and confirmed non-AP."
+  },
+  "240701643": {
+    "status": "confirmed",
+    "category": "current",
+    "label": "🎰 Three Confirmed AP Sets",
+    "sets": [
+      "Regal Riches · Thunder Stampede · Wolf Peak",
+      "Rich Little Hens · Rich Little Piggies · Cash Falls · Fire Link Cash Falls",
+      "Golden Egypt · Regal Riches · Ocean Magic"
+    ],
+    "coverage": "complete",
+    "machine_count_observed": 6,
+    "ap_machines": 3,
+    "non_ap_machines": 3,
+    "source": "field_confirmed_2026-09-23"
+  }
+}
