@@ -154,7 +154,7 @@ for r in rows:
 
 PROFILES.write_text(json.dumps(profiles,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
 master['metadata']=master.get('metadata') or {}
-master['metadata']['scouting_model_version']='13.3.3'
+master['metadata']['scouting_model_version']='13.4.0'
 master['metadata']['scouting_model_note']='Priority ranks unvisited scouting targets by operator evidence and VGT-count similarity; it does not predict gambling outcomes or confirm exact games.'
 MASTER.write_text(json.dumps(master,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
 

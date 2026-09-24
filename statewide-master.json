@@ -257441,7 +257441,7 @@
       "source": "second-pass Census geocoding artifact",
       "policy": "Exact Illinois matches only; duplicate-coordinate collisions across differing street numbers quarantined."
     },
-    "scouting_model_version": "13.3.3",
+    "scouting_model_version": "13.4.0",
     "scouting_model_note": "Priority ranks unvisited scouting targets by operator evidence and VGT-count similarity; it does not predict gambling outcomes or confirm exact games."
   }
 }

@@ -121,7 +121,7 @@ def census_batch(rows, timeout=120, retries=6):
         req = urllib.request.Request(
             CENSUS_URL,
             data=body,
-            headers={"Content-Type": f"multipart/form-data; boundary={boundary}", "User-Agent": "SlotMap/13.3.3"},
+            headers={"Content-Type": f"multipart/form-data; boundary={boundary}", "User-Agent": "SlotMap/13.4.0"},
             method="POST",
         )
         try:

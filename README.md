@@ -2,7 +2,7 @@
 
 Illinois licensed video-gaming establishment map and scouting workspace.
 
-Current build: **v13.3.3**.
+Current build: **v13.4.0**.
 
 ## Important development note
 
@@ -16,7 +16,7 @@ The Public/AP feature boundary is architectural during development. AP/operator 
 - `scripts/build_scouting_model.py` — derives scouting/operator profiles from the sources above.
 - `scripts/rebuild_live.py` — creates the lean, verified-coordinate `establishments.js` used by the app.
 
-The permanent identity key is the **IGB license number**. v13.3.3 migrates older browser-local Favorites/Visited/Notes/Scout List/Field Reports from legacy row IDs to canonical `IL-<license>` IDs. Keep `_legacy_id` aliases in the live build until existing devices have had a reasonable chance to migrate.
+The permanent identity key is the **IGB license number**. v13.4.0 migrates older browser-local Favorites/Visited/Notes/Scout List/Field Reports from legacy row IDs to canonical `IL-<license>` IDs. Keep `_legacy_id` aliases in the live build until existing devices have had a reasonable chance to migrate.
 
 ## Safe rebuild order
 
@@ -41,3 +41,7 @@ node --check service-worker.js
 ```
 
 `validate_build.py` also checks version alignment, canonical IDs, Illinois coordinate bounds, duplicate licenses, county canonicalization, scouting-model integrity, and the Census collision guard.
+
+
+## v13.4.0 scouting workflow
+Adds a Scout Dashboard with practical field presets and a faster, deliberate Field Report entry flow. The prediction model is unchanged.

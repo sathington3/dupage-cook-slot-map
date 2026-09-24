@@ -44,7 +44,7 @@ for coord,group in coord_groups.items():
 # cache/version
 idx=(ROOT/'index.html').read_text(encoding='utf-8')
 sw=(ROOT/'service-worker.js').read_text(encoding='utf-8')
-EXPECTED_VERSION='13.3.3'
+EXPECTED_VERSION='13.4.0'
 for asset in ['manifest.webmanifest','establishments.js','service-worker.js']:
     if f"{asset}?v={EXPECTED_VERSION}" not in idx: errors.append(f'{asset} reference not {EXPECTED_VERSION}')
 if f"slot-map-v{EXPECTED_VERSION}" not in sw: errors.append(f'service worker cache not {EXPECTED_VERSION}')
@@ -100,14 +100,14 @@ if len(county_names)!=102: errors.append(f'expected 102 canonical Illinois count
 if '"_public_search"' not in text: errors.append('establishments.js missing _public_search')
 
 # v13.3 field-report + Public/AP mode architecture sanity
-for token in ['fieldreportfilter','exportfield','slotmap-field-reports','FIELD_REPORT_LABELS','exportFieldData',"slot_map_export_version:'13.3.3'",'AP_MODE_DEFAULT','AP_MODE_ENABLED','setAPMode','data-ap-only','body:not(.ap-mode)','LIST_PAGE_SIZE','appendMoreResults','option[data-ap-only]']:
+for token in ['fieldreportfilter','exportfield','slotmap-field-reports','FIELD_REPORT_LABELS','exportFieldData',"slot_map_export_version:'13.4.0'",'AP_MODE_DEFAULT','AP_MODE_ENABLED','setAPMode','data-ap-only','body:not(.ap-mode)','LIST_PAGE_SIZE','appendMoreResults','option[data-ap-only]']:
     if token not in idx: errors.append(f'missing field-report feature token: {token}')
 
-# v13.3.3 deep-audit efficiency/reliability invariants
+# v13.4.0 deep-audit efficiency/reliability invariants
 est_text=(ROOT/'establishments.js').read_text(encoding='utf-8')
 for forbidden in ['\"won\":','\"nti\":','\"ap_status\":','\"ap_category\":']:
     if forbidden in est_text: errors.append(f'live bundle contains redundant field {forbidden}')
-for token in ['MARKER_CACHE','CITIES_BY_COUNTY','nearestRecord','render(true)','flushNotes','writeJSON','migrateLegacyStateKeys','_legacy_id','observation_current_sets']:
+for token in ['MARKER_CACHE','CITIES_BY_COUNTY','nearestRecord','render(true)','flushNotes','writeJSON','migrateLegacyStateKeys','_legacy_id','observation_current_sets','scoutDashboard','data-scout-preset','openNextScout','data-report-pick','data-report-all']:
     if token not in idx: errors.append(f'missing deep-audit optimization: {token}')
 if "'./establishments.js','./establishments.js?v=" in sw: errors.append('service worker caches duplicate establishments.js variants')
 if 'CDN_SHELL' not in sw: errors.append('service worker does not preserve fixed UI libraries for offline boot')

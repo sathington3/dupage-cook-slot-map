@@ -42,7 +42,7 @@ def call(rows,retries=6):
     for r in rows:w.writerow([r['license'],r['variant'],r['city'],'IL',r['zip']])
     b='----SlotMapSecondPass'; body=multipart(s.getvalue().encode(),b); last=None
     for i in range(retries):
-        req=urllib.request.Request(CENSUS,data=body,headers={'Content-Type':f'multipart/form-data; boundary={b}','User-Agent':'SlotMap/13.3.3-second-pass'},method='POST')
+        req=urllib.request.Request(CENSUS,data=body,headers={'Content-Type':f'multipart/form-data; boundary={b}','User-Agent':'SlotMap/13.4.0-second-pass'},method='POST')
         try:
             with urllib.request.urlopen(req,timeout=120) as resp:return list(csv.reader(io.StringIO(resp.read().decode('utf-8-sig',errors='replace'))))
         except Exception as e:
