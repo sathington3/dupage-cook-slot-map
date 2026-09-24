@@ -1,0 +1,39 @@
+name: Geocode Illinois establishments
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Optional max number of uncached addresses (0 = all)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: read
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Geocode exact address matches
+        run: python scripts/geocode_statewide.py --batch-size 500 --limit "${{ inputs.limit }}"
+
+      - name: Validate build
+        run: python scripts/validate_build.py
+
+      - name: Upload enriched build files
+        uses: actions/upload-artifact@v4
+        with:
+          name: slot-map-geocoded
+          path: |
+            statewide-master.json
+            establishments.js
+            enrichment-queue.csv
+            geocoding-cache.json
+            geocoding-results.csv
