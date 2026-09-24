@@ -53,3 +53,10 @@ The ChatGPT code container used to assemble this release cannot make the require
 - Batched DOM card insertion and marker-cluster insertion for more efficient statewide rendering.
 - Added icon files to the offline shell cache.
 - Strengthened validation for version drift, all-caps place names, and operator cross-reference consistency.
+
+
+## v12.8 second-pass merge
+- 4 safe exact Census matches promoted
+- 6 suspicious duplicate-coordinate matches quarantined
+- 6,611 mapped establishments
+- 2,819 establishments remain in enrichment queue

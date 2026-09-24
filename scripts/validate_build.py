@@ -25,7 +25,7 @@ for r in mapped:
 # cache/version
 idx=(ROOT/'index.html').read_text(encoding='utf-8')
 sw=(ROOT/'service-worker.js').read_text(encoding='utf-8')
-EXPECTED_VERSION='12.7.1'
+EXPECTED_VERSION='12.8'
 for asset in ['manifest.webmanifest','establishments.js','service-worker.js']:
     if f"{asset}?v={EXPECTED_VERSION}" not in idx: errors.append(f'{asset} reference not {EXPECTED_VERSION}')
 if f"slot-map-v{EXPECTED_VERSION}" not in sw: errors.append(f'service worker cache not {EXPECTED_VERSION}')

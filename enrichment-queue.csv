@@ -1442,7 +1442,6 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120900395,"Leon Burson Post 395, American Legion",Plano,,,,,,,,needs_address_and_coordinates
 230700832,Leona's Pizzeria Express of Lyons LLC,Lyons,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 220701094,Leonardo’s of Mt Zion Inc.,Mount Zion,Macon,igb_licensee_list,910 N. State Highway 121,Mount Zion,62549,,,needs_coordinates
-221001319,LeRoy Travel Plaza Inc.,Leroy,McLean,igb_licensee_list,805 S. Hemlock St.,Le Roy,61752,,,needs_coordinates
 120704272,Lesia Burns,Golconda,Pope,igb_licensee_list,219-223 E Main St,Golconda,62938,,,needs_coordinates
 180900127,"LEWISTOWN ILLINOIS POST NO. 5001, VETERANS OF FOREIGN WARS OF THE UNITED STATES",Lewistown,Fulton,igb_licensee_list,1323 S. Main St,Lewistown,61542,,,needs_coordinates
 260701318,Lews LLC,Clay City,Clay,igb_licensee_list,800 Kelly Drive SW,Clay City,62824,,,needs_coordinates
@@ -2394,7 +2393,6 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 151001582,"SUPER MART & LIQUOR, INC.",Wadsworth,Lake,igb_licensee_list,41867N. US HIGHWAY 41,Wadsworth,60083,,,needs_coordinates
 150704003,"SUPREME HOUSE OF CHEESE, LTD.",Toluca,Marshall,igb_licensee_list,222 E Santa Fe PO Box 126,Toluca,61369,,,needs_coordinates
 170701425,Sure Bet LLC,Sandwich,Kendall,igb_licensee_list,"122 Indian Springs DR.,  STE3",Sandwich,60548,,,needs_coordinates
-220701422,Susan Bishop,Du Quoin,Perry,igb_licensee_list,1341 S. Washington St.,Du Quoin,62832,,,needs_coordinates
 140700287,"SUZI'S IV, LLC",Silvis,Rock Island,igb_licensee_list,1015 1st Street,Silvis,61282,,,needs_coordinates
 150702864,"SUZI'S X, LLC",Sterling,Whiteside,igb_licensee_list,3219 East Lincolnway,Sterling,61081,,,needs_coordinates
 150702866,"SUZI'S XIII, LLC",DeKalb,DeKalb,igb_licensee_list,"2410 Sycamore Road, Suite B",DeKalb,60115,,,needs_coordinates
@@ -2410,7 +2408,6 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120800500,"Sycamore Lodge # 1506, Loyal Order Of Moose",Sycamore,DeKalb,igb_licensee_list,317 W State St,Sycamore,60178,,,needs_coordinates
 170700742,"Symerton Tap, LLC",Symerton,Will,igb_licensee_list,18332 W Commerical St.,Wilmington,60481,,,needs_coordinates
 120702059,Szarotka's Inc.,Justice,Cook,igb_licensee_list,8100 S Roberts Rd,Justice,60458,,,needs_coordinates
-130703069,"T & G Enterprise I, LLC",Leroy,McLean,igb_licensee_list,509 North West St,Le Roy,61752,,,needs_coordinates
 160701234,T & G OF MANTENO INC.,Manteno,Kankakee,igb_licensee_list,415 - 417 S. LOCUST,Manteno,60950,,,needs_coordinates
 210702461,T & J OF TINLEY INC.,Tinley Park,Cook,igb_licensee_list,18250 S. Oak Park Ave,Tinley Park,60477,,,needs_coordinates
 120708187,"T & J's Goodtimes Tap, Inc.",Roseville,Warren,igb_licensee_list,125 West Penn Street,Roseville,61473,,,needs_coordinates
@@ -2458,7 +2455,6 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 230700241,"Tay-Cam, LTD.",Peoria County,Peoria,igb_licensee_list,10505 N. Galena Rd.,Mossville,61552,,,needs_coordinates
 190700621,"Taylor Street, Inc.",Champaign,Champaign,igb_licensee_list,6 E. Taylor St.,Champaign,61820,,,needs_coordinates
 150702082,"TAYLORVILLE POST 4495, VETERANS OF FOREIGN WARS OF THE UNITED STATES, INC.",Taylorville,Christian,igb_licensee_list,515 West Ave,Taylorville,62568,,,needs_coordinates
-170703893,"TDA Ventures, LLC",Leroy,McLean,igb_licensee_list,106 N. Chestnut Street,Le Roy,61752,,,needs_coordinates
 170701069,"Teddys, LLC",Griggsville,,,,,,,,needs_address_and_coordinates
 130705788,"TEDJ, LLC",Bloomington,McLean,igb_licensee_list,3907 G E RD STE 2,Bloomington,61704,,,needs_coordinates
 180703183,Television-Radio-Newspaper Club of Springfield,Springfield,Sangamon,igb_licensee_list,25 Lakewood Drive,Chatham,62629,,,needs_coordinates

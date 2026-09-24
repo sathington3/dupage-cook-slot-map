@@ -1,4 +1,4 @@
-const CACHE='slot-map-v12.7.1';
+const CACHE='slot-map-v12.8';
 const SHELL=['./','./index.html','./manifest.webmanifest','./establishments.js','./buffalo-theme.png','./apple-touch-icon.png','./app-icon-512.png'];
 
 self.addEventListener('install', event => {

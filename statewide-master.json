@@ -19,7 +19,7 @@
     "current_with_coordinates": 6483,
     "coordinate_queue": 7626,
     "census_geocoded_this_build": 4809,
-    "mapped_records": 6607,
+    "mapped_records": 6611,
     "unmapped_records": 2830,
     "city_strings_before_cleanup": 1610,
     "city_strings_after_cleanup": 1069,
@@ -104535,8 +104535,8 @@
       "address": "805 S. Hemlock St.",
       "state": "IL",
       "zip": "61752",
-      "lat": null,
-      "lon": null,
+      "lat": 40.3462131,
+      "lon": -88.7688998,
       "type": "Truck Stop Establishment",
       "vgts": 6,
       "played": 4883854.26,
@@ -104544,7 +104544,7 @@
       "nti": 508707.86,
       "payback": 89.58387898331758,
       "record_status": "current_igb",
-      "mapping_status": "address_known_needs_coordinates",
+      "mapping_status": "verified_geocoded",
       "county_source": "igb_licensee_list"
     },
     {
@@ -174743,8 +174743,8 @@
       "address": "1341 S. Washington St.",
       "state": "IL",
       "zip": "62832",
-      "lat": null,
-      "lon": null,
+      "lat": 37.9875806,
+      "lon": -89.2336854,
       "type": "Establishment",
       "vgts": 6,
       "played": 1480830.72,
@@ -174752,7 +174752,7 @@
       "nti": 140639.86,
       "payback": 90.502637600603,
       "record_status": "current_igb",
-      "mapping_status": "address_known_needs_coordinates",
+      "mapping_status": "verified_geocoded",
       "county_source": "igb_licensee_list"
     },
     {
@@ -175903,8 +175903,8 @@
       "address": "509 North West St",
       "state": "IL",
       "zip": "61752",
-      "lat": null,
-      "lon": null,
+      "lat": 40.3508215,
+      "lon": -88.7640667,
       "type": "Establishment",
       "vgts": 5,
       "played": 3119378.76,
@@ -175912,7 +175912,7 @@
       "nti": 309698.38,
       "payback": 90.07178628093243,
       "record_status": "current_igb",
-      "mapping_status": "address_known_needs_coordinates",
+      "mapping_status": "verified_geocoded",
       "county_source": "igb_licensee_list"
     },
     {
@@ -178593,8 +178593,8 @@
       "address": "106 N. Chestnut Street",
       "state": "IL",
       "zip": "61752",
-      "lat": null,
-      "lon": null,
+      "lat": 40.3472401,
+      "lon": -88.7606068,
       "type": "Establishment",
       "vgts": 6,
       "played": 2831372.68,
@@ -178602,7 +178602,7 @@
       "nti": 300795.69,
       "payback": 89.37632999976535,
       "record_status": "current_igb",
-      "mapping_status": "address_known_needs_coordinates",
+      "mapping_status": "verified_geocoded",
       "county_source": "igb_licensee_list"
     },
     {
@@ -206473,6 +206473,12 @@
   "metadata": {
     "operator_crossref_records": 650,
     "ap_observation_records": 12,
-    "release": "12.7"
+    "release": "12.7",
+    "second_pass_merge": {
+      "accepted_safe": 4,
+      "quarantined_suspicious": 6,
+      "source": "second-pass Census geocoding artifact",
+      "policy": "Exact Illinois matches only; duplicate-coordinate collisions across differing street numbers quarantined."
+    }
   }
 }
