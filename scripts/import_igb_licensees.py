@@ -33,7 +33,7 @@ def clean(s):
     return str(s or '').strip().strip('\ufeff')
 
 PLACE_EXCEPTIONS={
-    'mchenry':'McHenry','mccook':'McCook','mclean':'McLean','mcnabb':'McNabb','mcclure':'McClure',
+    'mchenry':'McHenry','mccook':'McCook','mclean':'McLean','mcnabb':'McNabb','mcclure':'McClure','mcdonough':'McDonough','dupage':'DuPage',
     'dekalb':'DeKalb','lasalle':'LaSalle','du quoin':'Du Quoin',"o'fallon":"O'Fallon",
     'st. charles':'St. Charles','mount prospect':'Mount Prospect','la grange':'La Grange','la harpe':'La Harpe',
 }

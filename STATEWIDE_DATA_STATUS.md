@@ -60,3 +60,53 @@ The ChatGPT code container used to assemble this release cannot make the require
 - 6 suspicious duplicate-coordinate matches quarantined
 - 6,611 mapped establishments
 - 2,819 establishments remain in enrichment queue
+
+## v13.0 scouting priority workflow
+- Added a maintainable `scripts/build_scouting_model.py` step.
+- Operator scouting leads now receive a workflow priority from terminal-operator evidence plus VGT-count similarity to field-confirmed current AP locations.
+- Added High / Medium / Low scouting-priority bands: 407 high, 160 medium, 72 low across 639 operator leads.
+- Added `Sort By: Scouting Priority`, an `Unvisited Scouting Leads` filter, and High / Medium / Low unvisited priority filters.
+- Marking an establishment Visited lowers its runtime scouting rank so already-checked locations do not crowd out new targets.
+- Likely/recollection observations are not propagated into operator fingerprints; only field-confirmed observations seed predictions for other locations.
+- Scouting priority is explicitly a reconnaissance workflow score, not a probability of a game being present and not a gambling-outcome prediction.
+
+
+## v13.1 scouting worklist
+
+Added a persistent device-local Scout List, Scout List filter, card/popup controls, and a location-aware Scout Route sort. The route sort prioritizes saved stops and scouting evidence, then distance; it does not alter AP confidence or geocoding data.
+
+
+## v13.2.1 field workflow
+- Added local field reports with four outcomes: AP found, old AP found, no AP found, revisit needed.
+- Added machine coverage fields (checked / total).
+- Added Field Reports filter.
+- Added Export Scout Data JSON backup/share workflow.
+- Field reports remain local until explicitly exported/reviewed, preventing accidental model contamination.
+
+
+## v13.3 Public / AP Mode architecture
+
+The application now has a centralized `AP_MODE_ENABLED` boundary. Development defaults AP Mode on, preserving the current workflow. Public Mode suppresses AP/operator scouting controls, observations, scout list/priority tools, field reports, AP-specific popup details, and AP-specific stats, while leaving the general statewide map features available. Sensitive AP data is still bundled during development; it must be moved behind a private/authenticated data layer before public commercial release.
+
+
+## v13.3.1 audit hardening
+- Fixed delayed Public → AP mode unlock so terminal-operator options populate after unlock.
+- AP-only sort options are explicitly hidden/disabled in Public Mode for mobile-browser consistency.
+- Statewide establishment cards render in 250-row chunks; all filtered map markers still render.
+- Added Show More control to expand long lists without creating thousands of DOM cards at once.
+- Service-worker/cache version aligned to v13.3.1.
+
+## v13.3.2 deep efficiency audit
+- 9,437 statewide master records; 6,611 verified mapped/live records.
+- Live establishments.js reduced by ~34% uncompressed with no loss of frontend-used data.
+- Marker reuse, indexed dropdowns, one-pass nearest lookup, map-preserving list interactions, guarded/debounced storage, and tighter service-worker caching added.
+- Full validator passes with zero errors.
+
+## v13.3.3 final maintenance hardening
+
+- Live/browser identity now uses canonical `IL-<license>` IDs with automatic migration from legacy IDs.
+- Direct AP display metadata is generated from `ap-observations.json`; duplicate hard-coded AP tables were removed from the UI.
+- Mixed observations can distinguish current vs old AP sets, and only current sets seed operator scouting fingerprints.
+- Both Census geocoders now reject exact-coordinate collisions between different leading street numbers.
+- Field-report machine counts receive integer/range validation.
+- Current totals remain 9,437 master records and 6,611 verified mapped establishments.

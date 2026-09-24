@@ -12,6 +12,18 @@ ROOT=Path(__file__).resolve().parents[1]
 MASTER=ROOT/'statewide-master.json'; CACHE=ROOT/'geocoding-second-pass-cache.json'; RESULTS=ROOT/'geocoding-second-pass-results.csv'
 CENSUS='https://geocoding.geo.census.gov/geocoder/locations/addressbatch'; BENCH='Public_AR_Current'; IL=(36.8,42.55,-91.6,-87.35)
 def c(v): return str(v or '').strip()
+def street_number(a):
+    m=re.match(r'\s*(\d+)',c(a)); return m.group(1) if m else None
+def suspicious_collision(master,candidate,lat,lon):
+    n=street_number(candidate.get('address'))
+    if not n:return None
+    key=(round(float(lat),7),round(float(lon),7))
+    for other in master['establishments']:
+        if other is candidate or other.get('lat') in (None,'') or other.get('lon') in (None,''):continue
+        if (round(float(other['lat']),7),round(float(other['lon']),7))!=key:continue
+        on=street_number(other.get('address'))
+        if on and on!=n:return other
+    return None
 def inside(lat,lon): return IL[0]<=lat<=IL[1] and IL[2]<=lon<=IL[3]
 def simplify(a):
     s=c(a)
@@ -30,7 +42,7 @@ def call(rows,retries=6):
     for r in rows:w.writerow([r['license'],r['variant'],r['city'],'IL',r['zip']])
     b='----SlotMapSecondPass'; body=multipart(s.getvalue().encode(),b); last=None
     for i in range(retries):
-        req=urllib.request.Request(CENSUS,data=body,headers={'Content-Type':f'multipart/form-data; boundary={b}','User-Agent':'SlotMap/12.7-second-pass'},method='POST')
+        req=urllib.request.Request(CENSUS,data=body,headers={'Content-Type':f'multipart/form-data; boundary={b}','User-Agent':'SlotMap/13.3.3-second-pass'},method='POST')
         try:
             with urllib.request.urlopen(req,timeout=120) as resp:return list(csv.reader(io.StringIO(resp.read().decode('utf-8-sig',errors='replace'))))
         except Exception as e:
@@ -70,9 +82,13 @@ def main():
         # ZIP guardrail from returned matched address when present
         mm=re.search(r'\b(\d{5})(?:-\d{4})?\s*$',c(q.get('matched_address'))); mz=mm.group(1) if mm else ''; ez=c(r.get('zip'))[:5]
         if ez and mz and ez!=mz: q['accepted']=False;q['reason']='second_pass_zip_mismatch';continue
-        r['lat']=round(float(q['lat']),7);r['lon']=round(float(q['lon']),7);r['mapping_status']='mapped_census_exact_second_pass';r['coordinate_source']='us_census_batch_geocoder_second_pass';added+=1
+        lat=round(float(q['lat']),7);lon=round(float(q['lon']),7)
+        collision=suspicious_collision(m,r,lat,lon)
+        if collision:
+            q['accepted']=False;q['reason']='coordinate_collision_different_street_number';q['collision_license']=c(collision.get('license'));continue
+        r['lat']=lat;r['lon']=lon;r['mapping_status']='mapped_census_exact_second_pass';r['coordinate_source']='us_census_batch_geocoder_second_pass';added+=1
     MASTER.write_text(json.dumps(m,indent=2,ensure_ascii=False))
-    fields=['license','status','match_type','accepted','reason','lat','lon','matched_address']
+    fields=['license','status','match_type','accepted','reason','collision_license','lat','lon','matched_address']
     with RESULTS.open('w',newline='',encoding='utf-8') as f:
         w=csv.DictWriter(f,fieldnames=fields);w.writeheader();[w.writerow({k:v.get(k,'') for k in fields}) for _,v in sorted(cache.items())]
     print(f'Added {added} second-pass exact coordinates. Run scripts/geocode_statewide.py --dry-run afterward to rebuild live files, or use the workflow.')

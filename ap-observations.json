@@ -7,7 +7,10 @@
       "Wild Pirates · Scarab"
     ],
     "coverage": "partial",
-    "source": "field_confirmed"
+    "source": "field_confirmed",
+    "tags": [
+      "wild-pirates-confirmed"
+    ]
   },
   "150701307": {
     "status": "likely",
@@ -17,7 +20,10 @@
       "Target set remembered here"
     ],
     "coverage": "partial",
-    "source": "field_recollection"
+    "source": "field_recollection",
+    "tags": [
+      "wild-pirates-likely"
+    ]
   },
   "130704086": {
     "status": "confirmed",
@@ -85,7 +91,7 @@
   "130703101": {
     "status": "confirmed",
     "category": "legacy",
-    "label": "🎰 Legacy AP Set",
+    "label": "🎰 Old AP Set",
     "sets": [
       "Wild Mermaid · Jungle Riches"
     ],
@@ -109,7 +115,7 @@
   "200701496": {
     "status": "confirmed",
     "category": "mixed",
-    "label": "🎰 Current + Legacy AP Sets",
+    "label": "🎰 Current + Old AP Sets",
     "sets": [
       "Frankenstein · Rich Little Hens",
       "Wild Mermaid · Jungle Riches"
@@ -121,7 +127,13 @@
     "non_ap_machines_observed": 1,
     "unknown_machines": 3,
     "source": "field_confirmed_2026-09-23",
-    "notes": "Jungle Riches / Wild Mermaid is legacy AP. Planet Moolah photographed and confirmed non-AP."
+    "notes": "Jungle Riches / Wild Mermaid is old AP. Planet Moolah photographed and confirmed non-AP.",
+    "current_sets": [
+      "Frankenstein · Rich Little Hens"
+    ],
+    "legacy_sets": [
+      "Wild Mermaid · Jungle Riches"
+    ]
   },
   "240701643": {
     "status": "confirmed",

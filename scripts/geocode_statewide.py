@@ -41,6 +41,33 @@ def clean(v):
     return str(v or "").strip()
 
 
+def street_number(address):
+    m=re.match(r"\s*(\d+)", clean(address))
+    return m.group(1) if m else None
+
+
+def suspicious_coordinate_collision(master, candidate, lat, lon):
+    """Reject Census points that exactly collide with a different street number.
+
+    Same-building/suite licenses are allowed because their leading street number
+    matches. This specifically prevents the Census parcel/centroid collisions
+    that previously put distinct street addresses on one pin.
+    """
+    cand_num=street_number(candidate.get("address"))
+    if not cand_num:
+        return None
+    key=(round(float(lat),7),round(float(lon),7))
+    for other in master["establishments"]:
+        if other is candidate or other.get("lat") in (None,"") or other.get("lon") in (None,""):
+            continue
+        if (round(float(other["lat"]),7),round(float(other["lon"]),7))!=key:
+            continue
+        other_num=street_number(other.get("address"))
+        if other_num and other_num!=cand_num:
+            return other
+    return None
+
+
 def in_illinois(lat: float, lon: float) -> bool:
     s, n, w, e = IL_BOUNDS
     return s <= lat <= n and w <= lon <= e
@@ -94,7 +121,7 @@ def census_batch(rows, timeout=120, retries=6):
         req = urllib.request.Request(
             CENSUS_URL,
             data=body,
-            headers={"Content-Type": f"multipart/form-data; boundary={boundary}", "User-Agent": "SlotMap/12.7"},
+            headers={"Content-Type": f"multipart/form-data; boundary={boundary}", "User-Agent": "SlotMap/13.3.3"},
             method="POST",
         )
         try:
@@ -188,6 +215,7 @@ def write_results(cache):
 def update_master(master, cache):
     updated = 0
     rejected_zip = 0
+    rejected_collision = 0
     for r in master["establishments"]:
         if r.get("lat") not in (None, "") and r.get("lon") not in (None, ""):
             continue
@@ -202,12 +230,21 @@ def update_master(master, cache):
             c["reason"] = "zip_mismatch"
             rejected_zip += 1
             continue
-        r["lat"] = round(float(c["lat"]), 7)
-        r["lon"] = round(float(c["lon"]), 7)
+        lat=round(float(c["lat"]), 7)
+        lon=round(float(c["lon"]), 7)
+        collision=suspicious_coordinate_collision(master,r,lat,lon)
+        if collision:
+            c["accepted"]=False
+            c["reason"]="coordinate_collision_different_street_number"
+            c["collision_license"]=clean(collision.get("license"))
+            rejected_collision+=1
+            continue
+        r["lat"] = lat
+        r["lon"] = lon
         r["mapping_status"] = "mapped_census_exact"
         r["coordinate_source"] = "us_census_batch_geocoder"
         updated += 1
-    return updated, rejected_zip
+    return updated, rejected_zip, rejected_collision
 
 
 def rebuild_queue(master):
@@ -236,11 +273,18 @@ def rebuild_live_dataset(master):
     for r in master["establishments"]:
         if r.get("lat") in (None, "") or r.get("lon") in (None, ""):
             continue
-        d={k:r.get(k) for k in ("county","id","name","address","city","state","zip","license","type","lat","lon","vgts","played","won","nti","payback","terminal_operator","ap_status","ap_category")}
-        if not d.get("id"):
-            d["id"] = f"IL-{clean(r.get('license'))}"
+        d={k:r.get(k) for k in ("county","name","address","city","state","zip","license","type","lat","lon","vgts","played","payback")}
+        canonical_id=f"IL-{clean(r.get('license'))}"
+        legacy_id=clean(r.get("id"))
+        d["id"]=canonical_id
+        if legacy_id and legacy_id!=canonical_id: d["_legacy_id"]=legacy_id
+        for k in ("terminal_operator","scout_status","scout_basis","scout_fingerprints","scout_priority_score","scout_priority_band","observation_label","observation_category","observation_notes","observation_tags","observation_current_sets","observation_legacy_sets"):
+            v=r.get(k)
+            if v not in (None,"",[],{},"unknown","none",0): d[k]=v
         terms=[d.get(k) for k in ("name","address","city","state","zip","license","county")]
-        d["_search"]=" ".join(clean(x).lower() for x in terms if clean(x))
+        d["_public_search"]=" ".join(clean(x).lower() for x in terms if clean(x))
+        op=clean(d.get("terminal_operator")).lower()
+        if op: d["_search"]=d["_public_search"]+" "+op
         live.append(d)
     ESTABLISHMENTS.write_text("/* Slot Map establishment data. Generated from statewide-master.json; verified coordinates only. */\nconst R=" + json.dumps(live, separators=(",",":"), ensure_ascii=False) + ";\n", encoding="utf-8")
     return len(live)
@@ -293,7 +337,7 @@ def main():
         save_cache(cache)
         print(f"Processed {min(start+len(batch),len(pending))}/{len(pending)}; transient failures still retryable: {len(transient_failed)}")
 
-    updated,rejected_zip=update_master(master,cache)
+    updated,rejected_zip,rejected_collision=update_master(master,cache)
     master.setdefault("counts",{})["census_geocoded_this_build"]=updated
     master["counts"]["current_with_coordinates"]=sum(1 for r in master["establishments"] if r.get("record_status")=="current_igb" and r.get("lat") not in (None,"") and r.get("lon") not in (None,""))
     MASTER.write_text(json.dumps(master,indent=2,ensure_ascii=False),encoding="utf-8")
@@ -303,7 +347,7 @@ def main():
     live_count=rebuild_live_dataset(master)
     accepted=sum(1 for v in cache.values() if v.get("accepted"))
     print(f"Accepted exact Illinois matches in cache: {accepted}")
-    print(f"Newly applied coordinates: {updated}; ZIP mismatches rejected: {rejected_zip}")
+    print(f"Newly applied coordinates: {updated}; ZIP mismatches rejected: {rejected_zip}; suspicious coordinate collisions rejected: {rejected_collision}")
     print(f"Live mapped dataset: {live_count}; remaining enrichment queue: {queue_count}")
     print(f"Transient Census request failures left uncached for a later retry: {len(transient_failed)}")
 
