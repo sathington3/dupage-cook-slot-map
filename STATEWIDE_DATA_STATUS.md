@@ -31,3 +31,9 @@ The ChatGPT code container used to assemble this release cannot make the require
 - Failed batches are recursively split to 25 records before being deferred.
 - Transiently failed records remain uncached and retryable on the next run.
 - GitHub Actions timeout increased to 180 minutes.
+
+
+## v12.6 place-name casing cleanup
+- Normalized live City and County display names to title case.
+- Preserved Illinois-specific casing such as McHenry, DeKalb, LaSalle, Du Quoin, St. Charles, O'Fallon, and La Harpe.
+- Future IGB licensee imports now normalize all-uppercase place names before merging.

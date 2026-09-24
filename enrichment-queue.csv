@@ -6,7 +6,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 210702517,"101 South Commercial, LLC",Lincoln,Logan,igb_licensee_list,429 Keokuk Street Suite B,Lincoln,62656,,,needs_coordinates
 190702099,104 PINGREE GROVE LLC,Pingree Grove,Kane,igb_licensee_list,2401 W US Highway 20 Suite 104,Pingree Grove,60140,,,needs_coordinates
 200701422,117 - 119 CORPORATION,Springfield,Sangamon,igb_licensee_list,117-119 S 7TH ST,Springfield,62701,,,needs_coordinates
-230701921,11808 Huntley LLC,Huntley,Mchenry,igb_licensee_list,11808 W Coral St.,Huntley,60142,,,needs_coordinates
+230701921,11808 Huntley LLC,Huntley,McHenry,igb_licensee_list,11808 W Coral St.,Huntley,60142,,,needs_coordinates
 200700471,"1205 BRIDGE ST, INC.",Yorkville,Kendall,igb_licensee_list,1205 North Bridge Street,Yorkville,60560,,,needs_coordinates
 170703537,121 Club Inc.,Tremont,Tazewell,igb_licensee_list,250 S Baer Road,Tremont,61568,,,needs_coordinates
 120701994,"1319 Central Park, L.L.C.",O'Fallon,St. Clair,igb_licensee_list,1319 Central Park Dr.,O'Fallon,62269,,,needs_coordinates
@@ -19,15 +19,15 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 210702637,"1ST STREET LOUNGE, LLC",O'Fallon,St. Clair,igb_licensee_list,119 W 1ST ST,O'Fallon,62269,,,needs_coordinates
 140701334,"20'S HIDEOUT RESTAURANT, LLC",Marion,Williamson,igb_licensee_list,2602 WANDA DRIVE,Marion,62959,,,needs_coordinates
 120703489,"2000 Meadows Avenue Tap, Inc.",East Peoria,Tazewell,igb_licensee_list,2000 Meadows Ave,East Peoria,61611,,,needs_coordinates
-200701088,2022 Foodmart Inc.,McHenry County,Mchenry,igb_licensee_list,2022 W Route 120,McHenry,60050,,,needs_coordinates
+200701088,2022 Foodmart Inc.,McHenry County,McHenry,igb_licensee_list,2022 W Route 120,McHenry,60050,,,needs_coordinates
 220702832,2300 BUSHWOOD DR. INC.,Elgin,Kane,igb_licensee_list,2300 BUSHWOOD DR,Elgin,60124,,,needs_coordinates
 220702763,238 Hunan Express Inc.,Springfield,Sangamon,igb_licensee_list,238 S Dirksen Pkwy,Springfield,62703,,,needs_coordinates
 140703478,"2475 W. Higgins Road, Inc.",Hoffman Estates,Cook,igb_licensee_list,2475 W. Higgins Rd.,Hoffman Estates,60169,,,needs_coordinates
-160702010,"2520 PG, Inc.",Prairie Grove,Mchenry,igb_licensee_list,2520 Rte 176 Unit 1,Prairie Grove,60014,,,needs_coordinates
+160702010,"2520 PG, Inc.",Prairie Grove,McHenry,igb_licensee_list,2520 Rte 176 Unit 1,Prairie Grove,60014,,,needs_coordinates
 220703700,2ND STREET BP INC.,Machesney Park,Winnebago,igb_licensee_list,11225 N 2ND ST,Machesney Park,61115,,,needs_coordinates
 240700877,2nd Street Slots LLC,Machesney Park,Winnebago,igb_licensee_list,7817 N. Second St.,Machesney Park,61115,,,needs_coordinates
 160704045,2SALESGUYS LLC,Windsor (Shelby),,,,,,,,needs_address_and_coordinates
-160703292,3 Queens Inc.,McHenry,Mchenry,igb_licensee_list,810 Front Street  STE C,McHenry,60050,,,needs_coordinates
+160703292,3 Queens Inc.,McHenry,McHenry,igb_licensee_list,810 Front Street  STE C,McHenry,60050,,,needs_coordinates
 150702175,"3's COMPANY, LTD",West Brooklyn,,,,,,,,needs_address_and_coordinates
 130705111,312 Corporation,Oswego,Kendall,igb_licensee_list,54 Main Street,Oswego,60543,,,needs_coordinates
 150702369,"32 Below, Inc.",Strasburg,Shelby,igb_licensee_list,101 S. Walnut St.,Strasburg,62465,,,needs_coordinates
@@ -44,7 +44,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 190702029,"55 Development, LLC",Litchfield,Montgomery,igb_licensee_list,13 Thunderbird Lane,Litchfield,62056,,,needs_coordinates
 250702610,5649 North IL 251 LLC,Davis Junction,Ogle,igb_licensee_list,5649 IL 251,Davis Junction,61020,,,needs_coordinates
 120701453,"722 Bonner, L.L.C.",Wauconda,Lake,igb_licensee_list,722 BONNER RD,Wauconda,60084,,,needs_coordinates
-130702849,"801 North River Road, Inc.",McHenry County,Mchenry,igb_licensee_list,801-805 N. River Rd.,McHenry,60051,,,needs_coordinates
+130702849,"801 North River Road, Inc.",McHenry County,McHenry,igb_licensee_list,801-805 N. River Rd.,McHenry,60051,,,needs_coordinates
 120711985,"804 ENTERPRISES, LLC",Woodstock,,,,,,,,needs_address_and_coordinates
 230701162,"815 GOLF CLUB PARTNERS, LLC",Lee County,Lee,igb_licensee_list,729 TIMBER CREEK RD,Dixon,61021,,,needs_coordinates
 250702279,9TH FRAME ENTERTAINMENT LLC,Streator,La Salle,igb_licensee_list,2416 N IL Route 23,Streator,61364,,,needs_coordinates
@@ -79,14 +79,14 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 221003595,"AF TRUCK CENTER, LLC",Northlake,Cook,igb_licensee_list,300 W. NORTH AVE.,Northlake,60164,,,needs_coordinates
 240700132,AFMG 2 LLC,Loves Park,Winnebago,igb_licensee_list,"6108 N 2ND ST, STE B",Loves Park,61111,,,needs_coordinates
 230700732,AFMG LLC,Freeport,Stephenson,igb_licensee_list,"1005 W. Galena Avenue, Suite D",Freeport,610323819,,,needs_coordinates
-120702020,"After The Fox, Ltd.",McHenry,Mchenry,igb_licensee_list,1406 N. Riverside,McHenry,60050,,,needs_coordinates
+120702020,"After The Fox, Ltd.",McHenry,McHenry,igb_licensee_list,1406 N. Riverside,McHenry,60050,,,needs_coordinates
 260700243,"Agave & Lime, Inc.",Maroa,Macon,igb_licensee_list,"105 W. Main St., Front A",Maroa,61756,,,needs_coordinates
 190700055,AH-HA Enterprises Inc.,Prophetstown,Whiteside,igb_licensee_list,345-347 Washington Street,Prophetstown,61277,,,needs_coordinates
 220701479,"Ahuja Brothers, Inc.",Flora,Clay,igb_licensee_list,201 Hagen Dr,Flora,62839,,,needs_coordinates
 220700622,"Ahuja Liquors, Inc.",Wayne City,Wayne,igb_licensee_list,701 W Robinson St,Wayne City,62895,,,needs_coordinates
 230702906,Air-Cooled Corner LLC,Granite City,,,,,,,,needs_address_and_coordinates
 220703130,Aizu Inc.,Carpentersville,Kane,igb_licensee_list,2321 South Randall Road,Carpentersville,60110,,,needs_coordinates
-130701423,"AJ'S BAR & GRILL, INC.",Arenzville,Cass,igb_licensee_list,305 FREDERICK ST,ARENZVILLE,62611,,,needs_coordinates
+130701423,"AJ'S BAR & GRILL, INC.",Arenzville,Cass,igb_licensee_list,305 FREDERICK ST,Arenzville,62611,,,needs_coordinates
 190703581,"AJDINI ENTERPRISE, INC.",Indian Head Park,Cook,igb_licensee_list,6700 Joliet Rd.,Indian Head Park,60525,,,needs_coordinates
 160700876,"AJG Industries, Inc.",Springfield,Sangamon,igb_licensee_list,210-214 South 5th Street,Springfield,62701,,,needs_coordinates
 220701778,"AJLM ENTERTAINMENT, LLC",Mount Vernon,,,,,,,,needs_address_and_coordinates
@@ -145,7 +145,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 210701712,ANNIES PLACE JEROME LLC,Jerome,Sangamon,igb_licensee_list,1322 WABASH AVE STE A,Jerome,62704,,,needs_coordinates
 180701936,Anonymous Gaming LLC,North Chicago,,,,,,,,needs_address_and_coordinates
 120700756,"Anthony's Pizzeria & Pub, Inc",Manteno,,,,,,,,needs_address_and_coordinates
-200700752,Antigua Mexican Grill LLC,Crystal Lake,Mchenry,igb_licensee_list,1500 Carlemont Drive Suite J,Crystal Lake,60014,,,needs_coordinates
+200700752,Antigua Mexican Grill LLC,Crystal Lake,McHenry,igb_licensee_list,1500 Carlemont Drive Suite J,Crystal Lake,60014,,,needs_coordinates
 220702158,Antonio's Ristorante Italiano Inc.,Itasca,DuPage,igb_licensee_list,280 N Rohlwing Rd,Itasca,60143,,,needs_coordinates
 170704045,"ANVI729, LLC",Smithton,St. Clair,igb_licensee_list,408 N Main St Suite B,Smithton,62285,,,needs_coordinates
 120704151,"Anyway's, Inc.",Oakbrook Terrace,Dupage,igb_licensee_list,5 East Roosevelt Road,Oakbrook Terrace,60181,,,needs_coordinates
@@ -168,14 +168,14 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 220702024,"ASPEN TREE, INC.",North Aurora,Kane,igb_licensee_list,227 S Lincolnway,North Aurora,60542,,,needs_coordinates
 180700229,"ASPS, Inc.",Rochester,Sangamon,igb_licensee_list,450 S. State St.,Rochester,62563,,,needs_coordinates
 200701841,"Asti Imported Italian Foods, Inc.",Bensenville,Dupage,igb_licensee_list,1410 W. Irving Park Rd.,Bensenville,60106,,,needs_coordinates
-220703067,"ATHANS HOLDINGS, LLC - SERIES TRIPLE 7",McHenry County,Mchenry,igb_licensee_list,5714 S IL ROUTE 31 # A,Crystal Lake,600144520,,,needs_coordinates
-260701644,"ATHANS HOLDINGS, LLC - SERIES WINNERS JACKPOT",McHenry County,Mchenry,igb_licensee_list,5718 South Illinois Route 31 Highway,Crystal Lake,60014,,,needs_coordinates
+220703067,"ATHANS HOLDINGS, LLC - SERIES TRIPLE 7",McHenry County,McHenry,igb_licensee_list,5714 S IL ROUTE 31 # A,Crystal Lake,600144520,,,needs_coordinates
+260701644,"ATHANS HOLDINGS, LLC - SERIES WINNERS JACKPOT",McHenry County,McHenry,igb_licensee_list,5718 South Illinois Route 31 Highway,Crystal Lake,60014,,,needs_coordinates
 120709661,"Athens Corner Pub, Inc.",Athens,Menard,igb_licensee_list,100 N. Main,Athens,62613,,,needs_coordinates
 201002878,Atlanta IL Visitors Center Inc.,Atlanta,Logan,igb_licensee_list,102 E. Empire Street,Atlanta,61723,,,needs_coordinates
 120701274,ATTITUDES BAR & GRILL INC,Machesney Park,Winnebago,igb_licensee_list,10124 NORTH SECOND STREET,Machesney Park,61115,,,needs_coordinates
 130705022,Aurora Athletic Club,Aurora,Kane,igb_licensee_list,550 Clearwater Drive,Aurora,60505,,,needs_coordinates
 190701345,Aurora Latin American Club Inc.,Aurora,Kane,igb_licensee_list,1331 DEARBORN St.,Aurora,60505,,,needs_coordinates
-170701022,AVA'S PLACE LLC AVA'S PLACE II LLC,McHenry County,Mchenry,igb_licensee_list,"5610 S IL ROUTE 31, #C",Crystal Lake,60014,,,needs_coordinates
+170701022,AVA'S PLACE LLC AVA'S PLACE II LLC,McHenry County,McHenry,igb_licensee_list,"5610 S IL ROUTE 31, #C",Crystal Lake,60014,,,needs_coordinates
 220701906,AXETREME THROWING LLC,Oglesby,,,,,,,,needs_address_and_coordinates
 190701046,AYOR LLC,Granville,,,,,,,,needs_address_and_coordinates
 240701955,"AZUL CELESTE BAR & GRILL, INC.",Joliet,,,,,,,,needs_address_and_coordinates
@@ -183,7 +183,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 150703021,"B & H Krupa, Inc.",Wauconda,Lake,igb_licensee_list,620 W. Liberty St. Unit C,Wauconda,60084,,,needs_coordinates
 190703578,"B & J Mugshot, Inc.",Sandoval,,,,,,,,needs_address_and_coordinates
 120701158,B & N Holdings LLC,O'Fallon,St. Clair,igb_licensee_list,130 Behrens Street,O'Fallon,622691543,,,needs_coordinates
-230700228,"B FORE, LLC",Bloomington,Mclean,igb_licensee_list,1407 N VETERANS PKWY SUITE 2 AND 3,Bloomington,61704,,,needs_coordinates
+230700228,"B FORE, LLC",Bloomington,McLean,igb_licensee_list,1407 N VETERANS PKWY SUITE 2 AND 3,Bloomington,61704,,,needs_coordinates
 220703344,B Jewelled LLC,Marissa,,,,,,,,needs_address_and_coordinates
 120702112,B&E Buss Corporation,Lockport,Will,igb_licensee_list,16716 w. 159th,Lockport,60441,,,needs_coordinates
 130704748,"B.J.W. Enterprises, Inc.",Centralia,Marion,igb_licensee_list,1435 S Hickory,Centralia,62801,,,needs_coordinates
@@ -193,7 +193,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 240702974,B2S GROUP LLC,Vandalia,Fayette,igb_licensee_list,1412 N ROCK ISLAND AVE,Vandalia,62471,,,needs_coordinates
 190700359,BA DA BING BEEF COMPANY LLC,Third Lake,Lake,igb_licensee_list,"34500 N. US HWY. 45, SUITE A",Third Lake,60030,,,needs_coordinates
 120700266,"BAAM, Inc.",Lakemoor,Lake,igb_licensee_list,28948 W Il Route 120,Lakemoor,60051,,,needs_coordinates
-220703205,BABA JEVAS GAMING FOODS AND SPIRITS LIMITED,Spring Grove,Mchenry,igb_licensee_list,"2214 N US Hwy 12, Suite E",Spring Grove,60081,,,needs_coordinates
+220703205,BABA JEVAS GAMING FOODS AND SPIRITS LIMITED,Spring Grove,McHenry,igb_licensee_list,"2214 N US Hwy 12, Suite E",Spring Grove,60081,,,needs_coordinates
 220702585,BABA'S MONTGOMERY INC.,Montgomery,Kendall,igb_licensee_list,1890 DOUGLAS RD,Montgomery,60538,,,needs_coordinates
 130702600,"BABE'S HAVANA, INC.",Havana,Mason,igb_licensee_list,118 N PLUM,Havana,62644,,,needs_coordinates
 130703990,Baby Joe's LLC,Sugar Grove,Kane,igb_licensee_list,1 Golfview Ln.,Sugar Grove,60554,,,needs_coordinates
@@ -224,7 +224,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 140704320,"BB'S BAR & GRILL, INC.",Fieldon,Jersey,igb_licensee_list,112 W. LOCUST,Fieldon,62031,,,needs_coordinates
 160701273,"BBMS, LLC",Bethany,Moultrie,igb_licensee_list,113-115-117 E. Main St.,Bethany,61914,,,needs_coordinates
 230702430,"BBQ Chicken II, Corp.",Schaumburg,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
-180703406,"BBQ King Smokehouse Huntley, Inc.",Huntley,Mchenry,igb_licensee_list,11706 East Coral Street,Huntley,60142,,,needs_coordinates
+180703406,"BBQ King Smokehouse Huntley, Inc.",Huntley,McHenry,igb_licensee_list,11706 East Coral Street,Huntley,60142,,,needs_coordinates
 160701973,BBQ123 DBA SOUTHBANK ORIGINAL BARBEQUE LLC,Yorkville,Kendall,igb_licensee_list,129 E HYDRAULIC ST,Yorkville,60560,,,needs_coordinates
 140701561,"BCKM, LLC",Farina,Fayette,igb_licensee_list,204 N CARLTON ST,Farina,62838,,,needs_coordinates
 250702399,"BDAJ, INC.",Bradley,Kankakee,igb_licensee_list,2012 NORTH STATE ROUTE 50,Bourbonnais,60914,,,needs_coordinates
@@ -234,7 +234,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 230701219,Beck Oil Company of Illinois,Mendota,La Salle,igb_licensee_list,1301 13th Ave Ste A,Mendota,61342,,,needs_coordinates
 230701682,Becker's Snack Shack LLC,Irvington,Washington,igb_licensee_list,103 E Huron,Irvington,62848,,,needs_coordinates
 160700597,Becky L. Quinn,Sibley,Ford,igb_licensee_list,201 W. Indiana,Sibley,61773,,,needs_coordinates
-121007210,"BEDROCK MANAGEMENT, INC.",Fox Lake,Mchenry,igb_licensee_list,351 W RT 173,Fox Lake,60020,,,needs_coordinates
+121007210,"BEDROCK MANAGEMENT, INC.",Fox Lake,McHenry,igb_licensee_list,351 W RT 173,Fox Lake,60020,,,needs_coordinates
 180701193,"Bedrocks and The Cave, Inc.",Shorewood,Will,igb_licensee_list,700 Jefferson St. Unit # X,Shorewood,60436,,,needs_coordinates
 120901215,Beecher Veterans Association,Beecher,Will,igb_licensee_list,528 Gould Street P.O. Box 54,Beecher,60401,,,needs_coordinates
 210703195,BEER HERE BAR AND GRILL L.L.C.,Manlius,,,,,,,,needs_address_and_coordinates
@@ -262,7 +262,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 190701343,"Bethany Enterprises, Inc.",East Moline,Rock Island,igb_licensee_list,243 12th Ave,East Moline,61244,,,needs_coordinates
 220702525,"Bethany Enterprises, Inc.",Milan,Rock Island,igb_licensee_list,2010 Deere Dr,Milan,61264,,,needs_coordinates
 140700083,"Betty's Place, LLC",Springfield,Sangamon,igb_licensee_list,"1650 Wabash Avenue, Suite I",Springfield,62704,,,needs_coordinates
-120703139,"BEVERLY BRINK, INC.",Basco,Hancock,igb_licensee_list,14 WEST MAIN STREET Lot Block 1,BASCO,62313,,,needs_coordinates
+120703139,"BEVERLY BRINK, INC.",Basco,Hancock,igb_licensee_list,14 WEST MAIN STREET Lot Block 1,Basco,62313,,,needs_coordinates
 240702064,BEVO TAP LLC,Mount Zion,Macon,igb_licensee_list,205 W. Debby Dr.,Mount Zion,62549,,,needs_coordinates
 250702130,"Bids Bar & Grill, LLC",Keithsburg,Mercer,igb_licensee_list,501 Main St,Keithsburg,61442,,,needs_coordinates
 120710654,"BIELSER, INC.",Lomax,Henderson,igb_licensee_list,1085 E Russell Street,Lomax,61454,,,needs_coordinates
@@ -282,7 +282,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120706741,"BillHill, Inc.",Bloomington,McLean,igb_licensee_list,220 N. Center,Bloomington,61701,,,needs_coordinates
 120700481,"Billiards & Brew, Inc.",Clinton,De Witt,igb_licensee_list,211 E. Adams,Clinton,61727,,,needs_coordinates
 170702511,"Billy Boy's Restaurant, Inc.",Chicago Ridge,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
-180701471,"BILLY'S BEEF, HOT DOGS, & MORE INC.",Spring Grove,Mchenry,igb_licensee_list,2020 N US Highway 12  STE T,Spring Grove,60081,,,needs_coordinates
+180701471,"BILLY'S BEEF, HOT DOGS, & MORE INC.",Spring Grove,McHenry,igb_licensee_list,2020 N US Highway 12  STE T,Spring Grove,60081,,,needs_coordinates
 120704886,"Bindy's, Inc.",Granite City,Madison,igb_licensee_list,"3705 Nameoki Rd, Ste A",Granite City,62040,,,needs_coordinates
 120700343,"Bink, Inc.",Decatur,Macon,igb_licensee_list,3775 N Woodford,Decatur,62526,,,needs_coordinates
 220700740,BIREN ENTERPRISES INC.,River Grove,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
@@ -297,7 +297,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 240700730,Black Sheep Saloon LLC,Tamaroa,Perry,igb_licensee_list,9 E Main,Tamaroa,62888,,,needs_coordinates
 240702748,BLACKBIRDS MACON LLC,Macon,,,,,,,,needs_address_and_coordinates
 130700177,Blackhawk Restaurant Group LLC,Joliet,Will,igb_licensee_list,"2310 Illinois Route 59, Suite 8",Plainfield,60586,,,needs_coordinates
-150701652,Blackhawk Restaurant Group LLC Series 1700PPNormal,Normal,Mclean,igb_licensee_list,1700 Parkway Plaza,Normal,61761,,,needs_coordinates
+150701652,Blackhawk Restaurant Group LLC Series 1700PPNormal,Normal,McLean,igb_licensee_list,1700 Parkway Plaza,Normal,61761,,,needs_coordinates
 130703407,Blackhawk Restaurant Group LLC Series 621ROakbrookT,Oakbrook Terrace,Dupage,igb_licensee_list,17W631 Roosevelt Road,Oakbrook Terrace,60181,,,needs_coordinates
 150702816,Blackhawk Restaurant Group LLC Series BSBartonville,Bartonville,Peoria,igb_licensee_list,1359 W Garfield  Ave  # F,Bartonville,61607,,,needs_coordinates
 130700046,Blackhawk Restaurant Group LLC Series CCCCrest,Crest Hill,Will,igb_licensee_list,"2400 Caton Farm Road, #C",Crest Hill,60403,,,needs_coordinates
@@ -335,7 +335,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 130705056,Boneyard Boccie Ball Club,Benton,Franklin,igb_licensee_list,500 South Wilson,Benton,62812,,,needs_coordinates
 190703332,Bonghwa LLC,O'Fallon,St. Clair,igb_licensee_list,108 Regency Park,O'Fallon,62269,,,needs_coordinates
 250700165,"Bonkers Pub & Grub, Inc.",Mattoon,Coles,igb_licensee_list,1009 Charleston Ave. East,Mattoon,61938,,,needs_coordinates
-240701041,BONNIE CAFE OF ILLINOIS LLC,Bonnie,Jefferson,igb_licensee_list,675 IL 37,BONNIE,62816,,,needs_coordinates
+240701041,BONNIE CAFE OF ILLINOIS LLC,Bonnie,Jefferson,igb_licensee_list,675 IL 37,Bonnie,62816,,,needs_coordinates
 130704038,"Boog, Inc.",Sandoval,Marion,igb_licensee_list,106 W. Missouri,Sandoval,62882,,,needs_coordinates
 130702500,Boondocks Food & Spirits Inc.,Seneca,La Salle,igb_licensee_list,1 DuPont Rd,Seneca,61360,,,needs_coordinates
 190701072,"BOONDOCKS MARKET, INC.",Bartelso,,,,,,,,needs_address_and_coordinates
@@ -345,14 +345,14 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 160701715,"BPNL, LLC",New Lenox,Will,igb_licensee_list,650 W. Maple,New Lenox,60451,,,needs_coordinates
 120902276,Bradley American Legion Post 766,Bradley,Kankakee,igb_licensee_list,835 W Broadway,Bradley,60915,,,needs_coordinates
 120700753,Bradley Hotel Corp.,Bradley,Kankakee,igb_licensee_list,800 North Kinzie Avenue,Bradley,60915,,,needs_coordinates
-220700525,"Braize, LLC",Bloomington,Mclean,igb_licensee_list,1406 E. Empire St.,Bloomington,61701,,,needs_coordinates
+220700525,"Braize, LLC",Bloomington,McLean,igb_licensee_list,1406 E. Empire St.,Bloomington,61701,,,needs_coordinates
 220700759,Brandon Food & Liquor Inc,Dixmoor,Cook,igb_licensee_list,14301 S. Wood St.,Dixmoor,60425,,,needs_coordinates
 120701296,"Brandt's Tavern, Inc.",Morris,Grundy,igb_licensee_list,1607 N. Division St.,Morris,60450,,,needs_coordinates
 230700764,"Brandy's Place, LLC",Springfield,Sangamon,igb_licensee_list,723 East North Grand Avenue,Springfield,62702,,,needs_coordinates
 120703314,"Breakaway of Bradley, Inc.",Bradley,Kankakee,igb_licensee_list,864 W Broadway,Bradley,60915,,,needs_coordinates
 140700058,"Brent's Burgers & Beer, Inc.",Kankakee,,,,,,,,needs_address_and_coordinates
 180701708,"Brew Bank Saloon, Inc.",Stewardson,Shelby,igb_licensee_list,101 S. Pine St. PO Box 15,Stewardson,62463,,,needs_coordinates
-120701472,"Brewe, Inc.",Normal,Mclean,igb_licensee_list,102 South Linden,Normal,61761,,,needs_coordinates
+120701472,"Brewe, Inc.",Normal,McLean,igb_licensee_list,102 South Linden,Normal,61761,,,needs_coordinates
 150703094,BREWERS INC.,Lebanon,,,,,,,,needs_address_and_coordinates
 250700297,"BREWS & BLENDS BY LEILANI, LLC",Lostant,La Salle,igb_licensee_list,1310 N. Il. ROUTE 251 STE B,Lostant,61334,,,needs_coordinates
 240700701,Brezie's Roasted Beans and Gaming LLC,Southern View,,,,,,,,needs_address_and_coordinates
@@ -383,13 +383,13 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 180702544,"Buckley Food & Liquor, Inc.",Buckley,Iroquois,igb_licensee_list,302 N Railroad Ave,Buckley,60918,,,needs_coordinates
 250700299,BUCKNER REND LAKE LIQUORS LLC,Buckner,Franklin,igb_licensee_list,404 W STATE ST,Buckner,62819,,,needs_coordinates
 230701527,Bud's Hangout LLC,Ramsey,Fayette,igb_licensee_list,313 N Superior St,Ramsey,62080,,,needs_coordinates
-190700461,"Bull's Eye Pub & Eatery, LLC",Algonquin,Mchenry,igb_licensee_list,119-121 S Main St,Algonquin,60102,,,needs_coordinates
+190700461,"Bull's Eye Pub & Eatery, LLC",Algonquin,McHenry,igb_licensee_list,119-121 S Main St,Algonquin,60102,,,needs_coordinates
 220703627,"Burger Barge, Inc.",East Peoria,Tazewell,igb_licensee_list,123 Meadow Avenue,East Peoria,61611,,,needs_coordinates
 120707132,BURL ENTERPRIZES INC.,Decatur,Macon,igb_licensee_list,295 W. Green,Decatur,62526,,,needs_coordinates
 200701671,"BURNT BARREL, INC.",Yorkville,Kendall,igb_licensee_list,508 Center PKWY  Suite A,Yorkville,60560,,,needs_coordinates
 120700419,"Burnzees, Inc.",Brimfield,Peoria,igb_licensee_list,106 N. Jackson,Brimfield,61517,,,needs_coordinates
 120702300,"Burr Oak Bowl, Inc.",Blue Island,Cook,igb_licensee_list,3030 W 127th St,Blue Island,60406,,,needs_coordinates
-170701448,BURTONS INC.,Spring Grove,Mchenry,igb_licensee_list,2207 N US Route 12  Unit F,Spring Grove,60081,,,needs_coordinates
+170701448,BURTONS INC.,Spring Grove,McHenry,igb_licensee_list,2207 N US Route 12  Unit F,Spring Grove,60081,,,needs_coordinates
 240701698,"BUSHY'S BAR & GRILL, INC.",Prophetstown,,,,,,,,needs_address_and_coordinates
 250701601,"Bussan Pizza, LLC",Galena,Jo Daviess,igb_licensee_list,9919 W US Highway 20,Galena,61036,,,needs_coordinates
 120700774,"BUTWALK, INC.",Sigel,Shelby,igb_licensee_list,103A WEST LOUIS STREET,Sigel,62462,,,needs_coordinates
@@ -413,7 +413,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120712495,"Cade, L.L.C.",Bradford,Stark,igb_licensee_list,154 W. Main St.,Bradford,61421,,,needs_coordinates
 250701891,CAFE PARLAY KANE COUNTY LLC,Kane County,Kane,igb_licensee_list,33W624 ILLINOIS ROUTE 38 B,Geneva,60134,,,needs_coordinates
 230702550,"CAFE PARLAY, LLC",Pingree Grove,Kane,igb_licensee_list,2401 W US HIGHWAY 20 STE 102,Pingree Grove,60140,,,needs_coordinates
-120701217,"Cainari, Inc.",Kingston,Dekalb,igb_licensee_list,103-105 S. Main st,Kingston,60145,,,needs_coordinates
+120701217,"Cainari, Inc.",Kingston,DeKalb,igb_licensee_list,103-105 S. Main st,Kingston,60145,,,needs_coordinates
 140701104,Canal Corporation,Springfield,Sangamon,igb_licensee_list,1035 North MacArthur Street,Springfield,62702,,,needs_coordinates
 200700456,"Canal Port II, Inc.",North Utica,La Salle,igb_licensee_list,148 Mill Street,North Utica,61373,,,needs_coordinates
 200702512,Cantina La Antigua Inc.,Kane County,Kane,igb_licensee_list,14 N 630A Route 25 Unit B-1,East Dundee,60118,,,needs_coordinates
@@ -511,7 +511,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 130703289,"Christ Bros., Inc.",Okawville,Washington,igb_licensee_list,602 N Hanover St.,Okawville,62271,,,needs_coordinates
 120707741,Christi's Den Incorporated,Dunlap,Peoria,igb_licensee_list,500 N. 4th,Dunlap,61525,,,needs_coordinates
 121006062,Chronister Oil Company,Springfield,Sangamon,igb_licensee_list,4401 W. Wabash,Springfield,62711,,,needs_coordinates
-121007648,Chronister Oil Company,Bloomington,Mclean,igb_licensee_list,1607 Morrissey Dr,Bloomington,61704,,,needs_coordinates
+121007648,Chronister Oil Company,Bloomington,McLean,igb_licensee_list,1607 Morrissey Dr,Bloomington,61704,,,needs_coordinates
 131001688,Chronister Oil Company,Springfield,Sangamon,igb_licensee_list,1230 Toronto Road,Springfield,62707,,,needs_coordinates
 151000612,Chronister Oil Company,Sangamon County,Sangamon,igb_licensee_list,1101 Stevenson Drive,Springfield,62702,,,needs_coordinates
 200701874,"CHS Longnecker's Tavern, LLC",Batchtown,Calhoun,igb_licensee_list,"309 Batchtown, Rd.",Batchtown,62006,,,needs_coordinates
@@ -536,7 +536,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 250702612,Clinton C Store LLC,Clinton,De Witt,igb_licensee_list,12 Kelli Ct,Clinton,61727,,,needs_coordinates
 120703518,Clinton W Casford & Charles W Casford III,Depue,,,,,,,,needs_address_and_coordinates
 130704613,CLODDAGH INC.,Lake County,Lake,igb_licensee_list,26592 N Hwy 83,Mundelein,60060,,,needs_coordinates
-220702153,CLOVER CLUB I LLC,Mark,Putnam,igb_licensee_list,101 E HENNEPIN,MARK,61340,,,needs_coordinates
+220702153,CLOVER CLUB I LLC,Mark,Putnam,igb_licensee_list,101 E HENNEPIN,Mark,61340,,,needs_coordinates
 180703245,Club 520 Corp.,Madison,,,,,,,,needs_address_and_coordinates
 160703595,"Club Exit 41, Inc.",Washington County,Washington,igb_licensee_list,15002 Hen House Rd,Okawville,62271,,,needs_coordinates
 240702787,Club Winchester LLC,Pulaski County,Pulaski,igb_licensee_list,8221 State Highway 37,Olmsted,62970,,,needs_coordinates
@@ -546,7 +546,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 220701949,Coal Creek Inn LLC,Coal Valley,,,,,,,,needs_address_and_coordinates
 190703166,COCHIARO AND COCHIARO INC.,Cook County,Cook,igb_licensee_list,107 E. Grand Ave,Melrose Park,60164,,,needs_coordinates
 240700084,"COLE B MANAGEMENT GROUP, LLC",Crestwood,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
-160701323,"COLEMANS CRYSTAL LAKE, INC.",Crystal Lake,Mchenry,igb_licensee_list,7608 S. Virginia Road,Crystal Lake,60014,,,needs_coordinates
+160701323,"COLEMANS CRYSTAL LAKE, INC.",Crystal Lake,McHenry,igb_licensee_list,7608 S. Virginia Road,Crystal Lake,60014,,,needs_coordinates
 120706983,"Coles Corner Tap, Inc.",Peoria,Peoria,igb_licensee_list,1227 N.E. Adams,Peoria,61606,,,needs_coordinates
 170700995,"Colonial Pantry Holdings, LLC",Ogden,,,,,,,,needs_address_and_coordinates
 120912494,"Columbia Post No. 581, American Legion Department of Illinois",Columbia,Monroe,igb_licensee_list,375 E. Locust,Columbia,62236,,,needs_coordinates
@@ -568,9 +568,9 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 240700928,CORNER COFFEE AND GAMING LLC,Coulterville,,,,,,,,needs_address_and_coordinates
 120705655,"Corner Connection, Inc.",Galesburg,Knox,igb_licensee_list,208 E. Simmons,Galesburg,61401,,,needs_coordinates
 190701975,"CORNETT'S CHANA TAP, LLC",Ogle County,Ogle,igb_licensee_list,104 N. Center Ave.,Chana,61015,,,needs_coordinates
-220703458,Corral's Tavern LLC,Sandwich,Dekalb,igb_licensee_list,1201-C E. Church St.,Sandwich,60548,,,needs_coordinates
+220703458,Corral's Tavern LLC,Sandwich,DeKalb,igb_licensee_list,1201-C E. Church St.,Sandwich,60548,,,needs_coordinates
 120706678,"Cottage Inn, Inc.",Sangamon County,Sangamon,igb_licensee_list,927 North Macarthur,Springfield,62702,,,needs_coordinates
-240702016,Cougars LLC,Kingston,Dekalb,igb_licensee_list,201-203 W Railroad St,Kingston,60145,,,needs_coordinates
+240702016,Cougars LLC,Kingston,DeKalb,igb_licensee_list,201-203 W Railroad St,Kingston,60145,,,needs_coordinates
 120706465,"Country Club of Sparta, Illinois",Sparta,Randolph,igb_licensee_list,19 Fairway Drive,Sparta,62286,,,needs_coordinates
 240700987,Country Club Tavern LLC,Loves Park,,,,,,,,needs_address_and_coordinates
 230703190,"Country Garden 711, Inc.",West City,Franklin,igb_licensee_list,711 W. Main St.,West City,62812,,,needs_coordinates
@@ -580,7 +580,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120705730,"County Line Smokehouse, Inc.",Pierron,Madison,igb_licensee_list,761 North Main Street,Pierron,62275,,,needs_coordinates
 130703487,COURTHOUSE PUB INC.,Hillsboro,Montgomery,igb_licensee_list,101 S MAIN,Hillsboro,62049,,,needs_coordinates
 120710677,Cousin Eddies Incorporated,Springfield,Sangamon,igb_licensee_list,1951 W Monroe,Springfield,62704,,,needs_coordinates
-230700265,Cow Hill Partners LLC,Cary,Mchenry,igb_licensee_list,200-208 W Main St,Cary,60013,,,needs_coordinates
+230700265,Cow Hill Partners LLC,Cary,McHenry,igb_licensee_list,200-208 W Main St,Cary,60013,,,needs_coordinates
 210700102,"COWDEN FOOD MART, LLC",Cowden,Shelby,igb_licensee_list,234 N GRAND AVE,Cowden,62422,,,needs_coordinates
 120913001,"Cox Post 4753, Veterans of Foreign Wars of the U.S., Inc.",Sesser,Franklin,igb_licensee_list,302 West Coal Street,Sesser,62884,,,needs_coordinates
 210702282,CP Leasing Inc.,Troy,Madison,igb_licensee_list,523 Edwardsville Rd,Troy,62294,,,needs_coordinates
@@ -605,11 +605,11 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 180703569,Crystal Cuisine Inc.,Wauconda,Lake,igb_licensee_list,398 W. Liberty St. Unit A,Wauconda,60084,,,needs_coordinates
 160702522,"Crystal Lake Recreation, Inc.",Rock Falls,Whiteside,igb_licensee_list,600 east 17th Street,Rock Falls,61071,,,needs_coordinates
 220703900,CS ENTERTAINMENT LLC,Carol Stream,Dupage,igb_licensee_list,1485 FAIROAKS RD,Carol Stream,60188,,,needs_coordinates
-140703190,"CSP ENTERTAINMENT, INC.",McHenry County,Mchenry,igb_licensee_list,203 E. Main St. Road,Cary,60013,,,needs_coordinates
+140703190,"CSP ENTERTAINMENT, INC.",McHenry County,McHenry,igb_licensee_list,203 E. Main St. Road,Cary,60013,,,needs_coordinates
 120707930,"CTC Partners, LLC",Towanda,McLean,igb_licensee_list,404 E. Jackson St.,Towanda,61776,,,needs_coordinates
 140702212,"Cuda's, LLC",Lake County,Lake,igb_licensee_list,27045 Grass Lake Road,Antioch,60002,,,needs_coordinates
 180703730,CUHLIFE LLC ANTIOCH,Antioch,Lake,igb_licensee_list,420 E. IL ROUTE 173 STE 111,Antioch,60002,,,needs_coordinates
-170700671,CUHLIFE LLC HUNTLEY,Huntley,Mchenry,igb_licensee_list,9810 North State Route 47,Huntley,60142,,,needs_coordinates
+170700671,CUHLIFE LLC HUNTLEY,Huntley,McHenry,igb_licensee_list,9810 North State Route 47,Huntley,60142,,,needs_coordinates
 190902648,Cullom American Legion Association,Cullom,Livingston,igb_licensee_list,127 W. Jackson,Cullom,60929,,,needs_coordinates
 170700225,Cumberland Holdings LLC,Greenup,Cumberland,igb_licensee_list,"200 N. Haughton Hwy, Suite B",Greenup,62428,,,needs_coordinates
 170703714,"CURLY'S CORNER MARKET, INC.",Madison County,Madison,igb_licensee_list,508 East Chain of Rocks Rd,Granite City,62040,,,needs_coordinates
@@ -655,7 +655,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 150700364,"Deer Creek Golf, L.L.C.",University Park,Will,igb_licensee_list,25055 S. Western Ave.,University Park,60948,,,needs_coordinates
 240700595,"Deer Park Golf Club, Inc.",La Salle County,La Salle,igb_licensee_list,100 Deer Park Ln,Oglesby,61348,,,needs_coordinates
 160703031,"DEI HOLDINGS, LLC",Madison County,Madison,igb_licensee_list,8471 Prairietown Rd,Dorsey,62021,,,needs_coordinates
-130804494,"DEKALB LODGE NO. 765 BENEVOLENT AND PROTECTIVE ORDER OF ELKS OF THE UNITED STATES OF AMERICA, INC.",DeKalb,Dekalb,igb_licensee_list,209 S ANNIE GLIDDEN RD,DeKalb,60115,,,needs_coordinates
+130804494,"DEKALB LODGE NO. 765 BENEVOLENT AND PROTECTIVE ORDER OF ELKS OF THE UNITED STATES OF AMERICA, INC.",DeKalb,DeKalb,igb_licensee_list,209 S ANNIE GLIDDEN RD,DeKalb,60115,,,needs_coordinates
 220703710,Del Carmen's West LLC,Harristown,Macon,igb_licensee_list,4350 W Main St,Harristown,62522,,,needs_coordinates
 240703060,DELGADO MARTINEZ INC.,North Utica,La Salle,igb_licensee_list,2958 N IL Route 178,North Utica,61373,,,needs_coordinates
 180704136,Delgado's Restaurant Inc.,Peoria,,,,,,,,needs_address_and_coordinates
@@ -681,12 +681,12 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 130701318,DIBEC INC.,Peoria,Peoria,igb_licensee_list,1914 N. Wisconsin,Peoria,61603,,,needs_coordinates
 150700988,Dick's Saloon Inc.,Springfield,,,,,,,,needs_address_and_coordinates
 120702011,"DIGGER'S COLLEGE CITY BOWL, INC.",Macomb,Mcdonough,igb_licensee_list,123 EAST ADAMS,Macomb,61455,,,needs_coordinates
-160700801,"DINING SOLUTIONS, INC.",McHenry,Mchenry,igb_licensee_list,400 S RT 31,McHenry,60050,,,needs_coordinates
+160700801,"DINING SOLUTIONS, INC.",McHenry,McHenry,igb_licensee_list,400 S RT 31,McHenry,60050,,,needs_coordinates
 180701529,"DINOS ENTERPRISES, LLC",Lake In the Hills,McHenry,igb_licensee_list,6 Miller Rd. Ste A,Lake in the Hills,60156,,,needs_coordinates
 120709093,Dirty South Inc.,Springfield,Sangamon,igb_licensee_list,1231 E Cook,Springfield,62703,,,needs_coordinates
 220703912,"Dixie's Bistro Plano, LLC",Plano,Kendall,igb_licensee_list,623 W US Highway 34 Unit B,Plano,60545,,,needs_coordinates
 210701397,"DIXMOOR FOOD & LIQUOR INC.,",Dixmoor,Cook,igb_licensee_list,2240 W 147TH ST,Dixmoor,60426,,,needs_coordinates
-250701710,"Diya's Lounge, LLC",Prairie Grove,Mchenry,igb_licensee_list,4410 IL Route 176 Suite 4,Crystal Lake,60014,,,needs_coordinates
+250701710,"Diya's Lounge, LLC",Prairie Grove,McHenry,igb_licensee_list,4410 IL Route 176 Suite 4,Crystal Lake,60014,,,needs_coordinates
 170703352,Dizzy Deans LTD.,Bartonville,Peoria,igb_licensee_list,1101 W Garfield Suite A,Bartonville,61607,,,needs_coordinates
 150700072,DJ Liquors Inc.,Davis Junction,Ogle,igb_licensee_list,5657 N. Junction Way,Davis Junction,61020,,,needs_coordinates
 250700495,DJ Quick Bite Inc.,Glen Carbon,Madison,igb_licensee_list,3901 S State Route 159 STE 3,Glen Carbon,62034,,,needs_coordinates
@@ -694,15 +694,15 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 220700259,"DJ Sterling Enterprises, LLC - Emily's Harristown Series",Harristown,Macon,igb_licensee_list,4314 W Main St Suite A,Decatur,62522,,,needs_coordinates
 180704399,"DJ Sterling Enterprises, LLC - Shiloh Series",Shiloh,St. Clair,igb_licensee_list,"1231 Thouvenot Ln, Suite 200",Shiloh,62269,,,needs_coordinates
 170701690,"DJR Properties, LLC",Highland,,,,,,,,needs_address_and_coordinates
-250701154,"DK NORA, INC.",Nora,Jo Daviess,igb_licensee_list,110 SOUTH STREET,NORA,61059,,,needs_coordinates
+250701154,"DK NORA, INC.",Nora,Jo Daviess,igb_licensee_list,110 SOUTH STREET,Nora,61059,,,needs_coordinates
 120701332,DL & PM Inc.,Tazewell County,Tazewell,igb_licensee_list,30525 IL #9,Mackinaw,61755,,,needs_coordinates
 180702584,"DL KELLEY'S PROPERTIES, LLC",Springfield,Sangamon,igb_licensee_list,1101 South Spring,Springfield,62704,,,needs_coordinates
 190700456,DLA Holdings Corporation,Kincaid,Christian,igb_licensee_list,132 Central Ave,Kincaid,62540,,,needs_coordinates
 180702275,DLS Enterprises Inc.,Thayer,,,,,,,,needs_address_and_coordinates
 140701298,"DLT, Inc.",Lake County,Lake,igb_licensee_list,25792 N. Midlothian Rd.,Mundelein,600609134,,,needs_coordinates
-160700748,DM Prime Burgers LLC,Lake In the Hills,Mchenry,igb_licensee_list,9441 Ackman Rd,Lake in the Hills,60156,,,needs_coordinates
+160700748,DM Prime Burgers LLC,Lake In the Hills,McHenry,igb_licensee_list,9441 Ackman Rd,Lake in the Hills,60156,,,needs_coordinates
 240701933,"DNCW, LLC",Centralia,Marion,igb_licensee_list,2801 Putter Dr,Centralia,62801,,,needs_coordinates
-240702786,DNP WILSONVILLE CORPORATION,Wilsonville,Macoupin,igb_licensee_list,80 Wilson Ave,WILSONVILLE,62093,,,needs_coordinates
+240702786,DNP WILSONVILLE CORPORATION,Wilsonville,Macoupin,igb_licensee_list,80 Wilson Ave,Wilsonville,62093,,,needs_coordinates
 240701018,"DNS Hospitality, LLC",Plainfield,Will,igb_licensee_list,"13717 S. Route 30, Unit 101",Plainfield,60544,,,needs_coordinates
 150701772,DOC'S DINER INC.,Loves Park,Winnebago,igb_licensee_list,6499 N 2nd St,Loves Park,61111,,,needs_coordinates
 140703605,DOCK ROTZ HOLDINGS LLC,Minooka,Grundy,igb_licensee_list,859 S Ridge Rd,Minooka,60447,,,needs_coordinates
@@ -710,9 +710,9 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 180703887,Dominguez Corporation,Metropolis,Massac,igb_licensee_list,1407 E 5th St.,Metropolis,62960,,,needs_coordinates
 230701949,"DON'T WORRY BE HOPPY, LLC",Galena,,,,,,,,needs_address_and_coordinates
 130705771,DONALD C PAYNE,Lake County,Lake,igb_licensee_list,20963 W GRAND AVE,Lindenhurst,60046,,,needs_coordinates
-170701818,"Donkey Inn Bar And Grill, Inc.",Algonquin,Mchenry,igb_licensee_list,300 Eastgate Ct,Algonquin,60102,,,needs_coordinates
+170701818,"Donkey Inn Bar And Grill, Inc.",Algonquin,McHenry,igb_licensee_list,300 Eastgate Ct,Algonquin,60102,,,needs_coordinates
 200701711,Donny's Diner Gurnee LLC,Lake County,Lake,igb_licensee_list,36725 N Hwy 41 unit B,Gurnee,60031,,,needs_coordinates
-190701391,DONOVAN BAUGHMAN INC.,Viola,Mercer,igb_licensee_list,1303 10TH AVE,VIOLA,61486,,,needs_coordinates
+190701391,DONOVAN BAUGHMAN INC.,Viola,Mercer,igb_licensee_list,1303 10TH AVE,Viola,61486,,,needs_coordinates
 190700204,"Dooley's Entertainment, LLC",Troy,Madison,igb_licensee_list,427 Edwardsville Rd. STE 3,Troy,62294,,,needs_coordinates
 180701408,Double Deuce Inc.,Niles,Cook,igb_licensee_list,8600 W Golf Rd Ste 400,Niles,607145606,,,needs_coordinates
 120712912,"Double Doerr, Inc.",East Peoria,Tazewell,igb_licensee_list,3415 Meadow Avenue,East Peoria,61611,,,needs_coordinates
@@ -724,11 +724,11 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 230702999,"DPGL Enterprises, Inc.",Poplar Grove,,,,,,,,needs_address_and_coordinates
 210703456,"DPMAC, LLC",Troy,Madison,igb_licensee_list,633 Edwardsville Road,Troy,62294,,,needs_coordinates
 260702069,DPZ LLC,Clinton,De Witt,igb_licensee_list,1523 E route 54,Clinton,61727,,,needs_coordinates
-190703854,DR & JM LLC,Richmond,Mchenry,igb_licensee_list,9307 South Route 12 STE B & C,Richmond,60071,,,needs_coordinates
+190703854,DR & JM LLC,Richmond,McHenry,igb_licensee_list,9307 South Route 12 STE B & C,Richmond,60071,,,needs_coordinates
 250702218,DR Gaming LLC,Ogden,Champaign,igb_licensee_list,107 E Broadway St Unit 1,Ogden,61859,,,needs_coordinates
 120702990,"Drapes Lounge, L.L.C.",Schram City,Montgomery,igb_licensee_list,1701 School Street,Schram City,62049,,,needs_coordinates
 250702844,DRAVD GAS STATION LLC,Antioch,Lake,igb_licensee_list,359 North Ave,Antioch,60002,,,needs_coordinates
-130702714,"DRB, INC.",McHenry County,Mchenry,igb_licensee_list,4616 IL Route176,Crystal Lake,60014,,,needs_coordinates
+130702714,"DRB, INC.",McHenry County,McHenry,igb_licensee_list,4616 IL Route176,Crystal Lake,60014,,,needs_coordinates
 150701848,"DRINK-EM UP, INC.",Sangamon County,Sangamon,igb_licensee_list,4136 Peoria Road,Springfield,62702,,,needs_coordinates
 220703736,Drivetime Indoor Golf LLC,Antioch,Lake,igb_licensee_list,420 E IL Route 173 Suite 109 & 110,Antioch,60002,,,needs_coordinates
 120706282,DT's Bar LLC,Lexington,McLean,igb_licensee_list,402 W. Main,Lexington,61753,,,needs_coordinates
@@ -800,7 +800,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 180700401,Eliberto Diaz,Mendota,La Salle,igb_licensee_list,1314 1/2 Meriden St.,Mendota,61342,,,needs_coordinates
 120707670,"ELITE CAFE & BILLIARDS, INC.",Melrose Park,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 170702619,"ELITE ENTERTAINMENT IV, INC.",Round Lake Beach,Lake,igb_licensee_list,272C E ROLLINS RD,Round Lake Beach,60073,,,needs_coordinates
-160701350,"Eliza, Inc.",Leroy,Mclean,igb_licensee_list,210 Sunset Dr,Le Roy,61752,,,needs_coordinates
+160701350,"Eliza, Inc.",Leroy,McLean,igb_licensee_list,210 Sunset Dr,Le Roy,61752,,,needs_coordinates
 120713100,"Elk Grove Village Veterans Club, Inc.",Elk Grove Village,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 220802027,ELKS LODGE #1531,N/A,,,,,,,,needs_address_and_coordinates
 230700144,Elle's Tap LLC,Peru,La Salle,igb_licensee_list,930 Prospect Ave,Peru,613542861,,,needs_coordinates
@@ -815,14 +815,14 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 250700142,EMRH PROPERTIES LLC,Catlin,Vermilion,igb_licensee_list,102 S Sandusky St,Catlin,61817,,,needs_coordinates
 190703892,"ENDEAVOR MANAGEMENT GROUP, LLC",Rock Island,,,,,,,,needs_address_and_coordinates
 250700959,EPIC EATZ LLC,Milan,Rock Island,igb_licensee_list,580 1ST ST W,Milan,61264,,,needs_coordinates
-230701901,EPIC FOODS LLC,McHenry,Mchenry,igb_licensee_list,2616 SCHAID CT,McHenry,60051,,,needs_coordinates
+230701901,EPIC FOODS LLC,McHenry,McHenry,igb_licensee_list,2616 SCHAID CT,McHenry,60051,,,needs_coordinates
 140701779,Ernest Lee Cleveland,Waverly,,,,,,,,needs_address_and_coordinates
 170702028,"ESKM Garcia, Inc.",New Athens,St. Clair,igb_licensee_list,1215 Spotsylvania  Ave,New Athens,62264,,,needs_coordinates
 180701809,ETN PIZZA LLC,Rochelle,Ogle,igb_licensee_list,1233 N. Caron Road,Rochelle,61068,,,needs_coordinates
 130705481,"EVANDY, LLC",Naples,Scott,igb_licensee_list,100 Bob Michael Street,Naples,62655,,,needs_coordinates
 250900238,"EVANSTON POST NO. 42, AMERICAN LEGION",N/A,,,,,,,,needs_address_and_coordinates
 230700693,"Events at the U, LLC",Belleville,,,,,,,,needs_address_and_coordinates
-211000882,"Evergreen FS, Inc.",McLean County,Mclean,igb_licensee_list,Route 150 South,Bloomington,61704,,,needs_coordinates
+211000882,"Evergreen FS, Inc.",McLean County,McLean,igb_licensee_list,Route 150 South,Bloomington,61704,,,needs_coordinates
 180703703,"Every Buddies Pub & Grub, Inc.",Gardner,,,,,,,,needs_address_and_coordinates
 121006743,"Expresslane, Inc.",Hillsdale,Rock Island,igb_licensee_list,32000 Il Rt.2,Hillsdale,61257,,,needs_coordinates
 140702503,"Expresslane, Inc.",North Utica,La Salle,igb_licensee_list,2971 E 8th Road,North Utica,61373,,,needs_coordinates
@@ -841,7 +841,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 210703850,FAIRWIND GAMING LLC,Lawrence County,Lawrence,igb_licensee_list,14983 OLD US HWY 50,Lawrenceville,62439,,,needs_coordinates
 150701223,Fajitas Mexican Restaurant #2 Inc.,La Salle,,,,,,,,needs_address_and_coordinates
 180703566,"FAM TROY, LLC",Troy,Madison,igb_licensee_list,623 EDWARDSVILLE ROAD,Troy,62294,,,needs_coordinates
-160701366,Familia G. Inc.,Crystal Lake,Mchenry,igb_licensee_list,21 Crystal Lake Plaza Unit,Crystal Lake,60014,,,needs_coordinates
+160701366,Familia G. Inc.,Crystal Lake,McHenry,igb_licensee_list,21 Crystal Lake Plaza Unit,Crystal Lake,60014,,,needs_coordinates
 140702406,Family Beer East Inc.,East Dubuque,Jo Daviess,igb_licensee_list,20200 U.S. 20 West,East Dubuque,61025,,,needs_coordinates
 250700141,FAMILY HOSPITALITY GROUP LLC,Decatur,Macon,igb_licensee_list,4191 W. US HIGHWAY 36,Decatur,62522,,,needs_coordinates
 120802005,"FARMINGTON LODGE NO. 1571, LOYAL ORDER OF MOOSE",Farmington,Fulton,igb_licensee_list,1001 E. FORT STREET,Farmington,61531,,,needs_coordinates
@@ -862,7 +862,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 250702445,"FIREWATER BBQ N BREW OF NEW LENOX, INC.",New Lenox,Will,igb_licensee_list,280 E LINCOLN HWY Suite D,New Lenox,60451,,,needs_coordinates
 200702132,"First Stop Bar & Grill, Inc.",Chebanse,Iroquois,igb_licensee_list,510 S Oak Street,Chebanse,60922,,,needs_coordinates
 150901660,"FISCHER-SOLLIS POST #137 AMERICAN LEGION, INC.",O'Fallon,St. Clair,igb_licensee_list,109 N PENN ST,O'Fallon,62269,,,needs_coordinates
-220700689,"FIVE DOYLES, INC.",Richmond,Mchenry,igb_licensee_list,5604 Mill St PO Box 167,Richmond,60071,,,needs_coordinates
+220700689,"FIVE DOYLES, INC.",Richmond,McHenry,igb_licensee_list,5604 Mill St PO Box 167,Richmond,60071,,,needs_coordinates
 180702326,FKG Oil Company,Du Quoin,Perry,igb_licensee_list,#1 Howelman Drive,Du Quoin,62832,,,needs_coordinates
 181003693,FKG Oil Company,Belleville,St. Clair,igb_licensee_list,2235 W. State Rt. 161,Belleville,62226,,,needs_coordinates
 220702187,FKG Oil Company,Carrollton,Greene,igb_licensee_list,501 South Fifth St.,Carrollton,62016,,,needs_coordinates
@@ -873,7 +873,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 200701278,FLO'S KITCHEN #2 INC.,Peru,La Salle,igb_licensee_list,1309 Pulaski,Peru,613542305,,,needs_coordinates
 140703641,"FLYIN' LION, LLC",Collinsville,Madison,igb_licensee_list,222 WEST MAIN,Collinsville,62234,,,needs_coordinates
 160703627,"FMHPB, Inc.",Moline,,,,,,,,needs_address_and_coordinates
-150700986,FORE GOLF LLC,Prairie Grove,Mchenry,igb_licensee_list,2216 ROUTE 176,Prairie Grove,60014,,,needs_coordinates
+150700986,FORE GOLF LLC,Prairie Grove,McHenry,igb_licensee_list,2216 ROUTE 176,Prairie Grove,60014,,,needs_coordinates
 160700647,"Fork Restaurant Group Belleville, LLC",St. Clair County,St. Clair,igb_licensee_list,3030 Frank Scott Pkwy W Ste 10,Belleville,62223,,,needs_coordinates
 160700646,"Fork Restaurant Group Fairview Heights, LLC",Fairview Heights,St. Clair,igb_licensee_list,4652 N. Illinois Hwy 159,Fairview Heights,62208,,,needs_coordinates
 170701820,"Fork Restaurant Group Kewanee, LLC",Kewanee,Henry,igb_licensee_list,150 E. South St. Ste J,Kewanee,61443,,,needs_coordinates
@@ -895,8 +895,8 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 130803731,FRATERNAL ORDER OF EAGLES 3698 AND ITS AUXILIARY,Macomb,Mcdonough,igb_licensee_list,590-2 S DEERE RD,Macomb,61455,,,needs_coordinates
 120811385,FRATERNAL ORDER OF EAGLES AERIE #1425,Taylorville,Christian,igb_licensee_list,217 East Main Cross,Taylorville,62568,,,needs_coordinates
 130806037,Fraternal Order of Eagles McLeansboro-Aerie #2699,Mcleansboro,Hamilton,igb_licensee_list,209 N. Jackson Street,McLeansboro,62859,,,needs_coordinates
-131005592,Freedom Oil Company,Downs,Mclean,igb_licensee_list,18928 US HIGHWAY 150,Bloomington,61704,,,needs_coordinates
-131005730,Freedom Oil Company,Bloomington,Mclean,igb_licensee_list,1802 W. Market,Bloomington,61701,,,needs_coordinates
+131005592,Freedom Oil Company,Downs,McLean,igb_licensee_list,18928 US HIGHWAY 150,Bloomington,61704,,,needs_coordinates
+131005730,Freedom Oil Company,Bloomington,McLean,igb_licensee_list,1802 W. Market,Bloomington,61701,,,needs_coordinates
 170700127,Freedom Oil Company,Pontiac,,,,,,,,needs_address_and_coordinates
 170702121,Freedom Oil Company,El Paso,,,,,,,,needs_address_and_coordinates
 170702622,Freedom Oil Company,Lexington,,,,,,,,needs_address_and_coordinates
@@ -945,9 +945,9 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 210703883,GG'SPOT BAR AND GRILL LTD.,Oak Lawn,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 130703090,GIBSON OIL CO.,Lyndon,Whiteside,igb_licensee_list,540 WEST COMMERCIAL,Lyndon,61261,,,needs_coordinates
 200701497,Gibson Variety Liquor Inc,Gibson City,Ford,igb_licensee_list,115 & 119 W 8th ST,Gibson City,60936,,,needs_coordinates
-120707425,"Gill Street Group, LLC",Bloomington,Mclean,igb_licensee_list,3002B Gill Street,Bloomington,61704,,,needs_coordinates
+120707425,"Gill Street Group, LLC",Bloomington,McLean,igb_licensee_list,3002B Gill Street,Bloomington,61704,,,needs_coordinates
 241002798,Gilman C Store LLC,Gilman,Iroquois,igb_licensee_list,1401 US Highway 24 W,Gilman,60938,,,needs_coordinates
-210700376,Gingers LITH LLC,Lake In the Hills,Mchenry,igb_licensee_list,130 North Lakewood Road Suite 107,Lake in the Hills,60156,,,needs_coordinates
+210700376,Gingers LITH LLC,Lake In the Hills,McHenry,igb_licensee_list,130 North Lakewood Road Suite 107,Lake in the Hills,60156,,,needs_coordinates
 200700321,Gingers Park City LLC,Park City,Lake,igb_licensee_list,3331 Belvidere Rd Ste D,Park City,60085,,,needs_coordinates
 170700459,"GK MARGIE'S, INC.",Westmont,DuPage,verified_city_lookup,,,,,,needs_address_and_coordinates
 240701204,GL Club Billiards and Bar LLC,Plainfield,Will,igb_licensee_list,12337 S. Route 59 Unit 101-107,Plainfield,60585,,,needs_coordinates
@@ -955,7 +955,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120711783,"GLENNON'S TAVERN, INC.",Bement,Piatt,igb_licensee_list,201 E. Bodman,Bement,61813,,,needs_coordinates
 250700718,"Global Brew, Inc.",O'Fallon,St. Clair,igb_licensee_list,455 Regency Park STE B,O'Fallon,62269,,,needs_coordinates
 201000292,"GLOGOVSKY OIL COMPANY IV, INC.",Elgin,Kane,igb_licensee_list,2320 N Randall RD,Elgin,60123,,,needs_coordinates
-141002952,"GLOGOVSKY OIL COMPANY V, INC.",Lake In the Hills,Mchenry,igb_licensee_list,4231 ALGONQUIN RD,Lake in the Hills,60156,,,needs_coordinates
+141002952,"GLOGOVSKY OIL COMPANY V, INC.",Lake In the Hills,McHenry,igb_licensee_list,4231 ALGONQUIN RD,Lake in the Hills,60156,,,needs_coordinates
 180701870,"GM & B Group, LLC",Mason County,Mason,igb_licensee_list,15907 SR 97,Havana,62644,,,needs_coordinates
 170703001,GM Entertainment LLC,Harrisburg,Saline,igb_licensee_list,503 N. Commercial St. Ste D,Harrisburg,62946,,,needs_coordinates
 120700559,"Go Bowl, Inc",Channahon,Will,igb_licensee_list,25306 W. Eames,Channahon,60410,,,needs_coordinates
@@ -975,7 +975,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 240700542,GOLF LIFE BALANCE INC.,Kildeer,Lake,igb_licensee_list,20771 N RAND RD SPACE 20A,Kildeer,60047,,,needs_coordinates
 230703188,GOOD OLE TIMES LLC,Carlyle,,,,,,,,needs_address_and_coordinates
 120706553,Goose Lake Association,Grundy County,Grundy,igb_licensee_list,3935 N Goose Lake Rd,Morris,60450,,,needs_coordinates
-120708125,"Gourmet Foods International, LTD",Richmond,Mchenry,igb_licensee_list,"11302 W Rt 12, Unit B",Richmond,60071,,,needs_coordinates
+120708125,"Gourmet Foods International, LTD",Richmond,McHenry,igb_licensee_list,"11302 W Rt 12, Unit B",Richmond,60071,,,needs_coordinates
 160704011,"GPM Investments, LLC",Griggsville,,,,,,,,needs_address_and_coordinates
 170702045,"GPM Investments, LLC",Barry,Pike,igb_licensee_list,635 Highway 106,Barry,62312,,,needs_coordinates
 180702392,"GPM Investments, LLC",Quincy,,,,,,,,needs_address_and_coordinates
@@ -991,18 +991,18 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 220702968,Graham C-Stores Co.,Joliet,Will,igb_licensee_list,4802 Caton Farm Road,Joliet,60586,,,needs_coordinates
 141002738,"Graham Enterprise, Inc.",Lake Villa,Lake,igb_licensee_list,400 E. Grand Ave,Lake Villa,60046,,,needs_coordinates
 160700204,"GRAHAM ENTERPRISE, INC.",Carpentersville,Kane,igb_licensee_list,695 BARRINGTON ROAD,Carpentersville,60110,,,needs_coordinates
-160700238,"GRAHAM ENTERPRISE, INC.",Johnsburg,Mchenry,igb_licensee_list,3615 CHAPEL HILL RD,Johnsburg,60050,,,needs_coordinates
+160700238,"GRAHAM ENTERPRISE, INC.",Johnsburg,McHenry,igb_licensee_list,3615 CHAPEL HILL RD,Johnsburg,60050,,,needs_coordinates
 240702502,"GRAHAM ENTERPRISE, INC.",Volo,Lake,igb_licensee_list,205 S US Highway 12,Volo,60073,,,needs_coordinates
 120712919,"GRAMPA'S, INC.",Belvidere,,,,,,,,needs_address_and_coordinates
-190703632,"Grand Cafe, LLC",Bloomington,Mclean,igb_licensee_list,2205 E. Oakland Ave. Unit A1/A2,Bloomington,61701,,,needs_coordinates
+190703632,"Grand Cafe, LLC",Bloomington,McLean,igb_licensee_list,2205 E. Oakland Ave. Unit A1/A2,Bloomington,61701,,,needs_coordinates
 240700221,"GRAND PRAIRIE STATION, LLC",Cabery,,,,,,,,needs_address_and_coordinates
 200702448,"Grand Slam Bar & Grill, LLC",Alsey,Scott,igb_licensee_list,804 Alsey Smith Road,Alsey,62610,,,needs_coordinates
 180701833,"Grande Jakes Fresh Mexican Grill in BG, Inc.",Buffalo Grove,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
-240701033,Grandma Kitchen Mexican Grill Inc.,Johnsburg,Mchenry,igb_licensee_list,3312 Chapel Hill Rd,Johnsburg,60051,,,needs_coordinates
+240701033,Grandma Kitchen Mexican Grill Inc.,Johnsburg,McHenry,igb_licensee_list,3312 Chapel Hill Rd,Johnsburg,60051,,,needs_coordinates
 120708206,"Grandma's Bar & Grill, Inc.",Henry,Marshall,igb_licensee_list,420 E. Park Row,Henry,61537,,,needs_coordinates
 140700550,"Grandma's Table, Inc.",Montgomery,Kendall,igb_licensee_list,1700 S Douglas Rd,Montgomery,60538,,,needs_coordinates
 150701553,Grappa Growlers LLC,Belleville,,,,,,,,needs_address_and_coordinates
-120701287,Graybill Limited,McLean County,Mclean,igb_licensee_list,25106N-1750 E,Hudson,61748,,,needs_coordinates
+120701287,Graybill Limited,McLean County,McLean,igb_licensee_list,25106N-1750 E,Hudson,61748,,,needs_coordinates
 190703664,"Green Point Ventures, Inc.",Winnebago County,Winnebago,igb_licensee_list,"4962 S 20th st,",Rockford,61109,,,needs_coordinates
 120902228,"Green Rock-Colona Post of American Legion, No. 1233",Colona,Henry,igb_licensee_list,312 Broadway,Colona,61241,,,needs_coordinates
 150702348,"Greenfield and Greenfield, LLC",Charleston,,,,,,,,needs_address_and_coordinates
@@ -1075,7 +1075,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 150702817,"HGRB, LLC",Homer Glen,Will,igb_licensee_list,14903 South  Flounders Road,Homer Glen,60491,,,needs_coordinates
 120710094,Hi Bender's Inc.,Sainte Marie,Jasper,igb_licensee_list,103 S. Main St.,Sainte Marie,62459,,,needs_coordinates
 120706973,"HIALEAH CLUB, INC.",Mason County,Mason,igb_licensee_list,22987 Co Rd 2150 E,Havana,62644,,,needs_coordinates
-140704221,"HICKEY'S CORNER STORE, LLC",Malta,Dekalb,igb_licensee_list,4201 Route 38 E,Malta,60150,,,needs_coordinates
+140704221,"HICKEY'S CORNER STORE, LLC",Malta,DeKalb,igb_licensee_list,4201 Route 38 E,Malta,60150,,,needs_coordinates
 130704589,"Hickory River Madigan, LLC",Springfield,,,,,,,,needs_address_and_coordinates
 200701766,"HIDDEN LAKE GOLF CLUB, LLC",Bureau County,Bureau,igb_licensee_list,12985  645 EAST Street,Sheffield,61361,,,needs_coordinates
 260700800,HIDEAWAY PARTY PALACE INC.,Percy,Randolph,igb_licensee_list,105 N 2ND STREET,Percy,62272,,,needs_coordinates
@@ -1084,7 +1084,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 250700367,High Octane Bar & Lounge LLC,Greenville,Bond,igb_licensee_list,2025 S 4th St,Greenville,62246,,,needs_coordinates
 150704455,"Highland Management Group, LLC",Normal,McLean,igb_licensee_list,616 W Raab Rd Ste B,Normal,61761,,,needs_coordinates
 250701576,Highway 24 LLC,Fulton County,Fulton,igb_licensee_list,3631 E US Highway 24,Astoria,61501,,,needs_coordinates
-210702358,HILLVIEW CAFE INC,Hillview,Greene,igb_licensee_list,91 Lynn Street,HILLVIEW,62050,,,needs_coordinates
+210702358,HILLVIEW CAFE INC,Hillview,Greene,igb_licensee_list,91 Lynn Street,Hillview,62050,,,needs_coordinates
 240701545,HIRANANDI CORPORATION,Minooka,Grundy,igb_licensee_list,104 Ridge Road Unit 136,Minooka,60447,,,needs_coordinates
 200701991,Hollywood & Vine II LLC,Hollowayville,Bureau,igb_licensee_list,101 S 1st Ave,Hollowayville,61356,,,needs_coordinates
 180700110,"Hollywood Slots, Inc.",South Beloit,Winnebago,igb_licensee_list,376 Prairie Hill Rd. Unit H,South Beloit,61080,,,needs_coordinates
@@ -1100,18 +1100,18 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 190700200,"HOOTS OF CICERO, INC.",Cicero,Cook,igb_licensee_list,2201-D South Cicero Ave,Cicero,60804,,,needs_coordinates
 120912216,"Horace F. Ortt Post No: 540, Veterans of Foreign Wars of the United States,",Lee County,Lee,igb_licensee_list,1560 Franklin Grove Road,Dixon,61021,,,needs_coordinates
 170700016,"Horseshoe Bar & Grill, LLC",Alexander County,Alexander,igb_licensee_list,19950 Eastside Drive,Olive Branch,62969,,,needs_coordinates
-250702264,Horseshoe Lounge LLC,Prairie Grove,Mchenry,igb_licensee_list,5214 S IL Route 31 UNIT D,Crystal Lake,60014,,,needs_coordinates
+250702264,Horseshoe Lounge LLC,Prairie Grove,McHenry,igb_licensee_list,5214 S IL Route 31 UNIT D,Crystal Lake,60014,,,needs_coordinates
 130700747,"Hospitality Midwest, LLC",Troy,Madison,igb_licensee_list,"300 Edwardsville Road, Suite 400",Troy,62294,,,needs_coordinates
 120707636,"HOSS, INC.",Melrose Park,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 140702324,Hot Spot Restaurant LLC,Champaign,Champaign,igb_licensee_list,1903 N. Neil St Suite B,Champaign,61820,,,needs_coordinates
 140702448,Hot Spot Restaurant LLC,Urbana,Champaign,igb_licensee_list,1809 S. Philo Rd Ste B,Urbana,61802,,,needs_coordinates
 120912418,"Howard H. Rohde American Legion Post #888, Dept. of Illinois",Northlake,Cook,igb_licensee_list,241 East North Avenue,Northlake,60164,,,needs_coordinates
-250701209,HP BEVERAGE INC.,Braceville,Grundy,igb_licensee_list,103 s state route 53,braceville,60407,,,needs_coordinates
+250701209,HP BEVERAGE INC.,Braceville,Grundy,igb_licensee_list,103 s state route 53,Braceville,60407,,,needs_coordinates
 230702452,HUDDLE BAR & GRILL INC.,Caseyville,St. Clair,igb_licensee_list,1101 CASEYVILLE RD SUITE J,Caseyville,62232,,,needs_coordinates
-230700990,Huntley Park Dist,Huntley,Mchenry,igb_licensee_list,11220 W Algonquin Rd,Huntley,60142,,,needs_coordinates
+230700990,Huntley Park Dist,Huntley,McHenry,igb_licensee_list,11220 W Algonquin Rd,Huntley,60142,,,needs_coordinates
 250702007,HUNTS GAS N GO LLC,Hamilton County,Hamilton,igb_licensee_list,6019 State RTE 142,McLeansboro,62859,,,needs_coordinates
 160702411,"I. M. STEIN, INC.",Johnsburg,,,,,,,,needs_address_and_coordinates
-120703127,"I.M. STEIN, INC.",Johnsburg,Mchenry,igb_licensee_list,2405 W JOHNSBURG RD,Johnsburg,60051,,,needs_coordinates
+120703127,"I.M. STEIN, INC.",Johnsburg,McHenry,igb_licensee_list,2405 W JOHNSBURG RD,Johnsburg,60051,,,needs_coordinates
 240703066,"I.M. Stein, Inc.",Lake County,Lake,igb_licensee_list,37540 N US Route 12,Fox Lake,60020,,,needs_coordinates
 130703355,"IKO IKO CO., INC.",Burbank,Cook,igb_licensee_list,5700 W 79TH ST,Burbank,60459,,,needs_coordinates
 170702278,Illinois A & P Hospitality LLC,Calumet Park,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
@@ -1121,7 +1121,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 170700856,"Illinois Café & Service Company, LLC",Olympia Fields,Cook,igb_licensee_list,2520 Lincoln HWY Unit 2,Olympia Fields,604611960,,,needs_coordinates
 150704075,"Imeri's Big Apple, Inc.",La Salle County,La Salle,igb_licensee_list,4610 N 30th Rd,Peru,61354,,,needs_coordinates
 190701454,IMPERIAL PLACE INC.,Alsip,Cook,igb_licensee_list,4845 W. 111TH ST SUITE B,Alsip,60803,,,needs_coordinates
-210703696,"INDIAN CHATPATA SWAD INC.,",Crystal Lake,Mchenry,igb_licensee_list,1295 RANDALL RD STE 112,Crystal Lake,60014,,,needs_coordinates
+210703696,"INDIAN CHATPATA SWAD INC.,",Crystal Lake,McHenry,igb_licensee_list,1295 RANDALL RD STE 112,Crystal Lake,60014,,,needs_coordinates
 120708407,"INDUSTRIAL TAVERN, INC.",Wamac,Marion,igb_licensee_list,260 S WABASH,Wamac,62801,,,needs_coordinates
 180700231,"Industrial Tavern, Inc.",Wamac,Marion,igb_licensee_list,230 Wabash Ave BLDG1,Wamac,62801,,,needs_coordinates
 230702936,Infinity 1 LLC,Olney,Richland,igb_licensee_list,1003 N. West Street Suite E,Olney,62450,,,needs_coordinates
@@ -1137,7 +1137,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120700604,"IZZY'S, L.L.C",Joliet,,,,,,,,needs_address_and_coordinates
 120703511,"J & B ENTERPRISES, INC.",Ashmore,Coles,igb_licensee_list,11 ASHMORE ST.,Ashmore,61912,,,needs_coordinates
 120704203,"J & J Timeout Sports Bar, Inc.",Herrin,,,,,,,,needs_address_and_coordinates
-120706485,"J & K'S HALF MOON TAVERN, INC.",Hinckley,Dekalb,igb_licensee_list,120 W. LINCOLN HWY.,Hinckley,60520,,,needs_coordinates
+120706485,"J & K'S HALF MOON TAVERN, INC.",Hinckley,DeKalb,igb_licensee_list,120 W. LINCOLN HWY.,Hinckley,60520,,,needs_coordinates
 130705322,"J & L Bestways, Inc.",Ashley,Washington,igb_licensee_list,279 E. Main St.,Ashley,62808,,,needs_coordinates
 180701639,"J & L Bestways, Inc.",Olney,,,,,,,,needs_address_and_coordinates
 200700017,"J & L Bestways, Inc.",Mount Vernon,,,,,,,,needs_address_and_coordinates
@@ -1159,8 +1159,8 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 180700852,"J.C. Fairview Development, LLC",Fairview,Fulton,igb_licensee_list,900 Church Street,Fairview,61432,,,needs_coordinates
 120705580,"J.C.J., INC.",Centralia,Marion,igb_licensee_list,323 NORTH POPLAR,Centralia,62801,,,needs_coordinates
 120708314,"J.D.S. Saloon, Inc.",Litchfield,Montgomery,igb_licensee_list,119 West Edwards,Litchfield,62056,,,needs_coordinates
-210700300,JA United LLC,Kirkland,Dekalb,igb_licensee_list,411 W Main St,Kirkland,60146,,,needs_coordinates
-190700090,"JACK & JINA'S ENTERPRISES, INC.",Hinckley,Dekalb,igb_licensee_list,535 E Lincoln,Hinckley,60520,,,needs_coordinates
+210700300,JA United LLC,Kirkland,DeKalb,igb_licensee_list,411 W Main St,Kirkland,60146,,,needs_coordinates
+190700090,"JACK & JINA'S ENTERPRISES, INC.",Hinckley,DeKalb,igb_licensee_list,535 E Lincoln,Hinckley,60520,,,needs_coordinates
 151004384,"Jack Flash Properties, LLC",Mattoon,Coles,igb_licensee_list,4920 Lakeland Blvd,Mattoon,61938,,,needs_coordinates
 211002225,"Jack Flash Properties, LLC",Arcola,Douglas,igb_licensee_list,630 Schrock Dr,Arcola,61910,,,needs_coordinates
 130701677,Jack Ingram,Glasgow,Scott,igb_licensee_list,155 East Market,Glasgow,62694,,,needs_coordinates
@@ -1174,7 +1174,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 190701805,Jackpots New Athens LLC,New Athens,St. Clair,igb_licensee_list,825 New Baldwin Road Suite B,New Athens,62264,,,needs_coordinates
 140901664,JACKSONVILLE AMERICAN LEGION POST 279,Jacksonville,Morgan,igb_licensee_list,903 West Superior,Jacksonville,62650,,,needs_coordinates
 120807743,"Jacksonville, Illinois Lodge 682, Benevolent and Protective Order of Elks of the United States of America",Jacksonville,Morgan,igb_licensee_list,231 W. Morgan,Jacksonville,62650,,,needs_coordinates
-190700024,"JAG RESTAURANT GROUP, INC.",Richmond,Mchenry,igb_licensee_list,10310 N MAIN STREET,Richmond,60071,,,needs_coordinates
+190700024,"JAG RESTAURANT GROUP, INC.",Richmond,McHenry,igb_licensee_list,10310 N MAIN STREET,Richmond,60071,,,needs_coordinates
 170701705,JAI MA ENTERPRISES INC.,Effingham,Effingham,igb_licensee_list,1809 West Fayette Avenue,Effingham,62401,,,needs_coordinates
 140701527,JALARAM INC.,Stillman Valley,Ogle,igb_licensee_list,111 East Roosevelt Road,Stillman Valley,61084,,,needs_coordinates
 120701277,"Jam3, Inc.",Channahon,Grundy,igb_licensee_list,"25520 S. Pheasant Lane, Unit F",Channahon,60410,,,needs_coordinates
@@ -1185,7 +1185,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 230702505,Janice Colglazier,Lewistown,,,,,,,,needs_address_and_coordinates
 210703352,Jansen Monuments LLC,Taylor Springs,Montgomery,igb_licensee_list,9093 Illinois Route 127,Taylor Springs,62089,,,needs_coordinates
 230701153,JAS TRADERS INC.,Williamsfield,Knox,igb_licensee_list,214 N ILLINOIS ROUTE 180,Williamsfield,61489,,,needs_coordinates
-150702651,JASKARAN CONVENIENT STORE LLC,Oreana,Macon,igb_licensee_list,102 S RTE 48,OREANA,62554,,,needs_coordinates
+150702651,JASKARAN CONVENIENT STORE LLC,Oreana,Macon,igb_licensee_list,102 S RTE 48,Oreana,62554,,,needs_coordinates
 250700869,"JAVI MEXICAN GRILL, INC.",West Chicago,Dupage,igb_licensee_list,956 E Roosvelt Rd.,West Chicago,60185,,,needs_coordinates
 160703898,JAW 1812 Inc.,Peoria,Peoria,igb_licensee_list,2509 N. Sheridan,Peoria,61604,,,needs_coordinates
 231002879,JAY AMBE PETROLEUM TWO INC.,Peotone,Will,igb_licensee_list,601 S 88TH AVE,Peotone,60468,,,needs_coordinates
@@ -1302,7 +1302,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120705160,"Kelsey's Cabin, Inc.",Fox Lake,McHenry,igb_licensee_list,309 West Route 173,Spring Grove,60081,,,needs_coordinates
 140904133,"Kelso M. Garver Post #650, American Legion",Mansfield,Piatt,igb_licensee_list,28 N. Jefferson Street,Mansfield,61854,,,needs_coordinates
 130706595,"Ken Keeler, Inc.",Midlothian,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
-200702981,KENNY THE KING INC.,Lakemoor,Mchenry,igb_licensee_list,28975 ILLINOIS ROUTE 120,Lakemoor,60051,,,needs_coordinates
+200702981,KENNY THE KING INC.,Lakemoor,McHenry,igb_licensee_list,28975 ILLINOIS ROUTE 120,Lakemoor,60051,,,needs_coordinates
 180700026,"KENNY'S WESTSIDE, INC.",Peoria,Peoria,igb_licensee_list,112 SW JEFFERSON,Peoria,61602,,,needs_coordinates
 120704596,"Kettles Tap & Grill, Inc.",Roberts,Ford,igb_licensee_list,121 E Green St.,Roberts,60962,,,needs_coordinates
 240902740,KEWANEE AMERICAN LEGION POST #31,Kewanee,Henry,igb_licensee_list,116-118 E 3RD ST.,Kewanee,61443,,,needs_coordinates
@@ -1320,7 +1320,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 240701159,Kickn 66 Liquor & More Corporation,Vandalia,Fayette,igb_licensee_list,1611 Veterans Ave Suite C,Vandalia,62471,,,needs_coordinates
 240701716,Kickn 66 Liquor & More Corporation,Diamond,Grundy,igb_licensee_list,2675 E. Division  Unit B,Diamond,60416,,,needs_coordinates
 260700003,Kickn 66 Liquor & More Corporation,Mount Vernon,Jefferson,igb_licensee_list,101 Davidson Rd STE B,Mount Vernon,62864,,,needs_coordinates
-230702787,"KICKSTAND GRILL, LLC",Edgar County,Edgar,igb_licensee_list,21968 ILLINOIS HIGHWAY 1,CHRISMAN,61924,,,needs_coordinates
+230702787,"KICKSTAND GRILL, LLC",Edgar County,Edgar,igb_licensee_list,21968 ILLINOIS HIGHWAY 1,Chrisman,61924,,,needs_coordinates
 140701866,"Kidstone Group-Wabash, LLC",Jerome,Sangamon,igb_licensee_list,1508 Wabash,Jerome,62704,,,needs_coordinates
 180702739,"Kim's Mossville, LLC",Peoria County,Peoria,igb_licensee_list,10307 State Street,Mossville,61552,,,needs_coordinates
 190702466,"King Pin Bowling, LLC",Springfield,Sangamon,igb_licensee_list,3115 E Sangamon Ave,Springfield,62702,,,needs_coordinates
@@ -1335,7 +1335,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 200702440,"Knoxville Mercantile, LLC",Knoxville,,,,,,,,needs_address_and_coordinates
 240701276,"Knoxville Wine & Spirits, Inc.",Peoria,Peoria,igb_licensee_list,"3504 N Prospect Rd, Unit B",Peoria,61603,,,needs_coordinates
 230701269,Knuckleheads Bar & Grill LLC,Mount Vernon,,,,,,,,needs_address_and_coordinates
-120712220,KOBE HIBACHI STEAKHOUSE INC.,Bloomington,Mclean,igb_licensee_list,401 N VETERANS PARKWAY STE 7 & 8,Bloomington,61704,,,needs_coordinates
+120712220,KOBE HIBACHI STEAKHOUSE INC.,Bloomington,McLean,igb_licensee_list,401 N VETERANS PARKWAY STE 7 & 8,Bloomington,61704,,,needs_coordinates
 150704237,Koellner Enterprises 3 LLC,Milan,Rock Island,igb_licensee_list,111 4th Street,Milan,61264,,,needs_coordinates
 240700150,KOHIMAN PROPERTIES LLC,Galesburg,Knox,igb_licensee_list,300 S Soangetaha Rd,Galesburg,61401,,,needs_coordinates
 170700512,Kojak's Incorporated,Cary,McHenry,igb_licensee_list,700 Northwest Highway,Cary,60013,,,needs_coordinates
@@ -1349,7 +1349,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 160700522,"Krystal's, Inc.",Pekin,Tazewell,igb_licensee_list,2111 Court St. Suite C,Pekin,61554,,,needs_coordinates
 240701253,"KSH ENTERPRISES, INC.",Macomb,Mcdonough,igb_licensee_list,108 SCOTLAND,Macomb,61455,,,needs_coordinates
 190700667,"KSK, Inc. II",North Chicago,Lake,igb_licensee_list,2004 Martin Luther King Jr Drive,North Chicago,60064,,,needs_coordinates
-220701043,"KSQUARE XPRUSH MART-ULLIN INC.,",Ullin,Pulaski,igb_licensee_list,49 CHEEKWOOD LANE,ULLIN,62992,,,needs_coordinates
+220701043,"KSQUARE XPRUSH MART-ULLIN INC.,",Ullin,Pulaski,igb_licensee_list,49 CHEEKWOOD LANE,Ullin,62992,,,needs_coordinates
 190703779,"Kteam, Inc.",Orland Park,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 120702089,"Kuhl Tyme Korner, Inc.",Jacksonville,Morgan,igb_licensee_list,901 W. Morton St. 11 & 12,Jacksonville,62650,,,needs_coordinates
 230702462,KUSH-KRUPA INC.,Bradley,Kankakee,igb_licensee_list,60 KEN HAYES DR,Bourbonnais,60914,,,needs_coordinates
@@ -1395,7 +1395,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120703918,"Lantern Inn, Inc.",Aviston,Clinton,igb_licensee_list,98 North Page,Aviston,62216,,,needs_coordinates
 160700656,"LARAWAY LANES, LLC",New Lenox,Will,igb_licensee_list,1009 LARAWAY ROAD,New Lenox,60451,,,needs_coordinates
 120708195,"Larced, Inc.",Bement,,,,,,,,needs_address_and_coordinates
-250700227,"LAREDO TAP, INC.",Chadwick,Carroll,igb_licensee_list,211 N MAIN ST,CHADWICK,61014,,,needs_coordinates
+250700227,"LAREDO TAP, INC.",Chadwick,Carroll,igb_licensee_list,211 N MAIN ST,Chadwick,61014,,,needs_coordinates
 210702481,Largecar Lounge LLC,Lincoln,Logan,igb_licensee_list,2821 Woodlawn Road,Lincoln,62656,,,needs_coordinates
 120706968,"LARJ, Inc.",Springfield,Sangamon,igb_licensee_list,1277 Toronto Road,Springfield,62712,,,needs_coordinates
 150701184,"LAROSA'S PIZZA & PASTA, INC.",Stillman Valley,Ogle,igb_licensee_list,402 W ROOSEVELT,Stillman Valley,61084,,,needs_coordinates
@@ -1442,7 +1442,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120900395,"Leon Burson Post 395, American Legion",Plano,,,,,,,,needs_address_and_coordinates
 230700832,Leona's Pizzeria Express of Lyons LLC,Lyons,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 220701094,Leonardo’s of Mt Zion Inc.,Mount Zion,Macon,igb_licensee_list,910 N. State Highway 121,Mount Zion,62549,,,needs_coordinates
-221001319,LeRoy Travel Plaza Inc.,Leroy,Mclean,igb_licensee_list,805 S. Hemlock St.,Le Roy,61752,,,needs_coordinates
+221001319,LeRoy Travel Plaza Inc.,Leroy,McLean,igb_licensee_list,805 S. Hemlock St.,Le Roy,61752,,,needs_coordinates
 120704272,Lesia Burns,Golconda,Pope,igb_licensee_list,219-223 E Main St,Golconda,62938,,,needs_coordinates
 180900127,"LEWISTOWN ILLINOIS POST NO. 5001, VETERANS OF FOREIGN WARS OF THE UNITED STATES",Lewistown,Fulton,igb_licensee_list,1323 S. Main St,Lewistown,61542,,,needs_coordinates
 260701318,Lews LLC,Clay City,Clay,igb_licensee_list,800 Kelly Drive SW,Clay City,62824,,,needs_coordinates
@@ -1453,7 +1453,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 140702334,Lili Mae's LLC,Dwight,Livingston,igb_licensee_list,14 Burbeck Drive,Dwight,604209500,,,needs_coordinates
 230702835,Lincoln Hutsonville Inc.,Hutsonville,Crawford,igb_licensee_list,410 E. Clover St,Hutsonville,62433,,,needs_coordinates
 120706850,"Lincoln Lanes, Inc.",Danville,Vermilion,igb_licensee_list,107 W. Harrison,Danville,61832,,,needs_coordinates
-250701391,Lincoln Street Lounge LLC,Broadlands,Champaign,igb_licensee_list,112 S Lincoln Street,BROADLANDS,61816,,,needs_coordinates
+250701391,Lincoln Street Lounge LLC,Broadlands,Champaign,igb_licensee_list,112 S Lincoln Street,Broadlands,61816,,,needs_coordinates
 120802131,"Lincoln, Illinois Lodge No. 914 Benevolent and Protective Order of Elks",Logan County,Logan,igb_licensee_list,1020 1525th Street,Lincoln,62656,,,needs_coordinates
 120701395,"Lindsay Beverage Enterprises, Inc.",North Aurora,Kane,igb_licensee_list,110 S. Lincolnway,North Aurora,60542,,,needs_coordinates
 120707219,"Lindsays' Too, Inc.",Pittsfield,Pike,igb_licensee_list,119 North Madison,Pittsfield,62363,,,needs_coordinates
@@ -1466,22 +1466,22 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 200702405,Litchfield Hospitality LLC,Litchfield,,,,,,,,needs_address_and_coordinates
 120801452,"Litchfield Lodge No. 1634, Loyal Order Of Moose",Litchfield,Montgomery,igb_licensee_list,221 N. Madison,Litchfield,62056,,,needs_coordinates
 120711315,Lititia Marie Robinson,Thayer,Sangamon,igb_licensee_list,207 E Main,Thayer,62689,,,needs_coordinates
-120702092,"Little Brown Pub, Inc.",Hinckley,Dekalb,igb_licensee_list,200 N. Somonauk Rd.,Hinckley,60520,,,needs_coordinates
+120702092,"Little Brown Pub, Inc.",Hinckley,DeKalb,igb_licensee_list,200 N. Somonauk Rd.,Hinckley,60520,,,needs_coordinates
 130706660,Livingston Gas & Grocery Inc.,Livingston,Madison,igb_licensee_list,535 Veterans Memorial Dr.,Livingston,62058,,,needs_coordinates
-150704026,"Livlarg, Inc.",Cary,Mchenry,igb_licensee_list,688 Northwest Highway,Cary,60013,,,needs_coordinates
-120700463,"LKH, Inc.",Bloomington,Mclean,igb_licensee_list,1206 Towanda Avenue,Bloomington,61701,,,needs_coordinates
+150704026,"Livlarg, Inc.",Cary,McHenry,igb_licensee_list,688 Northwest Highway,Cary,60013,,,needs_coordinates
+120700463,"LKH, Inc.",Bloomington,McLean,igb_licensee_list,1206 Towanda Avenue,Bloomington,61701,,,needs_coordinates
 190702273,"LLSEA, LLC",Cedarville,Stephenson,igb_licensee_list,235 South Stephenson St.,Cedarville,61013,,,needs_coordinates
 180701371,"Local 37, Inc.",Springfield,Sangamon,igb_licensee_list,940 West Lake Shore Drive,Springfield,62712,,,needs_coordinates
 170700038,Lockport Township Park District,Crest Hill,Will,igb_licensee_list,19433 Renwick Road,Crest Hill,60403,,,needs_coordinates
 150704187,Loda Big Mart Inc.,Loda,Iroquois,igb_licensee_list,115 South Oak Street,Loda,60948,,,needs_coordinates
-220703835,"LODGE OF SPRING GROVE, LTD.",Spring Grove,Mchenry,igb_licensee_list,7701 Blivin Street Suite C,Spring Grove,60081,,,needs_coordinates
+220703835,"LODGE OF SPRING GROVE, LTD.",Spring Grove,McHenry,igb_licensee_list,7701 Blivin Street Suite C,Spring Grove,60081,,,needs_coordinates
 120907128,"LOGAN POST NUMBER 263, DEPARTMENT OF ILLINOIS, OF THE AMERICAN LEGION",Lincoln,Logan,igb_licensee_list,1740 5th Street Road,Lincoln,62656,,,needs_coordinates
 180700912,"LOKOBOBO, INC.",Orion,,,,,,,,needs_address_and_coordinates
 190703218,"LOL LOTS OF LIQUOR, LLC",Bushnell,Mcdonough,igb_licensee_list,474 E. OSBOURNE ST.,Bushnell,61422,,,needs_coordinates
 120810681,Lone Elm Aerie Fraternal Order of Eagles,Clinton,De Witt,igb_licensee_list,220 N. Center,Clinton,61727,,,needs_coordinates
 140700027,"Lone Oak Golf Course, Inc.",Greene County,Greene,igb_licensee_list,149 SE 450 Ave.,Carrollton,62016,,,needs_coordinates
 220701683,"Lone Star Grill TKS, LLC",Morris,Grundy,igb_licensee_list,1920 N. Division St,Morris,60450,,,needs_coordinates
-120707752,"Long Branch Again, Inc.",Cooksville,Mclean,igb_licensee_list,102 West Garfield,Cooksville,61730,,,needs_coordinates
+120707752,"Long Branch Again, Inc.",Cooksville,McLean,igb_licensee_list,102 West Garfield,Cooksville,61730,,,needs_coordinates
 130705875,"LONG BRIDGE GOLF COURSE, INC.",Sangamon County,Sangamon,igb_licensee_list,1055 Camp Sangamo,Springfield,62707,,,needs_coordinates
 170700254,LOONEY'S PUB CO.,Lake County,Lake,igb_licensee_list,40805 N IL Route 83,Antioch,60002,,,needs_coordinates
 220702584,Lopez Alexander Enterprise Corporation,Yorkville,Kendall,igb_licensee_list,1965 S. Bridge St.,Yorkville,60560,,,needs_coordinates
@@ -1497,7 +1497,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 181003347,"Love's Travel Stops & Country Stores, Inc.",Rochelle,Ogle,igb_licensee_list,400 Steward Road,Rochelle,61068,,,needs_coordinates
 181003348,"Love's Travel Stops & Country Stores, Inc.",Hampshire,Kane,igb_licensee_list,201A Love's Crossing,Hampshire,60140,,,needs_coordinates
 201001121,"Love's Travel Stops & Country Stores, Inc.",North Utica,La Salle,igb_licensee_list,3020 E. 8th Rd.,North Utica,61373,,,needs_coordinates
-201001122,"Love's Travel Stops & Country Stores, Inc.",Leroy,Mclean,igb_licensee_list,505 S Persimmon Drive,Le Roy,61752,,,needs_coordinates
+201001122,"Love's Travel Stops & Country Stores, Inc.",Leroy,McLean,igb_licensee_list,505 S Persimmon Drive,Le Roy,61752,,,needs_coordinates
 201001123,"Love's Travel Stops & Country Stores, Inc.",Greenville,Bond,igb_licensee_list,1900 South State Route 127,Greenville,62246,,,needs_coordinates
 201001127,"Love's Travel Stops & Country Stores, Inc.",Knoxville,Knox,igb_licensee_list,1405 Knox Highway 9,Knoxville,61448,,,needs_coordinates
 201002763,"Love's Travel Stops & Country Stores, Inc.",Tuscola,Douglas,igb_licensee_list,809 Moore Avenue,Tuscola,61953,,,needs_coordinates
@@ -1552,7 +1552,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 160702494,Lynn M. Cartwright,Lansing,Cook,igb_licensee_list,3249 Airport Drive,Lansing,60438,,,needs_coordinates
 230702158,"Lyra & Family, Inc.",Wadsworth,Lake,igb_licensee_list,38985 US Hwy 41,Wadsworth,60083,,,needs_coordinates
 170700417,M & V Ventures I Inc.,Galesburg,Knox,igb_licensee_list,421 & 425 E. Main St,Galesburg,61401,,,needs_coordinates
-210702899,M&B Lucky 2 L.L.C.,Spring Grove,Mchenry,igb_licensee_list,2020 N US Route 12  STE M,Spring Grove,600818364,,,needs_coordinates
+210702899,M&B Lucky 2 L.L.C.,Spring Grove,McHenry,igb_licensee_list,2020 N US Route 12  STE M,Spring Grove,600818364,,,needs_coordinates
 210700366,M.B.M. WAYNE INC.,Marion,Williamson,igb_licensee_list,705 N CARBON ST STE D,Marion,62959,,,needs_coordinates
 170704267,M.R.H. Corporation,Bunker Hill,Macoupin,igb_licensee_list,702 South Washington,Bunker Hill,62014,,,needs_coordinates
 120711170,"M.R.T.P., Inc.",South Chicago Heights,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
@@ -1579,7 +1579,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 141002666,MACON PETROLEUM INC.,Macon,Macon,igb_licensee_list,399 E ANDREWS,Macon,62544,,,needs_coordinates
 160703220,"Mad Dog Cleaning, LLC",Tazewell County,Tazewell,igb_licensee_list,121 W Spring Creek Rd #6,East Peoria,61611,,,needs_coordinates
 120711575,Mad Jacks Inc.,Kilbourne,Mason,igb_licensee_list,102 N 1st,Kilbourne,62655,,,needs_coordinates
-250700779,MAHADEV 1 LLC,Marengo,Mchenry,igb_licensee_list,308 & 310 S State St,Marengo,60152,,,needs_coordinates
+250700779,MAHADEV 1 LLC,Marengo,McHenry,igb_licensee_list,308 & 310 S State St,Marengo,60152,,,needs_coordinates
 120711237,MAHAN'S WILD SIDE LLC,Morgan County,Morgan,igb_licensee_list,Old 36 Rt 123,Alexander,62601,,,needs_coordinates
 170703203,MAHEDI LLC,Madison County,Madison,igb_licensee_list,7180 St. James Rd,Edwardsville,62025,,,needs_coordinates
 220703151,Maher Sager Lake Bluff LLC,North Chicago,Lake,igb_licensee_list,3250 Bittersweet Ave,Lake Bluff,60044,,,needs_coordinates
@@ -1597,7 +1597,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120709565,MANUSH INC.,Dixon,Lee,igb_licensee_list,510 Chicago Avenue,Dixon,61021,,,needs_coordinates
 130703191,MAR-KNAP INC.,Seneca,La Salle,igb_licensee_list,176 WEST JACKSON,Seneca,61360,,,needs_coordinates
 120710848,"Maria & Vikki, Inc.",Hampshire,Kane,igb_licensee_list,129 E. Oak Knoll,Hampshire,60140,,,needs_coordinates
-210703233,"Maria's Mexican Grill, Inc.",Spring Grove,Mchenry,igb_licensee_list,2207 N US Highway 12 Suite H,Spring Grove,60081,,,needs_coordinates
+210703233,"Maria's Mexican Grill, Inc.",Spring Grove,McHenry,igb_licensee_list,2207 N US Highway 12 Suite H,Spring Grove,60081,,,needs_coordinates
 190700089,"Maria's Ristorante and Pizzeria, Inc.",Morris,Grundy,igb_licensee_list,1591 N. Division St.,Morris,60450,,,needs_coordinates
 190700334,"Marion Campground & RV Park, Inc.",Marion,Williamson,igb_licensee_list,119 N 7th St,Marion,62959,,,needs_coordinates
 250701164,Maris Primos Restaurant Inc.,Sugar Grove,,,,,,,,needs_address_and_coordinates
@@ -1618,7 +1618,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 170701577,"Martin & Bayley, Inc.",Swansea,St. Clair,igb_licensee_list,4590 N Illinois St,Swansea,62221,,,needs_coordinates
 190701121,"Martin & Bayley, Inc.",Charleston,Coles,igb_licensee_list,501 Madison Ave,Charleston,61290,,,needs_coordinates
 200701142,"Martin & Bayley, Inc.",Godfrey,Madison,igb_licensee_list,5608 Humbert Rd,Godfrey,62035,,,needs_coordinates
-201000125,"Martin & Bayley, Inc.",Heyworth,Mclean,igb_licensee_list,701 West Cleveland,Heyworth,61745,,,needs_coordinates
+201000125,"Martin & Bayley, Inc.",Heyworth,McLean,igb_licensee_list,701 West Cleveland,Heyworth,61745,,,needs_coordinates
 201000225,"Martin & Bayley, Inc.",Marion,Williamson,igb_licensee_list,2700 West Main Street,Marion,62595,,,needs_coordinates
 230702347,Martinez Luevano II LLC,Coal City,,,,,,,,needs_address_and_coordinates
 220703680,"Martinez Luevano, LLC",Morris,Grundy,igb_licensee_list,100 W Commercial Dr Suite 6,Morris,60450,,,needs_coordinates
@@ -1643,7 +1643,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 150703019,"MAXAMILLION'S, INC.",South Jacksonville,Morgan,igb_licensee_list,1429 S MAIN ST Suite J,South Jacksonville,62650,,,needs_coordinates
 170703632,MAY'S LAKE ZURICH LLC,Lake Zurich,Lake,igb_licensee_list,1003 S. Rand Rd.,Lake Zurich,60047,,,needs_coordinates
 190702439,"MAY'S VILLA PARK, LLC",Villa Park,DuPage,igb_licensee_list,100 E. Roosevelt Rd. Suite 5,Villa Park,60181,,,needs_coordinates
-210700393,MAYS LAKE IN THE HILLS LLC,Lake In the Hills,Mchenry,igb_licensee_list,273 N. Randall Rd,Lake in the Hills,60156,,,needs_coordinates
+210700393,MAYS LAKE IN THE HILLS LLC,Lake In the Hills,McHenry,igb_licensee_list,273 N. Randall Rd,Lake in the Hills,60156,,,needs_coordinates
 200702998,MB 396 LLC,Belvidere,Boone,igb_licensee_list,396 W. Chrysler Dr.,Belvidere,61008,,,needs_coordinates
 240700490,"MBEOBS, LLC",Fayette County,Fayette,igb_licensee_list,982 N 885 St,Shobonier,62885,,,needs_coordinates
 250700418,MC GAS AND MART INC.,McCook,Cook,igb_licensee_list,8222 W Joliet Rd,McCook,60525,,,needs_coordinates
@@ -1654,11 +1654,11 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 260700908,McConnell Hideaway LLC,Stephenson County,Stephenson,igb_licensee_list,102 E. Main St,McConnell,61050,,,needs_coordinates
 120706682,"MCCOOK BOHEMIAN/AMERICAN FAMILY RESTAURANT, INC.",McCook,Cook,igb_licensee_list,8300 Joliet Rd,McCook,60525,,,needs_coordinates
 160701239,MCCUMBER L.L.C.,Lincoln,Logan,igb_licensee_list,1302 1/2 5th St,Lincoln,62656,,,needs_coordinates
-230701634,"MCHENRY STEKI, LLC",McHenry,Mchenry,igb_licensee_list,3918 Main Sreet,McHenry,60050,,,needs_coordinates
+230701634,"MCHENRY STEKI, LLC",McHenry,McHenry,igb_licensee_list,3918 Main Sreet,McHenry,60050,,,needs_coordinates
 250700279,MCJ RESTAURANT GROUP LLC,Lebanon,St. Clair,igb_licensee_list,115/117/119 W SAINT LOUIS ST,Lebanon,62254,,,needs_coordinates
-240702977,McLean C Store LLC,McLean,Mclean,igb_licensee_list,401 E South St,McLean,61754,,,needs_coordinates
-180704367,MCNL LAKE INC.,McCullom Lake,Mchenry,igb_licensee_list,4921 MCCULLOM LAKE ROAD #F,McCullom Lake,60050,,,needs_coordinates
-150701735,"MCTH, Inc.",Bloomington,Mclean,igb_licensee_list,1804 S. Hershey #9,Bloomington,61704,,,needs_coordinates
+240702977,McLean C Store LLC,McLean,McLean,igb_licensee_list,401 E South St,McLean,61754,,,needs_coordinates
+180704367,MCNL LAKE INC.,McCullom Lake,McHenry,igb_licensee_list,4921 MCCULLOM LAKE ROAD #F,McCullom Lake,60050,,,needs_coordinates
+150701735,"MCTH, Inc.",Bloomington,McLean,igb_licensee_list,1804 S. Hershey #9,Bloomington,61704,,,needs_coordinates
 120703514,"Medland, Inc.",Jerseyville,Jersey,igb_licensee_list,216 North State,Jerseyville,62052,,,needs_coordinates
 230703256,Meera 08 LLC,St. Clair County,St. Clair,igb_licensee_list,1424 Centerville Ave Suite A,Belleville,62220,,,needs_coordinates
 150703735,Mefail Mehmedi,Lewistown,,,,,,,,needs_address_and_coordinates
@@ -1713,7 +1713,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 140701421,MMC Entertainment LLC,Litchfield,Montgomery,igb_licensee_list,1403 west Ferdon St. Suite 11,Litchfield,62056,,,needs_coordinates
 150703676,MMC Entertainment LLC,Sangamon County,Sangamon,igb_licensee_list,1826 Adlai Stevenson Drive,Springfield,62703,,,needs_coordinates
 220701129,MNB Development LLC,Montrose,Effingham,igb_licensee_list,306 N Spring Creek Rd,Montrose,62445,,,needs_coordinates
-160704025,"MND, CORP.",Harvard,Mchenry,igb_licensee_list,1001 S. Division Street,Harvard,60033,,,needs_coordinates
+160704025,"MND, CORP.",Harvard,McHenry,igb_licensee_list,1001 S. Division Street,Harvard,60033,,,needs_coordinates
 120707748,Mobak Inc.,Naplate,La Salle,igb_licensee_list,1607 W Ottawa Ave.,Naplate,61350,,,needs_coordinates
 220702551,MOCO Hospitality LLC,Sherman,,,,,,,,needs_address_and_coordinates
 230702531,"Molly's Events, LLC",Tilton,Vermilion,igb_licensee_list,2 Donna Dr Ste 3,Tilton,61833,,,needs_coordinates
@@ -1725,7 +1725,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120700434,"MONTROSE BAR, INC.",Montrose,Effingham,igb_licensee_list,407 E. NATIONAL ROAD,Montrose,62445,,,needs_coordinates
 220700763,Moonshiner Distribution Inc.,Carlyle,Clinton,igb_licensee_list,1210 Dorothy Lane,Carlyle,62231,,,needs_coordinates
 120712025,"Moore's Pub, Inc.",Canton,Fulton,igb_licensee_list,168 E. Elm,Canton,61520,,,needs_coordinates
-200700484,MOOSE KNUCKLE LLC,Creston,Ogle,igb_licensee_list,341 E ILLINOIS ROUTE 38,CRESTON,60113,,,needs_coordinates
+200700484,MOOSE KNUCKLE LLC,Creston,Ogle,igb_licensee_list,341 E ILLINOIS ROUTE 38,Creston,60113,,,needs_coordinates
 120709244,"MORANO INVESTMENT, INC.",Carpentersville,Kane,igb_licensee_list,115 LW Besinger Drive,Carpentersville,60110,,,needs_coordinates
 230702420,"Moreschi Enterprises, Inc.",Paris,,,,,,,,needs_address_and_coordinates
 200702524,Morris CC II LLC,Morris,Grundy,igb_licensee_list,5355 N. Saratoga Rd,Morris,60450,,,needs_coordinates
@@ -1733,7 +1733,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 180701589,Motzee's LLC,Wataga,Knox,igb_licensee_list,108 N Depot,Wataga,61488,,,needs_coordinates
 150701949,MOUNT OLIVE GYMNASTIC SOCIETY,Mount Olive,Macoupin,igb_licensee_list,307 W 2nd South,Mount Olive,62069,,,needs_coordinates
 170702228,Mr. BBQs Catering LLC,Waterloo,Monroe,igb_licensee_list,643 Ridge Road,Waterloo,62298,,,needs_coordinates
-120700461,"Mr. Clyde's Lounge, Inc.",Gridley,Mclean,igb_licensee_list,106 Gridley Road,Gridley,61744,,,needs_coordinates
+120700461,"Mr. Clyde's Lounge, Inc.",Gridley,McLean,igb_licensee_list,106 Gridley Road,Gridley,61744,,,needs_coordinates
 120709586,"Mr. Ed´s, Ltd.",Milan,Rock Island,igb_licensee_list,127 W 4th St.,Milan,61264,,,needs_coordinates
 120706457,"MR. SALSAS, INC.",Oglesby,,,,,,,,needs_address_and_coordinates
 120902153,"Mt. Olive, Post 5790, Veterans of Foreign Wars of the United States",Mount Olive,Macoupin,igb_licensee_list,21294 Route 138,Mount Olive,62069,,,needs_coordinates
@@ -1764,7 +1764,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 160700379,New Shivkrupa LLC,Mascoutah,St. Clair,igb_licensee_list,40 N 6th st,Mascoutah,62258,,,needs_coordinates
 250701334,"Nextup Sports & Entertainment Sparta, Inc.",Sparta,Randolph,igb_licensee_list,1400 Sparta Centre Dr,Sparta,62286,,,needs_coordinates
 200701710,"NEXTUP SPORTS & ENTERTAINMENT, INC.",Freeburg,St. Clair,igb_licensee_list,301 Marketplace Dr,Freeburg,62243,,,needs_coordinates
-140703900,NGK MARENGO INC.,Marengo,Mchenry,igb_licensee_list,106 S State St,Marengo,60152,,,needs_coordinate_verification
+140703900,NGK MARENGO INC.,Marengo,McHenry,igb_licensee_list,106 S State St,Marengo,60152,,,needs_coordinate_verification
 170701856,NGK PINGREE GROVE LLC,Pingree Grove,Kane,igb_licensee_list,2401 W. RT 20,Pingree Grove,60140,,,needs_coordinates
 210700763,"NICK'S ON 6, LLC",La Salle,La Salle,igb_licensee_list,328 3RD ST STE A,LaSalle,613012350,,,needs_coordinates
 200700022,"Nickleshooters, Inc.",Godfrey,Madison,igb_licensee_list,901 West Delmar,Alton,62002,,,needs_coordinates
@@ -1779,7 +1779,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 180700854,"Nierman-Smith Enterprises, LLC",Wamac,Marion,igb_licensee_list,2 Nierman Drive,Wamac,62801,,,needs_coordinates
 120704063,"NIETO ENTERPRISES, INC.",Champaign,,,,,,,,needs_address_and_coordinates
 120712776,"Night Moves of Belleville, Inc.",Belleville,St. Clair,igb_licensee_list,900 McClintock,Belleville,62220,,,needs_coordinates
-160701025,"NIGIJO 2, INC.",Richmond,Mchenry,igb_licensee_list,5600 KENOSHA ST. STE. B,Richmond,60071,,,needs_coordinates
+160701025,"NIGIJO 2, INC.",Richmond,McHenry,igb_licensee_list,5600 KENOSHA ST. STE. B,Richmond,60071,,,needs_coordinates
 220702058,"Niki's Gyros, Inc.",Buffalo Grove,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 190702428,Ninkasi Beverage Group LLC,Anna,,,,,,,,needs_address_and_coordinates
 180703439,NINO'S INVESTMENTS INC.,Loves Park,Winnebago,igb_licensee_list,6451 N 2ND ST,Loves Park,61111,,,needs_coordinates
@@ -1797,15 +1797,15 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 130702663,"Norwood Pub-N-Grub, Inc.",Norwood,Peoria,igb_licensee_list,1503 N. Norwood Blvd.,Norwood,61604,,,needs_coordinates
 120701464,"Nu Bowl Lanes, Inc.",Alton,Madison,igb_licensee_list,3003 Washington Ave.,Alton,62002,,,needs_coordinates
 120701470,"Nu Bowl Lanes, Inc.",Mount Vernon,Jefferson,igb_licensee_list,1315 N. 17th St.,Mount Vernon,62864,,,needs_coordinates
-170700977,NUCK ENTERTAINMENT INC.,Marengo,Mchenry,igb_licensee_list,20001 TELEGRAPH ST. UNIT D,Marengo,60152,,,needs_coordinates
+170700977,NUCK ENTERTAINMENT INC.,Marengo,McHenry,igb_licensee_list,20001 TELEGRAPH ST. UNIT D,Marengo,60152,,,needs_coordinates
 210702243,"Nurse Dreams, LLC",Centralia,Marion,igb_licensee_list,"224 N. ELM ST, STE B",Centralia,62801,,,needs_coordinates
 150701796,"O'FALLON COLUMBUS CLUB, INC.",O'Fallon,St. Clair,igb_licensee_list,402 E Hwy 50,O'Fallon,62269,,,needs_coordinates
-120711378,"O'Leary's Pub & Grub, Inc.",Ringwood,Mchenry,igb_licensee_list,4623 N. Route 31 Richmond Rd,Ringwood,60072,,,needs_coordinates
-140702141,O. G. B. B. Corporation,McHenry County,Mchenry,igb_licensee_list,7120-40 Barnard Mill Road,Wonder Lake,60097,,,needs_coordinates
+120711378,"O'Leary's Pub & Grub, Inc.",Ringwood,McHenry,igb_licensee_list,4623 N. Route 31 Richmond Rd,Ringwood,60072,,,needs_coordinates
+140702141,O. G. B. B. Corporation,McHenry County,McHenry,igb_licensee_list,7120-40 Barnard Mill Road,Wonder Lake,60097,,,needs_coordinates
 140701881,"Oak Forest BP, Inc",Blue Island,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 240702055,"OAK RUN GOLF COURSE, INC.",Knox County,Knox,igb_licensee_list,1472 KNOX ROAD 1725 N,Dahinda,61428,,,needs_coordinates
 130700066,"Oak's Duck Inn, Inc.",Wadsworth,Lake,igb_licensee_list,15225 Wadsworth Road,Wadsworth,60083,,,needs_coordinates
-231000199,"Oasis Lily Lake, Inc.",Lily Lake,Kane,igb_licensee_list,44w322 Route 64,LILY LAKE,60151,,,needs_coordinates
+231000199,"Oasis Lily Lake, Inc.",Lily Lake,Kane,igb_licensee_list,44w322 Route 64,Lily Lake,60151,,,needs_coordinates
 171003954,"OASIS ON 20, INC.",Elgin,Kane,igb_licensee_list,3191 US HIGHWAY 20  UNIT C,Elgin,60124,,,needs_coordinates
 220702288,"OB's Cervezaria, LLC",Chenoa,,,,,,,,needs_address_and_coordinates
 180701638,OBT Holding Inc.,Oakbrook Terrace,Dupage,igb_licensee_list,17W731 Roosevelt Rd STE G,Oakbrook Terrace,60181,,,needs_coordinates
@@ -1828,13 +1828,13 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120700370,Olsens Bar Inc.,Winnebago County,Winnebago,igb_licensee_list,13963 Best Road,Durand,61024,,,needs_coordinates
 180704441,OM ALFREDOS PIZZA INC.,Lake In the Hills,McHenry,igb_licensee_list,4560 W. Algonquin Rd.,Lake in the Hills,60156,,,needs_coordinates
 231002804,"OM BELVIDERE OIL, LLC",Belvidere,Boone,igb_licensee_list,1890 Crystal Parkway,Belvidere,61008,,,needs_coordinates
-240702285,OM GASOLINE INC.,Johnsburg,Mchenry,igb_licensee_list,"4304 N JOHNSBURG RD IL,",Johnsburg,600516328,,,needs_coordinates
+240702285,OM GASOLINE INC.,Johnsburg,McHenry,igb_licensee_list,"4304 N JOHNSBURG RD IL,",Johnsburg,600516328,,,needs_coordinates
 180704387,OM KRISHNA LLC,Anna,Union,igb_licensee_list,147 WEST VIENNA ST,Anna,62906,,,needs_coordinates
 170702231,"OM NAMAH SHIVAYA INC.,",Decatur,Macon,igb_licensee_list,1155 N STATE ROUTE 48,Decatur,62522,,,needs_coordinates
-230700239,OM RICHMOND GAMING CAFE INC.,Richmond,Mchenry,igb_licensee_list,10007 N MAIN ST  SUITE B,Richmond,60071,,,needs_coordinates
+230700239,OM RICHMOND GAMING CAFE INC.,Richmond,McHenry,igb_licensee_list,10007 N MAIN ST  SUITE B,Richmond,60071,,,needs_coordinates
 220700400,"OM SAI RAM CARPENTERSVILLE OIL, INC.",Carpentersville,Kane,igb_licensee_list,1398 Kings Road,Carpentersville,60110,,,needs_coordinates
-230700673,OM SWAMI CRYSTAL LAKE INC.,Crystal Lake,Mchenry,igb_licensee_list,540 E TERRA COTTA AVE SUITE A,Crystal Lake,60014,,,needs_coordinates
-260701340,OMKAR CORPORATION,Marengo,Mchenry,igb_licensee_list,20001 TELEGRAPH ST UNIT B,Marengo,60152,,,needs_coordinates
+230700673,OM SWAMI CRYSTAL LAKE INC.,Crystal Lake,McHenry,igb_licensee_list,540 E TERRA COTTA AVE SUITE A,Crystal Lake,60014,,,needs_coordinates
+260701340,OMKAR CORPORATION,Marengo,McHenry,igb_licensee_list,20001 TELEGRAPH ST UNIT B,Marengo,60152,,,needs_coordinates
 230700512,ON A BOAT INC.,Williamson County,Williamson,igb_licensee_list,12024 LAGUNA DR SUITE B,Marion,62959,,,needs_coordinates
 250702022,On A Roll Spirits and Slots LLC,Machesney Park,Winnebago,igb_licensee_list,"7007 N 2nd St, Unit D",Machesney Park,61115,,,needs_coordinates
 170703738,"ON THE RAIL, LLC",Quincy,,,,,,,,needs_address_and_coordinates
@@ -1843,7 +1843,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 150700948,"One Tree Group, Inc.",Ogden,Champaign,igb_licensee_list,305 W. Ellen St.,Ogden,61859,,,needs_coordinates
 220700837,Onery's LLC,Ivesdale,Champaign,igb_licensee_list,203 S Chapin Street,Ivesdale,61851,,,needs_coordinates
 120700295,"OPERA HOUSE, INC.",Clinton,De Witt,igb_licensee_list,303-304 SOUTH SIDE SQUARE,Clinton,61727,,,needs_coordinates
-120703017,"OPL, INC.",Johnsburg,Mchenry,igb_licensee_list,801 W. OAK GROVE ROAD,Johnsburg,60051,,,needs_coordinates
+120703017,"OPL, INC.",Johnsburg,McHenry,igb_licensee_list,801 W. OAK GROVE ROAD,Johnsburg,60051,,,needs_coordinates
 150701658,"Oquawka Diner, Inc.",Oquawka,Henderson,igb_licensee_list,18 Schuyler Street PO Box 453,Oquawka,61469,,,needs_coordinates
 120901263,Oregon Post 8739 Veterans of Foreign Wars of the United States,Oregon,Ogle,igb_licensee_list,1310 WEST WASHINGTON STREET,Oregon,61061,,,needs_coordinates
 120706943,"Original Springs Hotel, Inc.",Okawville,,,,,,,,needs_address_and_coordinates
@@ -1916,7 +1916,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 121009156,Pilot Travel Centers LLC,Cahokia Heights,St. Clair,igb_licensee_list,140 Racehorse Drive,Alorton,62207,,,needs_coordinates
 121009158,Pilot Travel Centers LLC,Mount Vernon,Jefferson,igb_licensee_list,4610 Broadway,Mount Vernon,62864,,,needs_coordinates
 121009204,Pilot Travel Centers LLC,Gilman,Iroquois,igb_licensee_list,815 HWY 24 WEST,Gilman,60938,,,needs_coordinates
-121009209,Pilot Travel Centers LLC,Bloomington,Mclean,igb_licensee_list,1522 West Market,Bloomington,61701,,,needs_coordinates
+121009209,Pilot Travel Centers LLC,Bloomington,McLean,igb_licensee_list,1522 West Market,Bloomington,61701,,,needs_coordinates
 121009243,Pilot Travel Centers LLC,Minooka,Grundy,igb_licensee_list,301 Ridge Road,Minooka,60447,,,needs_coordinates
 141001621,Pilot Travel Centers LLC,Morris,Grundy,igb_licensee_list,3801 N. Division St.,Morris,60450,,,needs_coordinates
 151003544,Pilot Travel Centers LLC,Joliet,Will,igb_licensee_list,40 East Laraway Road,Joliet,60803,,,needs_coordinates
@@ -1928,7 +1928,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 130704913,"Pinewoods Restaurant Group, LLC",Loves Park,Winnebago,igb_licensee_list,1421 Harlem Road,Loves Park,61111,,,needs_coordinates
 140701076,"Pinewoods Restaurant Group, LLC",Loves Park,Winnebago,igb_licensee_list,4901 N. 2nd Street,Loves Park,61111,,,needs_coordinates
 190700914,"Pinewoods Restaurant Group, LLC",Winnebago County,Winnebago,igb_licensee_list,"1825 S. Perryville Rd., #B",Rockford,61112,,,needs_coordinates
-240701606,PINNACLE GAS INC.,Hopkins Park,Kankakee,igb_licensee_list,2690 S 13000E RD,HOPKINS PARK,60958,,,needs_coordinates
+240701606,PINNACLE GAS INC.,Hopkins Park,Kankakee,igb_licensee_list,2690 S 13000E RD,Hopkins Park,60958,,,needs_coordinates
 190701543,"Pioneer Express, LLC",Perry,Pike,igb_licensee_list,204 S Clover,Perry,62362,,,needs_coordinates
 170704006,Piper City Convenience  Store Inc,Roberts,Ford,igb_licensee_list,203 N State Route 54,Roberts,60962,,,needs_coordinates
 180700947,Piper City Convenience Store Inc,Piper City,Ford,igb_licensee_list,3 W Main St,Piper City,60959,,,needs_coordinates
@@ -1943,7 +1943,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 220701457,PLAY HERE! WIN HERE! LLC,Bartlett,Dupage,igb_licensee_list,1060 W ARMY TRAIL RD,Bartlett,60103,,,needs_coordinates
 120704369,"PLAYERS PUB & GRILL, LLC",Prospect Heights,Cook,igb_licensee_list,1250 South River Road,Prospect Heights,60070,,,needs_coordinates
 120700792,"Pleasant St., Inc.",Boone County,Boone,igb_licensee_list,6828 Pleasant St,Garden Prairie,61038,,,needs_coordinates
-180701453,"PLUM GARDEN, LLC",McHenry,Mchenry,igb_licensee_list,3917 West Main Street,McHenry,60050,,,needs_coordinates
+180701453,"PLUM GARDEN, LLC",McHenry,McHenry,igb_licensee_list,3917 West Main Street,McHenry,60050,,,needs_coordinates
 230702346,PMDawn LLC,Williamson County,Williamson,igb_licensee_list,8082 Route 37 South,Marion,62959,,,needs_coordinates
 160702807,"PMK, Inc.",Vandalia,Fayette,igb_licensee_list,1410 Sunset Dr. Ste. F,Vandalia,62471,,,needs_coordinates
 230701059,"PMK, Inc.",Vandalia,Fayette,igb_licensee_list,2525 Veterans Ave Suite A,Vandalia,62471,,,needs_coordinates
@@ -1953,7 +1953,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 170701688,PONTOON BEACH MOBIL INC.,Pontoon Beach,Madison,igb_licensee_list,1281 Engineer Road,Pontoon Beach,62040,,,needs_coordinates
 170701472,"Pookie's, Inc.",Marion,Williamson,igb_licensee_list,106 N Mechanic,Marion,62959,,,needs_coordinates
 120702008,"Poor Bar, Inc.",Pana,Christian,igb_licensee_list,332 Illinois Route 29,Pana,62557,,,needs_coordinates
-120706772,"POP'S PLACE, INC.",Ludlow,Champaign,igb_licensee_list,104 EAST THOMAS,LUDLOW,60949,,,needs_coordinates
+120706772,"POP'S PLACE, INC.",Ludlow,Champaign,igb_licensee_list,104 EAST THOMAS,Ludlow,60949,,,needs_coordinates
 220700888,"Poplar Entertainment, Inc.",Poplar Grove,,,,,,,,needs_address_and_coordinates
 170700853,"PORT OF BLARNEY, INC.",Lake County,Lake,igb_county_literal,,,,,,needs_address_and_coordinates
 120702104,"Port of Grafton Loading Dock, Incorporated",Grafton,Jersey,igb_licensee_list,401 E. Front Street,Grafton,62037,,,needs_coordinates
@@ -1970,7 +1970,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 130706565,"Price Street Partners, Inc.",Sangamon County,Sangamon,igb_licensee_list,2815 Price Avenue,Springfield,62704,,,needs_coordinates
 120806751,Princeton Lodge No 1339 Loyal Order of Moose,Princeton,Bureau,igb_licensee_list,1339 North Euclid Avenue,Princeton,613560036,,,needs_coordinates
 250700888,Professional Standard LLC,Lebanon,St. Clair,igb_licensee_list,120 W Saint Louis St Building 120,Lebanon,62254,,,needs_coordinates
-120708467,"PROGRESSIVE CLUB, INC.",Wilsonville,Macoupin,igb_licensee_list,212 WILSON,WILSONVILLE,62093,,,needs_coordinates
+120708467,"PROGRESSIVE CLUB, INC.",Wilsonville,Macoupin,igb_licensee_list,212 WILSON,Wilsonville,62093,,,needs_coordinates
 250701077,Public House 1833 LLC,Urbana,Champaign,igb_licensee_list,401 N Broadway Ave,Urbana,61801,,,needs_coordinates
 220701311,"Pukar, Inc.",Mount Vernon,Jefferson,igb_licensee_list,900 1/2 Salem Road,Mount Vernon,62864,,,needs_coordinates
 220702809,"Pulaski Bar & Grill, LLC",Pulaski,Pulaski,igb_licensee_list,103 S Chestnut St Suite B,Pulaski,62976,,,needs_coordinates
@@ -1989,7 +1989,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 160704287,"R & C of Quincy, Inc.",Quincy,Adams,igb_licensee_list,1701 Harrison,Quincy,62301,,,needs_coordinates
 170702885,"R & J Stores, LLC",Paris,Edgar,igb_licensee_list,601 E Jasper St.,Paris,61944,,,needs_coordinates
 120704271,R & K Properties Inc.,Pleasant Plains,Sangamon,igb_licensee_list,210 W. State Route 125,Pleasant Plains,62677,,,needs_coordinates
-120710773,"R & R Pub, LLC",Shabbona,Dekalb,igb_licensee_list,109 W. Comanche St.,Shabbona,60550,,,needs_coordinates
+120710773,"R & R Pub, LLC",Shabbona,DeKalb,igb_licensee_list,109 W. Comanche St.,Shabbona,60550,,,needs_coordinates
 190703562,R & R Tavern LLC,Lake County,Lake,igb_licensee_list,14827 Russell Rd,Russell,60075,,,needs_coordinates
 120701457,"R + E VAN, INC.",Romeoville,Will,igb_licensee_list,402 W Weber Rd,Romeoville,60446,,,needs_coordinates
 220701030,R C Services Inc.,Peotone,Will,igb_licensee_list,323 N Harlem Ave,Peotone,60468,,,needs_coordinates
@@ -2003,7 +2003,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 130705917,"Ralben, Inc.",Bloomington,McLean,igb_licensee_list,1507 S MAIN,Bloomington,61701,,,needs_coordinates
 140701031,"RALO AND ART, INC.",Bradley,,,,,,,,needs_address_and_coordinates
 120908732,"RALPH G. MC ILWAIN POST NO. 233, THE AMERICAN LEGION",Okawville,Washington,igb_licensee_list,205 N HANOVER,Okawville,62271,,,needs_coordinates
-120710337,"Rambo's Bar & Grill, Inc.",Somonauk,Dekalb,igb_licensee_list,140 W. Market,Somonauk,60552,,,needs_coordinates
+120710337,"Rambo's Bar & Grill, Inc.",Somonauk,DeKalb,igb_licensee_list,140 W. Market,Somonauk,60552,,,needs_coordinates
 210703468,"Rambo's Lucky Day Slots, LLC",Marion County,Marion,igb_licensee_list,1213 S Broadway Avenue,Salem,62881,,,needs_coordinates
 160701987,"Ramsey Enterprises, LLC",Altamont,Effingham,igb_licensee_list,4 W. Carriage Ln.,Altamont,62411,,,needs_coordinates
 230703276,Rancho Chico 1 Inc.,Springfield,Sangamon,igb_licensee_list,3028 E Stanford Ave,Springfield,62703,,,needs_coordinates
@@ -2034,11 +2034,11 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 220702925,Renner Enterprises LLC,Streator,,,,,,,,needs_address_and_coordinates
 250700669,RESTAURANT LOS CANTAROS INC.,Will County,Will,igb_licensee_list,23956 S STATE ROUTE 53,Elwood,60421,,,needs_coordinates
 260701546,RETAILMK LLC,New Canton,Pike,igb_licensee_list,130 E. Mechanic Street,New Canton,62356,,,needs_coordinates
-230703307,"Revolution Golf HD, LLC",Harvard,Mchenry,igb_licensee_list,75-77 N Ayer St,Harvard,60033,,,needs_coordinates
+230703307,"Revolution Golf HD, LLC",Harvard,McHenry,igb_licensee_list,75-77 N Ayer St,Harvard,60033,,,needs_coordinates
 240701420,RH2024 LLC,Villa Park,Dupage,igb_licensee_list,"100 E Roosevelt Rd , Ste 18",Villa Park,60181,,,needs_coordinates
 120701301,Richard E. Finefield,Gibson City,Ford,igb_licensee_list,528 South Sagamon,Gibson City,60936,,,needs_coordinates
 250700952,Richardson's Food Services L.L.C.,Joliet,Will,igb_licensee_list,81 N. Chicago St. Suite 103 & 104,Joliet,60431,,,needs_coordinates
-190700263,"RICHMOND PETROLEUM, INC.",Richmond,Mchenry,igb_licensee_list,10007 N MAIN ST SUITE A,Richmond,60071,,,needs_coordinates
+190700263,"RICHMOND PETROLEUM, INC.",Richmond,McHenry,igb_licensee_list,10007 N MAIN ST SUITE A,Richmond,60071,,,needs_coordinates
 120707915,"Rick & Anita's, Inc.",Chatsworth,Livingston,igb_licensee_list,410 E. Locust,Chatsworth,60921,,,needs_coordinates
 130705461,"Rick & Rich's Tap, LLC",Rushville,Schuyler,igb_licensee_list,212 North Congress,Rushville,62681,,,needs_coordinates
 120711862,"Ridge Runners, Inc.",Savanna,Carroll,igb_licensee_list,800 North Main,Savanna,61074,,,needs_coordinates
@@ -2066,7 +2066,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 121012781,"ROAD RANGER, L.L.C.",New Berlin,Sangamon,igb_licensee_list,700 KING ROAD,New Berlin,62671,,,needs_coordinates
 211001411,"Road Ranger, L.L.C.",Williamson County,Williamson,igb_licensee_list,1701 IL Route 148,Marion,62959,,,needs_coordinates
 251000811,"Road Ranger, L.L.C.",Princeton,Bureau,igb_licensee_list,2835 North MainStreet,Princeton,61356,,,needs_coordinates
-251000815,"Road Ranger, L.L.C.",McLean,Mclean,igb_licensee_list,"315 E Dixie Rd, Suite A",McLean,61754,,,needs_coordinates
+251000815,"Road Ranger, L.L.C.",McLean,McLean,igb_licensee_list,"315 E Dixie Rd, Suite A",McLean,61754,,,needs_coordinates
 250701392,Roadrunner Station LLC,Camargo,Douglas,igb_licensee_list,951 N State Route 130,Camargo,61919,,,needs_coordinates
 170702436,Roamers Restaurant LLC,Streator,La Salle,igb_licensee_list,2110 N Bloomington,Streator,61364,,,needs_coordinates
 150802121,Robbins Elk Lodge #1642 Inc.,Robbins,Cook,igb_licensee_list,13600 South Sawyer Avenue,Robbins,60472,,,needs_coordinates
@@ -2136,7 +2136,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 220702943,Ruhl Brothers Corporation,Wood Dale,DuPage,verified_city_lookup,,,,,,needs_address_and_coordinates
 120712211,"Run-A-Way Restaurant, Inc.",North Aurora,Kane,igb_licensee_list,120 North Butterfield Road,North Aurora,60542,,,needs_coordinates
 170700261,"Runway Lounge & Package Liquor, Inc.",Bethalto,Madison,igb_licensee_list,314 W. Bethalto Blvd,Bethalto,62010,,,needs_coordinates
-130706058,"Ruppenthal Management, Inc.",Fox Lake,Mchenry,igb_licensee_list,6817 State Park Road,Spring Grove,60081,,,needs_coordinates
+130706058,"Ruppenthal Management, Inc.",Fox Lake,McHenry,igb_licensee_list,6817 State Park Road,Spring Grove,60081,,,needs_coordinates
 240703026,RUSHI VEER LLC,Shiloh,St. Clair,igb_licensee_list,2417 LEBANON AVE  STE. G,Shiloh,62221,,,needs_coordinates
 180702063,Rushing Bar Inc.,Brighton,Macoupin,igb_licensee_list,203 N Main,Brighton,62012,,,needs_coordinates
 120711982,"Russ's Beer and Bottle, Inc.",Waukegan,Lake,igb_licensee_list,938 Glen Flora Avenue,Waukegan,60085,,,needs_coordinates
@@ -2160,7 +2160,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 200701291,"S&G NORRIDGE, LLC",Norridge,Cook,igb_licensee_list,7700 W. Irving Park Road,Norridge,60706,,,needs_coordinates
 240703044,S&K ENTERPRISES LLC,Gibson City,Ford,igb_licensee_list,116/118 N. Sangamon Ave.,Gibson City,60936,,,needs_coordinates
 120706969,S. H. 32 Inc.,Morris,Grundy,igb_licensee_list,402 Liberty,Morris,60450,,,needs_coordinates
-140703639,"S.A.T.T. Enterprises, LLC",Long Point,Livingston,igb_licensee_list,402 MAIN ST.,LONG POINT,613335113,,,needs_coordinates
+140703639,"S.A.T.T. Enterprises, LLC",Long Point,Livingston,igb_licensee_list,402 MAIN ST.,Long Point,613335113,,,needs_coordinates
 180701406,"S.G. RODZINA, INC.",Quincy,,,,,,,,needs_address_and_coordinates
 210702688,S.M. and S.F. Club,Winnebago County,Winnebago,igb_licensee_list,7625 Kishwaukee Road,Rockford,61109,,,needs_coordinates
 120708315,"S.P. & J.P., INC.",Georgetown,,,,,,,,needs_address_and_coordinates
@@ -2169,7 +2169,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 140702394,Sadie Investments LLC,Hoffman Estates,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 240700597,Saffron Bazaar LLC,Ottawa,,,,,,,,needs_address_and_coordinates
 240703046,SAINT FLOWERS HOLDINGS INC.,Aviston,Clinton,igb_licensee_list,201 W HARRISON ST,Aviston,62216,,,needs_coordinates
-150701425,Sal's Pizza Company,Huntley,Mchenry,igb_licensee_list,11019 N Woostock St,Huntley,60142,,,needs_coordinates
+150701425,Sal's Pizza Company,Huntley,McHenry,igb_licensee_list,11019 N Woostock St,Huntley,60142,,,needs_coordinates
 130701398,"Salamone's Restaurant, Inc.",Cherry Valley,Winnebago,igb_licensee_list,103 S Cherry St.,Cherry Valley,61016,,,needs_coordinates
 250702294,SALHANI'S RIVER'S EDGE LLC,Mount Carmel,Wabash,igb_licensee_list,1120 HYDRAULIC AVE,Mount Carmel,62863,,,needs_coordinates
 120902225,Saline Post #3479 Veterans of Foreign Wars,Eldorado,Saline,igb_licensee_list,"1201 Veterans Drive, P.O. Box 117",Eldorado,62930,,,needs_coordinates
@@ -2222,7 +2222,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 180702657,"Shawn & Kim, Inc.",Nebo,Pike,igb_licensee_list,840 E Bridge Street,Nebo,62355,,,needs_coordinates
 240701934,SHAWNEE IL CORPORATION,Eddyville,Pope,igb_licensee_list,1098 STATE HWY 145 N,Eddyville,62928,,,needs_coordinates
 250702105,"SHDAYN GROUP, LLC",La Salle,La Salle,igb_licensee_list,541 1ST ST,LaSalle,61301,,,needs_coordinates
-220702664,"SHEETS CREEK SALOON, LLC",Spring Bay,Woodford,igb_licensee_list,100 SHEETS CREEK WAY,SPRING BAY,61611,,,needs_coordinates
+220702664,"SHEETS CREEK SALOON, LLC",Spring Bay,Woodford,igb_licensee_list,100 SHEETS CREEK WAY,Spring Bay,61611,,,needs_coordinates
 130702425,"Shelby's - Bradley 944 Kinzie, LLC",Bradley,Kankakee,igb_licensee_list,944 N Bradley Blvd,Bradley,60915,,,needs_coordinates
 150701042,"Shelby's - The Courtyard of Lake Zurich, LLC",Lake Zurich,Lake,igb_licensee_list,1261 S. Rand Road,Lake Zurich,600472960,,,needs_coordinates
 130703992,"Shelby's - Waukegan Lewis Market, LLC",Waukegan,Lake,igb_licensee_list,2765 W. Grand Avenue,Waukegan,60085,,,needs_coordinates
@@ -2242,7 +2242,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 230703217,Shree Gajanand LLC,Springfield,Sangamon,igb_licensee_list,2319-2321 N. Dirksen Parkway,Springfield,62702,,,needs_coordinates
 220701225,Shree Hari Retail LLC,Omaha,Gallatin,igb_licensee_list,644 3rd St,Omaha,62871,,,needs_coordinates
 160704004,SHREE RAJ SHYAMAJI CORP.,Bement,Piatt,igb_licensee_list,133 1/2 N Macon St.,Bement,61813,,,needs_coordinates
-170702763,SHREE YAMUNE INC.,Spring Grove,Mchenry,igb_licensee_list,"2450 N US 12 Unit F, G, H",Spring Grove,60081,,,needs_coordinates
+170702763,SHREE YAMUNE INC.,Spring Grove,McHenry,igb_licensee_list,"2450 N US 12 Unit F, G, H",Spring Grove,60081,,,needs_coordinates
 170702136,SHREEJI VARIETY INC.,Fairbury,Livingston,igb_licensee_list,700 W. Oak St.,Fairbury,61739,,,needs_coordinates
 190704122,Shreen Inc.,Washington Park,St. Clair,igb_licensee_list,1601 N. 54th Street,Washington Park,62204,,,needs_coordinates
 190701195,"SHRI GASOLINE INC.,",Taylorville,Christian,igb_licensee_list,"301 West Main Cross Street, Suite A",Taylorville,62568,,,needs_coordinates
@@ -2270,7 +2270,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 160702843,"Slap Shot, LLC",Melrose Park,Cook,igb_licensee_list,2200 W. North Ave. Unit #2,Melrose Park,60160,,,needs_coordinates
 170702534,"Slap Shot, LLC",Bedford Park,Cook,igb_licensee_list,"5301 W 65th Street, Suite A",Bedford Park,60638,,,needs_coordinates
 120700758,"Slater's Inn, Inc.",Stockton,Jo Daviess,igb_licensee_list,111 East Front St,Stockton,61085,,,needs_coordinates
-120704336,"SLEEPY'S BAR & GRILL, INC.",Bluffs,Scott,igb_licensee_list,103-105 East Oakes Street,BLUFFS,62621,,,needs_coordinates
+120704336,"SLEEPY'S BAR & GRILL, INC.",Bluffs,Scott,igb_licensee_list,103-105 East Oakes Street,Bluffs,62621,,,needs_coordinates
 140703812,"Sliccily Pizza Pub, Inc.",North Riverside,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 140704318,"Slimm 7, LLC",Waukegan,Lake,igb_licensee_list,2021 Green Bay Rd.,Waukegan,60087,,,needs_coordinates
 220700072,"Slots & Slices, Inc.",Alhambra,,,,,,,,needs_address_and_coordinates
@@ -2331,7 +2331,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 230701608,SPROUTS INN INC.,Quincy,Adams,igb_licensee_list,2814 NORTH 12TH,Quincy,62301,,,needs_coordinates
 250701501,Square M LTD.,Logan County,Logan,igb_licensee_list,2371 N. Route 121,Latham,62543,,,needs_coordinates
 140700841,"SQUAW BAR, INC.",Lake County,Lake,igb_licensee_list,800 W. Rollins Rd.,Ingleside,60041,,,needs_coordinates
-240702713,"Squire on the Square, Inc.",Woodstock,Mchenry,igb_licensee_list,101 N Johnson St Unit A,Woodstock,60098,,,needs_coordinates
+240702713,"Squire on the Square, Inc.",Woodstock,McHenry,igb_licensee_list,101 N Johnson St Unit A,Woodstock,60098,,,needs_coordinates
 200700666,"SQUIRREL CAGE TAVERN, INC.",DuPage County,Dupage,igb_licensee_list,5528 Main Street,Lisle,60532,,,needs_coordinates
 230701720,"SQUIRREL, LLC",Whiteside County,Whiteside,igb_licensee_list,13464 GALT RD,Sterling,61081,,,needs_coordinates
 230703278,SRI Ganesh Foods Inc.,Pontoon Beach,Madison,igb_licensee_list,5147 Pagano Court,Pontoon Beach,62040,,,needs_coordinates
@@ -2353,7 +2353,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120901456,"Staunton Post No. 1241, Veterans Of Foriegn Wars of the United States, Inc.",Staunton,Macoupin,igb_licensee_list,120 E. Henry,Staunton,62088,,,needs_coordinates
 120712648,"STEAK-N-EGGER, CHICAGO AIRPORT, INC.",McCook,Cook,igb_licensee_list,8408 Joliet Road,McCook,60525,,,needs_coordinates
 120806272,"Steeleville Aerie 3960 Fraternal Order of Eagles, Inc.",Steeleville,Randolph,igb_licensee_list,201 West Broadway,Steeleville,62288,,,needs_coordinates
-200702239,"STELLA'S - BROOKSIDE PLAZA, LLC",Cook County,Cook,igb_licensee_list,513 WAUKEGAN ROAD,NORTHBROOK,600621252,,,needs_coordinates
+200702239,"STELLA'S - BROOKSIDE PLAZA, LLC",Cook County,Cook,igb_licensee_list,513 WAUKEGAN ROAD,Northbrook,600621252,,,needs_coordinates
 130702119,"Stella's - Hillcrest Shopping Center, LLC",Crest Hill,Will,igb_licensee_list,"1701 N Larkin Avenue, 800C",Crest Hill,60403,,,needs_coordinates
 130704775,"Stella's - Lake in the Hills, LLC",Lake In the Hills,McHenry,igb_licensee_list,319 N. Randall Road,Lake in the Hills,60156,,,needs_coordinates
 170700521,"Stella's - North Park, LLC",Villa Park,Dupage,igb_licensee_list,"298 W. North Avenue, Unit 7",Villa Park,60181,,,needs_coordinates
@@ -2365,7 +2365,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 200701153,"STERLING SLOTS, INC.",Sterling,Whiteside,igb_licensee_list,2607 E. Lincolnway Suite A,Sterling,61081,,,needs_coordinates
 120703705,"STEVE HEFTON, INC.",Peoria,Peoria,igb_licensee_list,2248 W. GLEN,Peoria,61614,,,needs_coordinates
 200702848,Stevie Ray's Gaming LLC,Steeleville,Randolph,igb_licensee_list,604-A  N Sparta Street,Steeleville,62288,,,needs_coordinates
-120710108,"STEWARD'S JOHNNIE B., INC.",Steward,Lee,igb_licensee_list,302 MAIN PO BOX 9,STEWARD,60553,,,needs_coordinates
+120710108,"STEWARD'S JOHNNIE B., INC.",Steward,Lee,igb_licensee_list,302 MAIN PO BOX 9,Steward,60553,,,needs_coordinates
 240700171,Stixon36 LLC,Decatur,Macon,igb_licensee_list,3645 E US Route 36,Decatur,62521,,,needs_coordinates
 150702832,"Stoffie's Bar & Grill, Inc.",Cabery,Kankakee,igb_licensee_list,207 East Main,Cabery,60919,,,needs_coordinates
 160704217,Stonewood Gaming Inc.,Dixon,,,,,,,,needs_address_and_coordinates
@@ -2397,17 +2397,17 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 220701422,Susan Bishop,Du Quoin,Perry,igb_licensee_list,1341 S. Washington St.,Du Quoin,62832,,,needs_coordinates
 140700287,"SUZI'S IV, LLC",Silvis,Rock Island,igb_licensee_list,1015 1st Street,Silvis,61282,,,needs_coordinates
 150702864,"SUZI'S X, LLC",Sterling,Whiteside,igb_licensee_list,3219 East Lincolnway,Sterling,61081,,,needs_coordinates
-150702866,"SUZI'S XIII, LLC",DeKalb,Dekalb,igb_licensee_list,"2410 Sycamore Road, Suite B",DeKalb,60115,,,needs_coordinates
+150702866,"SUZI'S XIII, LLC",DeKalb,DeKalb,igb_licensee_list,"2410 Sycamore Road, Suite B",DeKalb,60115,,,needs_coordinates
 160700312,"SUZI'S XV, LLC",Moline,Rock Island,igb_licensee_list,"4011 Avenue Of The Cities, Suite 101",Moline,61265,,,needs_coordinates
 180702374,"SUZI'S XVI, LLC",Moline,Rock Island,igb_licensee_list,"2727 Avenue of the Cities, Suite 3",Moline,61265,,,needs_coordinates
-250701356,SW Sales LLC,McHenry,Mchenry,igb_licensee_list,"4005 W. Kane Ave, Ste L",McHenry,60050,,,needs_coordinates
+250701356,SW Sales LLC,McHenry,McHenry,igb_licensee_list,"4005 W. Kane Ave, Ste L",McHenry,60050,,,needs_coordinates
 230700036,Swami Inc.,Clifton,Iroquois,igb_licensee_list,160 East 4th Avenue,Clifton,60927,,,needs_coordinates
 170703602,Swamiji Inc,Morrisonville,Christian,igb_licensee_list,100 Sarpy St,Morrisonville,62546,,,needs_coordinates
 240701546,"Swartz & Swartz, Inc.",Pittsfield,,,,,,,,needs_address_and_coordinates
 160700648,"SWEET SPOT SPORTS BAR, LLC",Tinley Park,Cook,igb_licensee_list,19110 S OAK PARK AVE,Tinley Park,60477,,,needs_coordinates
 150701649,"Swiss Inn, Inc.",East Dubuque,Jo Daviess,igb_licensee_list,20670 US Hwy 20 W,East Dubuque,61025,,,needs_coordinates
 150701129,"SYBERG'S ON CENTRAL PARK, LLC",O'Fallon,St. Clair,igb_licensee_list,1310 CENTRAL PARK DRIVE,O'Fallon,62269,,,needs_coordinates
-120800500,"Sycamore Lodge # 1506, Loyal Order Of Moose",Sycamore,Dekalb,igb_licensee_list,317 W State St,Sycamore,60178,,,needs_coordinates
+120800500,"Sycamore Lodge # 1506, Loyal Order Of Moose",Sycamore,DeKalb,igb_licensee_list,317 W State St,Sycamore,60178,,,needs_coordinates
 170700742,"Symerton Tap, LLC",Symerton,Will,igb_licensee_list,18332 W Commerical St.,Wilmington,60481,,,needs_coordinates
 120702059,Szarotka's Inc.,Justice,Cook,igb_licensee_list,8100 S Roberts Rd,Justice,60458,,,needs_coordinates
 130703069,"T & G Enterprise I, LLC",Leroy,McLean,igb_licensee_list,509 North West St,Le Roy,61752,,,needs_coordinates
@@ -2508,7 +2508,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 170704159,"The Gas Station, LLC",Sainte Marie,Jasper,igb_licensee_list,302 N Main St,Sainte Marie,62459,,,needs_coordinates
 190702658,The Grand Tap LLC,Galesburg,Knox,igb_licensee_list,2100 Grand Ave,Galesburg,61401,,,needs_coordinates
 250700324,The Greenup Mill LLC,Greenup,,,,,,,,needs_address_and_coordinates
-190701065,THE HIDEAWAY INN LLC,Richmond,Mchenry,igb_licensee_list,10331 N MAIN STREET,Richmond,60071,,,needs_coordinates
+190701065,THE HIDEAWAY INN LLC,Richmond,McHenry,igb_licensee_list,10331 N MAIN STREET,Richmond,60071,,,needs_coordinates
 150700114,"THE HILLTOP AT MENOMINEE, LLC",Menominee,Jo Daviess,igb_licensee_list,16680 HIGHWAY 20 WEST,Menominee,61025,,,needs_coordinates
 240701194,"The Humble Stumble, LLC",Capron,Boone,igb_licensee_list,125 W. Main St. Po Box 16,Capron,61012,,,needs_coordinates
 240702630,"The Humble Stumble, LLC",Capron,,,,,,,,needs_address_and_coordinates
@@ -2533,7 +2533,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120701462,"The Outpost Pub & Grill, Inc.",Lockport,Will,igb_licensee_list,14929 s. Archer,Lockport,60441,,,needs_coordinates
 220700457,THE OUTSKIRTS LLC,Loraine,,,,,,,,needs_address_and_coordinates
 210701955,"The Pasta Boys, Inc.",Springfield,Sangamon,igb_licensee_list,518 N Bruns Lane,Springfield,62702,,,needs_coordinates
-150703614,The Patroons Mexican Restaurant Inc.,McHenry,Mchenry,igb_licensee_list,4005 W Kane Ave.,McHenry,60050,,,needs_coordinates
+150703614,The Patroons Mexican Restaurant Inc.,McHenry,McHenry,igb_licensee_list,4005 W Kane Ave.,McHenry,60050,,,needs_coordinates
 210700962,"The People's Choice Entertainment, Inc",Waukegan,,,,,,,,needs_address_and_coordinates
 140702763,"The Pines Supper Club, Inc.",La Salle County,La Salle,igb_licensee_list,1555 Illinois Rt. 23,Streator,61364,,,needs_coordinates
 130700155,"THE PINK TAVERN, INC.",Lomax,Henderson,igb_licensee_list,1010 SECOND ST,Lomax,61454,,,needs_coordinates
@@ -2556,12 +2556,12 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120705657,"The Sweet Spot, Inc.",North Riverside,Cook,igb_licensee_list,2531 s. Des Plaines Ave.,North Riverside,60546,,,needs_coordinates
 240702534,THE TEE BOX 36 LLC,Quincy,Adams,igb_licensee_list,830 S.36TH STREET,Quincy,62305,,,needs_coordinates
 230701986,THE TEE BOX LLC,Spring Valley,Bureau,igb_licensee_list,221-223 EAST ST. PAUL STREET,Spring Valley,61362,,,needs_coordinates
-240700265,THE THIRSTY ROOSTER INC.,Middletown,Logan,igb_licensee_list,104 S MADISON,MIDDLETOWN,62666,,,needs_coordinates
+240700265,THE THIRSTY ROOSTER INC.,Middletown,Logan,igb_licensee_list,104 S MADISON,Middletown,62666,,,needs_coordinates
 120700642,"THE TOY BAR, INC.",Sullivan,Moultrie,igb_licensee_list,13 WEST JEFFERSON,Sullivan,61951,,,needs_coordinates
 120702097,"The Triangle Bar & Grill, LLC",Woodson,Morgan,igb_licensee_list,101 S. Commercial St.,Woodson,62695,,,needs_coordinates
 120711241,"THE TROPICS, INC.",Winthrop Harbor,Lake,igb_licensee_list,301 NorthPoint Drive,Winthrop Harbor,60096,,,needs_coordinates
 120700588,"The Turf Room Restaurant, Inc.",North Aurora,Kane,igb_licensee_list,650 Randall Crossing Lane,North Aurora,60542,,,needs_coordinates
-240701729,THE VAULT GAMING LOUNGE AND BAR LLC,Winnebago County,Winnebago,igb_licensee_list,3034 S PECATONICA RD,SEWARD,61077,,,needs_coordinates
+240701729,THE VAULT GAMING LOUNGE AND BAR LLC,Winnebago County,Winnebago,igb_licensee_list,3034 S PECATONICA RD,Seward,61077,,,needs_coordinates
 220700953,The Vault LP,Ashmore,Coles,igb_licensee_list,102 West Ashmore Street,Ashmore,61912,,,needs_coordinates
 140702231,"The Village Tavern Of Long Grove, Inc.",Long Grove,Lake,igb_licensee_list,135 Old McHenry Rd,Long Grove,60047,,,needs_coordinates
 170702105,"THE WHINE GUYS, INC.",Chatham,Sangamon,igb_licensee_list,316 North Main Plaza,Chatham,62629,,,needs_coordinates
@@ -2590,7 +2590,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 180703301,TIME AFTER TIME INCORPORATED,Cicero,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
 120705984,"TIME OUT BAR & GRILL, LLC",Troy,Madison,igb_licensee_list,111 W. MARKET,Troy,62294,,,needs_coordinates
 120711485,"Time-Out Sports Pub and Grille, Inc.",Winthrop Harbor,,,,,,,,needs_address_and_coordinates
-240701523,Times Past 2.0 LLC,Bloomington,Mclean,igb_licensee_list,1216 Towanda Ave.,Bloomington,61701,,,needs_coordinates
+240701523,Times Past 2.0 LLC,Bloomington,McLean,igb_licensee_list,1216 Towanda Ave.,Bloomington,61701,,,needs_coordinates
 120706070,Tina Wieneke,Fieldon,Jersey,igb_licensee_list,111 West Locust St.,Fieldon,62031,,,needs_coordinates
 130703801,"TINA'S TAVERN, INC.",Clinton County,Clinton,igb_licensee_list,301 Main St,Pocahontas,62275,,,needs_coordinates
 190703547,TINLEY BEEF LLC,Tinley Park,Will,igb_licensee_list,7301 W. 183RD STREET Unit A & B,Tinley Park,60477,,,needs_coordinates
@@ -2625,7 +2625,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 120711742,"TR RESTAURANT GROUP, INC.",Rockford,,,,,,,,needs_address_and_coordinates
 250701675,Tracey Cross,Johnson County,Johnson,igb_licensee_list,4460 State Rt 146 West,Vienna,62995,,,needs_coordinates
 140701764,Tracy's Supper-Club Inc.,Norris,,,,,,,,needs_address_and_coordinates
-230703174,Trademark Events LLC,Woodstock,Mchenry,igb_licensee_list,240 N Throop St. Suite A & B,Woodstock,60098,,,needs_coordinates
+230703174,Trademark Events LLC,Woodstock,McHenry,igb_licensee_list,240 N Throop St. Suite A & B,Woodstock,60098,,,needs_coordinates
 200702029,Treasure Island Gaming Incorporated,Mount Sterling,Brown,igb_licensee_list,"501 Pittsfield Road, Suite B",Mount Sterling,62353,,,needs_coordinates
 120905359,Tremont Post #1236 The American Legion,Tazewell County,Tazewell,igb_licensee_list,24584 E. Lake Windermere,Tremont,61568,,,needs_coordinates
 160700781,TRI-COUNTY ROD AND GUN CLUB,Jersey County,Jersey,igb_licensee_list,20593 Gun Club Rd,Brighton,62012,,,needs_coordinates
@@ -2703,7 +2703,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 150701141,VIRBAI INC.,Round Lake,Lake,igb_licensee_list,1841 SOUTH CEDAR LAKE ROAD,Round Lake,60073,,,needs_coordinates
 210703140,"Vishat, Inc.",South Beloit,Winnebago,igb_licensee_list,"376 Prairie Hill Rd., Unit A",South Beloit,61080,,,needs_coordinates
 120702296,"Visionquest Unlimited, Inc.",Mount Morris,Ogle,igb_licensee_list,4031 Mud Creek Rd,Mount Morris,61054,,,needs_coordinates
-250701152,VIYA FOODS CORPORATION INC.,Richmond,Mchenry,igb_licensee_list,9914 N MAIN ST,Richmond,60071,,,needs_coordinates
+250701152,VIYA FOODS CORPORATION INC.,Richmond,McHenry,igb_licensee_list,9914 N MAIN ST,Richmond,60071,,,needs_coordinates
 210701901,VJ 2017 INC.,Lake County,Lake,igb_licensee_list,21194 W Commercial Dr,Mundelein,60060,,,needs_coordinates
 250701393,VLMA LLC,Addison,Dupage,igb_licensee_list,426 W LAKE ST,Addison,60101,,,needs_coordinates
 160703244,"VOUNO, INC.",Summit,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
@@ -2734,11 +2734,11 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 220702702,"WAYMAN VENTURES, LLC",Westville,Vermilion,igb_licensee_list,1510 N Franklin,Westville,61883,,,needs_coordinates
 160901853,WAYNESVILLE LEGION POST #1189,Waynesville,De Witt,igb_licensee_list,"212 East 2nd Street, PO Box 119",Waynesville,61778,,,needs_coordinates
 160703830,"Wayside Saloon, Inc.",Stephenson County,Stephenson,igb_licensee_list,1802 Crossroads Lane,Freeport,61032,,,needs_coordinates
-150700157,WD Entertainment Inc.,Richmond,Mchenry,igb_licensee_list,5607 Broadway,Richmond,60071,,,needs_coordinates
+150700157,WD Entertainment Inc.,Richmond,McHenry,igb_licensee_list,5607 Broadway,Richmond,60071,,,needs_coordinates
 220701051,WE MICKS A LOT LLC,Annawan,Henry,igb_licensee_list,101 S East Street STE A,Annawan,61234,,,needs_coordinates
 160703729,WEB  of Peoria Inc.,Peoria Heights,,,,,,,,needs_address_and_coordinates
 120705567,"WEEZY'S ROUTE 66, LLC",Hamel,Madison,igb_licensee_list,108 S OLD RTE 66,Hamel,62046,,,needs_coordinates
-170703297,"WEISHAAR ENTERPRISES, INC.",Spring Grove,Mchenry,igb_licensee_list,2508 Route 12,Spring Grove,60081,,,needs_coordinates
+170703297,"WEISHAAR ENTERPRISES, INC.",Spring Grove,McHenry,igb_licensee_list,2508 Route 12,Spring Grove,60081,,,needs_coordinates
 120708461,"Welcome Bar & Restaurant, Inc.",Milan,Rock Island,igb_licensee_list,118 West 10th Ave.,Milan,61264,,,needs_coordinates
 130704582,"WENDELL'S DUGOUT LOUNGE, INC.",East Alton,,,,,,,,needs_address_and_coordinates
 130705200,"Wendland's Marina, Inc.",Lake County,Lake,igb_licensee_list,27500 N. Grass Lake Road,Antioch,60002,,,needs_coordinates
@@ -2756,14 +2756,14 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 140701255,"Whits End 48, Inc.",Taylorville,,,,,,,,needs_address_and_coordinates
 220702854,"WHOOP YOUR AXE, LLC",Sterling,Whiteside,igb_licensee_list,2317 E LINCOLNWAY SUITE C,Sterling,61081,,,needs_coordinates
 220703493,WHY NOT GAMING LLC,St. Jacob,,,,,,,,needs_address_and_coordinates
-170703987,WILD CRAB BOIL LLC,Spring Grove,Mchenry,igb_licensee_list,2450 N US ROUTE 12 # I. J. K,Spring Grove,600810000,,,needs_coordinates
+170703987,WILD CRAB BOIL LLC,Spring Grove,McHenry,igb_licensee_list,2450 N US ROUTE 12 # I. J. K,Spring Grove,600810000,,,needs_coordinates
 160703681,"WILD HARE BAR AND GRILL, INC.",Fisher,Champaign,igb_licensee_list,109 S. Third St.,Fisher,61843,,,needs_coordinates
 140702737,"Wild Horses Rockford,Inc",Cherry Valley,Winnebago,igb_licensee_list,2233 South Perryville Road,Cherry Valley,61108,,,needs_coordinates
 160700561,Wild Life LLC,Long Creek,Macon,igb_licensee_list,5989 East US Route 36,Decatur,62521,,,needs_coordinates
 180700898,"Wild Willie's, Inc.",Pekin,Tazewell,igb_licensee_list,1100 Derby Street  Ste E,Pekin,61554,,,needs_coordinates
 120701211,"Wild Willy's, Inc.",Brocton,Edgar,igb_licensee_list,109 E Third,Brocton,61917,,,needs_coordinates
 150902847,"Wiley-Mumford Post #764 of the American Legion, Inc.",Toledo,Cumberland,igb_licensee_list,206 S. New Jersey Street,Toledo,62468,,,needs_coordinates
-120704790,Willa Simmons,McClure,Alexander,igb_licensee_list,41220 STATE HWY 3,MCCLURE,62957,,,needs_coordinates
+120704790,Willa Simmons,McClure,Alexander,igb_licensee_list,41220 STATE HWY 3,McClure,62957,,,needs_coordinates
 120902253,"Willard L. Velie Jr. Post No. 2153, Veterans of Foreign Wars of the United States, Inc.",Moline,,,,,,,,needs_address_and_coordinates
 130703211,William Lee Mullarkey,Stephenson County,Stephenson,igb_licensee_list,1862 Rock City Road,Ridott,61067,,,needs_coordinates
 130701229,William Macklin,Effingham County,Effingham,igb_licensee_list,7722 N US HWY 45,Effingham,62401,,,needs_coordinates

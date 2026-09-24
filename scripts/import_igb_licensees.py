@@ -32,6 +32,21 @@ def norm(s):
 def clean(s):
     return str(s or '').strip().strip('\ufeff')
 
+PLACE_EXCEPTIONS={
+    'mchenry':'McHenry','mccook':'McCook','mclean':'McLean','mcnabb':'McNabb','mcclure':'McClure',
+    'dekalb':'DeKalb','lasalle':'LaSalle','du quoin':'Du Quoin',"o'fallon":"O'Fallon",
+    'st. charles':'St. Charles','mount prospect':'Mount Prospect','la grange':'La Grange','la harpe':'La Harpe',
+}
+def title_place_name(value):
+    t=clean(value)
+    if not t or t.upper()=='N/A': return t
+    key=t.casefold()
+    if key in PLACE_EXCEPTIONS: return PLACE_EXCEPTIONS[key]
+    if not (t.isupper() or t.islower()): return t
+    out=t.lower().title()
+    out=re.sub(r'\bMc([a-z])',lambda m:'Mc'+m.group(1).upper(),out)
+    return PLACE_EXCEPTIONS.get(out.casefold(),out)
+
 def field(row, *names):
     by={norm(k):v for k,v in row.items() if k is not None}
     for n in names:
@@ -51,7 +66,7 @@ def parse_city_state_zip(row):
             city=city or m.group(1).strip(' ,')
             state=state or m.group(2).upper()
             zipcode=zipcode or m.group(3)
-    return city,state,zipcode
+    return title_place_name(city),state,zipcode
 
 def read_rows(path):
     raw=Path(path).read_text(encoding='utf-8-sig',errors='replace').splitlines()
@@ -87,7 +102,7 @@ def main():
             'city':city,
             'state':state or 'IL',
             'zip':zipcode,
-            'county':field(row,'county','business county','location county'),
+            'county':title_place_name(field(row,'county','business county','location county').replace(' County','').strip()),
             'license_type':ltype,
             'license_status':field(row,'license status','status'),
         }
@@ -106,7 +121,7 @@ def main():
         if src['zip']:
             e['zip']=src['zip']; zipped += 1
         if src['county']:
-            e['county']=src['county'].replace(' County','').strip(); e['county_source']='igb_licensee_list'; countied += 1
+            e['county']=title_place_name(src['county']); e['county_source']='igb_licensee_list'; countied += 1
         if src['license_type']: e['type']=src['license_type'].replace('Licensed ','').strip()
         if src['license_status']: e['license_status']=src['license_status']
         if e.get('address') and e.get('city'):
