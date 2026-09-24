@@ -23,3 +23,11 @@ No approximate municipality centroids or guessed coordinates are promoted to the
 
 ## Environment note
 The ChatGPT code container used to assemble this release cannot make the required outbound POST to the Census batch endpoint. The geocoding pipeline was dry-run locally against all 7,223 eligible records and syntax/structure validation passed. The included GitHub Actions workflow is the execution path for the live batch request.
+
+
+## v12.4 resilience update
+- Census HTTP 5xx failures no longer abort the statewide run.
+- Default workflow batch size reduced to 250.
+- Failed batches are recursively split to 25 records before being deferred.
+- Transiently failed records remain uncached and retryable on the next run.
+- GitHub Actions timeout increased to 180 minutes.

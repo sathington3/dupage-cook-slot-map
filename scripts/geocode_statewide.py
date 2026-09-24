@@ -80,7 +80,7 @@ def multipart_body(csv_bytes: bytes, boundary: str):
     return bytes(out)
 
 
-def census_batch(rows, timeout=120, retries=4):
+def census_batch(rows, timeout=120, retries=6):
     buf = io.StringIO(newline="")
     w = csv.writer(buf, lineterminator="\n")
     for r in rows:
@@ -94,7 +94,7 @@ def census_batch(rows, timeout=120, retries=4):
         req = urllib.request.Request(
             CENSUS_URL,
             data=body,
-            headers={"Content-Type": f"multipart/form-data; boundary={boundary}", "User-Agent": "SlotMap/12.3"},
+            headers={"Content-Type": f"multipart/form-data; boundary={boundary}", "User-Agent": "SlotMap/12.4"},
             method="POST",
         )
         try:
@@ -104,8 +104,29 @@ def census_batch(rows, timeout=120, retries=4):
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as exc:
             last = exc
             if attempt + 1 < retries:
-                time.sleep(2 ** attempt)
+                time.sleep(min(60, 3 * (2 ** attempt)))
     raise RuntimeError(f"Census batch request failed after {retries} attempts: {last}")
+
+
+def census_batch_resilient(rows, min_batch_size=25):
+    """Call Census in a way that survives transient 5xx failures.
+
+    If a request still fails after retries, split the batch and retry each half.
+    A tiny batch that still fails is returned as failed instead of aborting the
+    entire statewide run. Failed rows are deliberately NOT cached, so a later
+    workflow run can retry them.
+    """
+    try:
+        return census_batch(rows), []
+    except RuntimeError as exc:
+        if len(rows) <= min_batch_size:
+            print(f"WARNING: Census request failed for {len(rows)} rows; leaving them uncached for a later retry: {exc}")
+            return [], rows
+        mid = len(rows) // 2
+        print(f"WARNING: Census request failed for batch of {len(rows)}; splitting into {mid} + {len(rows)-mid} and retrying.")
+        left_rows, left_failed = census_batch_resilient(rows[:mid], min_batch_size=min_batch_size)
+        right_rows, right_failed = census_batch_resilient(rows[mid:], min_batch_size=min_batch_size)
+        return left_rows + right_rows, left_failed + right_failed
 
 
 def load_cache():
@@ -227,7 +248,7 @@ def rebuild_live_dataset(master):
 
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument("--batch-size", type=int, default=500, help="addresses per Census request")
+    ap.add_argument("--batch-size", type=int, default=250, help="addresses per Census request")
     ap.add_argument("--limit", type=int, default=0, help="process at most N uncached addresses (0 = all)")
     ap.add_argument("--dry-run", action="store_true", help="prepare/validate only; do not make network requests")
     args=ap.parse_args()
@@ -250,9 +271,11 @@ def main():
         print("Dry run complete; no network requests made.")
         return
 
+    transient_failed=[]
     for start in range(0,len(pending),args.batch_size):
         batch=pending[start:start+args.batch_size]
-        rows=census_batch(batch)
+        rows, failed_items=census_batch_resilient(batch)
+        transient_failed.extend(failed_items)
         returned=set()
         for row in rows:
             if not row: continue
@@ -260,11 +283,15 @@ def main():
             lic=res["license"]
             if not lic: continue
             cache[lic]=res; returned.add(lic)
+        failed_licenses={item["license"] for item in failed_items}
         for item in batch:
-            if item["license"] not in returned:
+            # A successfully returned Census response with no row is a real result.
+            # A transport/server failure is intentionally left uncached so it can
+            # be retried on the next run.
+            if item["license"] not in returned and item["license"] not in failed_licenses:
                 cache[item["license"]]={"license":item["license"],"status":"","match_type":"","accepted":False,"reason":"no_row_returned","lat":None,"lon":None,"matched_address":"","input_address":item["address"],"source":"us_census_batch_geocoder"}
         save_cache(cache)
-        print(f"Processed {min(start+len(batch),len(pending))}/{len(pending)}")
+        print(f"Processed {min(start+len(batch),len(pending))}/{len(pending)}; transient failures still retryable: {len(transient_failed)}")
 
     updated,rejected_zip=update_master(master,cache)
     master.setdefault("counts",{})["census_geocoded_this_build"]=updated
@@ -278,6 +305,7 @@ def main():
     print(f"Accepted exact Illinois matches in cache: {accepted}")
     print(f"Newly applied coordinates: {updated}; ZIP mismatches rejected: {rejected_zip}")
     print(f"Live mapped dataset: {live_count}; remaining enrichment queue: {queue_count}")
+    print(f"Transient Census request failures left uncached for a later retry: {len(transient_failed)}")
 
 if __name__ == "__main__":
     main()
