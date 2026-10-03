@@ -44,7 +44,7 @@ for coord,group in coord_groups.items():
 # cache/version
 idx=(ROOT/'index.html').read_text(encoding='utf-8')
 sw=(ROOT/'service-worker.js').read_text(encoding='utf-8')
-EXPECTED_VERSION='13.5.1'
+EXPECTED_VERSION='13.5.4'
 for asset in ['manifest.webmanifest','establishments.js','service-worker.js']:
     if f"{asset}?v={EXPECTED_VERSION}" not in idx: errors.append(f'{asset} reference not {EXPECTED_VERSION}')
 if f"slot-map-v{EXPECTED_VERSION}" not in sw: errors.append(f'service worker cache not {EXPECTED_VERSION}')
@@ -100,7 +100,7 @@ if len(county_names)!=102: errors.append(f'expected 102 canonical Illinois count
 if '"_public_search"' not in text: errors.append('establishments.js missing _public_search')
 
 # v13.3 field-report + Public/AP mode architecture sanity
-for token in ['fieldreportfilter','exportfield','slotmap-field-reports','FIELD_REPORT_LABELS','exportFieldData',"slot_map_export_version:'13.5.1'",'AP_MODE_DEFAULT','AP_MODE_ENABLED','setAPMode','data-ap-only','body:not(.ap-mode)','LIST_PAGE_SIZE','appendMoreResults','option[data-ap-only]']:
+for token in ['fieldreportfilter','exportfield','slotmap-field-reports','FIELD_REPORT_LABELS','exportFieldData',"slot_map_export_version:'13.5.4'",'AP_MODE_DEFAULT','AP_MODE_ENABLED','setAPMode','data-ap-only','body:not(.ap-mode)','LIST_PAGE_SIZE','appendMoreResults','option[data-ap-only]']:
     if token not in idx: errors.append(f'missing field-report feature token: {token}')
 
 # v13.4.0 deep-audit efficiency/reliability invariants
