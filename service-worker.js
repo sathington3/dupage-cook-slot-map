@@ -1,6 +1,6 @@
-const CACHE='slot-map-v13.4.0';
+const CACHE='slot-map-v13.5.1';
 const SHELL=[
-  './index.html','./manifest.webmanifest?v=13.4.0','./establishments.js?v=13.4.0',
+  './index.html','./manifest.webmanifest?v=13.5.1','./establishments.js?v=13.5.1',
   './buffalo-theme.png','./apple-touch-icon.png','./app-icon-512.png'
 ];
 // Fixed-version library assets only. Map tiles remain uncached to avoid an unbounded cache.

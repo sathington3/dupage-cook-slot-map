@@ -9,6 +9,9 @@ for r in m['establishments']:
     # Keep the live bundle lean: revenue source details and null/empty AP fields remain in statewide-master.json.
     keys=('county','name','address','city','state','zip','license','type','lat','lon','vgts','played','payback')
     d={k:r.get(k) for k in keys}
+    for k in ('legal_name','legal_address','hours','hours_source','hours_verified','public_name_source'):
+        v=r.get(k)
+        if v not in (None,'',[],{}): d[k]=v
     # License is the permanent IGB key. UI/local-state IDs must not depend on
     # county ordering or an old imported row number.
     canonical_id=f"IL-{c(r.get('license'))}"

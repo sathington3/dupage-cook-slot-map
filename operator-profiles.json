@@ -1,13 +1,14 @@
 {
   "Accel Entertainment Gaming, LLC": {
     "confirmed_current_locations": 4,
-    "legacy_locations": 1,
+    "legacy_locations": 2,
     "likely_locations": 0,
-    "complete_coverage_locations": 0,
+    "complete_coverage_locations": 1,
     "observed_fingerprints": [
       "Frankenstein · Rich Little Piggies · Rich Little Hens",
       "Wild Mermaid · Jungle Riches",
-      "Ocean Magic · Wheel of Fortune · Wolf Run Eclipse",
+      "Wheel of Fortune · Wolf Run Eclipse · Ocean Magic Grand · Zodiac Lion",
+      "Frankenstein · Rich Little Hens",
       "Rich Little Piggies · Rich Little Hens · Cash Falls · Voodoo",
       "Rich Little Piggies · Rich Little Hens · Cash Falls"
     ],
@@ -20,7 +21,7 @@
     "typical_vgt_counts": [
       6
     ],
-    "evidence_strength": 88,
+    "evidence_strength": 98,
     "model_note": "Operator/VGT similarity is a scouting lead only; exact games require field confirmation."
   },
   "Lattner Entertainment": {

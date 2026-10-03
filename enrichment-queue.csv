@@ -148,7 +148,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 200700752,Antigua Mexican Grill LLC,Crystal Lake,McHenry,igb_licensee_list,1500 Carlemont Drive Suite J,Crystal Lake,60014,,,needs_coordinates
 220702158,Antonio's Ristorante Italiano Inc.,Itasca,DuPage,igb_licensee_list,280 N Rohlwing Rd,Itasca,60143,,,needs_coordinates
 170704045,"ANVI729, LLC",Smithton,St. Clair,igb_licensee_list,408 N Main St Suite B,Smithton,62285,,,needs_coordinates
-120704151,"Anyway's, Inc.",Oakbrook Terrace,DuPage,igb_licensee_list,5 East Roosevelt Road,Oakbrook Terrace,60181,,,needs_coordinates
+120704151,Anyways Chicago Restaurant & Pub,Oakbrook Terrace,DuPage,igb_licensee_list,5 East Roosevelt Road,Oakbrook Terrace,60181,,,needs_coordinates
 220703221,APK HOSPITALITY LLC,Kankakee County,Kankakee,igb_licensee_list,1311 N STATE ROUTE 50,Bourbonnais,60914,,,needs_coordinates
 140700107,Applezaks Incorporated,Decatur,Macon,igb_licensee_list,2880 N Oakland,Decatur,62526,,,needs_coordinates
 120704622,Aqua Sports Club,Springfield,Sangamon,igb_licensee_list,"#1 West Club Area, West Lake Drive",Springfield,62707,,,needs_coordinates
@@ -298,14 +298,14 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 240702748,BLACKBIRDS MACON LLC,Macon,,,,,,,,needs_address_and_coordinates
 130700177,Blackhawk Restaurant Group LLC,Joliet,Will,igb_licensee_list,"2310 Illinois Route 59, Suite 8",Plainfield,60586,,,needs_coordinates
 150701652,Blackhawk Restaurant Group LLC Series 1700PPNormal,Normal,McLean,igb_licensee_list,1700 Parkway Plaza,Normal,61761,,,needs_coordinates
-130703407,Blackhawk Restaurant Group LLC Series 621ROakbrookT,Oakbrook Terrace,DuPage,igb_licensee_list,17W631 Roosevelt Road,Oakbrook Terrace,60181,,,needs_coordinates
+130703407,Penny's Place,Oakbrook Terrace,DuPage,igb_licensee_list,17W631 Roosevelt Road,Oakbrook Terrace,60181,,,needs_coordinates
 150702816,Blackhawk Restaurant Group LLC Series BSBartonville,Bartonville,Peoria,igb_licensee_list,1359 W Garfield  Ave  # F,Bartonville,61607,,,needs_coordinates
 130700046,Blackhawk Restaurant Group LLC Series CCCCrest,Crest Hill,Will,igb_licensee_list,"2400 Caton Farm Road, #C",Crest Hill,60403,,,needs_coordinates
 150701651,Blackhawk Restaurant Group LLC Series CCChampaign,Champaign,Champaign,igb_licensee_list,105 Mattis Ave Unit B,Champaign,61821,,,needs_coordinates
 130700237,Blackhawk Restaurant Group LLC Series CCPekin,Pekin,Tazewell,igb_licensee_list,2115B Court Street,Pekin,61554,,,needs_coordinates
 150701654,Blackhawk Restaurant Group LLC Series GSCHanover Park,Hanover Park,,,,,,,,needs_address_and_coordinates
 130704382,Blackhawk Restaurant Group LLC Series HWCicero,Cicero,Cook,verified_city_lookup,,,,,,needs_address_and_coordinates
-120712571,Blackhawk Restaurant Group LLC Series OTSOakbrook,Oakbrook Terrace,DuPage,igb_licensee_list,17W677 Roosevelt Road,Oakbrook Terrace,60181,,,needs_coordinates
+120712571,Betty's Bistro,Oakbrook Terrace,DuPage,igb_licensee_list,17W677 Roosevelt Road,Oakbrook Terrace,60181,,,needs_coordinates
 130703408,Blackhawk Restaurant Group LLC Series SBPeoria,Peoria,Peoria,igb_licensee_list,3311 Sterling Avenue,Peoria,61614,,,needs_coordinates
 140701843,Blackhawk Restaurant Group LLC Series UCUrbana,Urbana,Champaign,igb_licensee_list,114 Vine St  Unit O,Urbana,61802,,,needs_coordinates
 130702441,"Blackhawk Restaurant Group, LLC Series ACAntioch",Antioch,Lake,igb_licensee_list,"417 E. Route 173, Unit 105",Antioch,60002,,,needs_coordinates
@@ -918,7 +918,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 170700181,G.B. CONSOLIDATED INC.,Loves Park,Winnebago,igb_licensee_list,1920 E. Riverside Blvd  Suite C,Loves Park,61111,,,needs_coordinates
 210702603,G.J.P. Properties Incorporated,Grandview,Sangamon,igb_licensee_list,2372 East North Grand Avenue Suite A,Springfield,62702,,,needs_coordinates
 230700581,G.K. Boomer's LLC,Flanagan,Livingston,igb_licensee_list,123-125 S. Main St.,Flanagan,61740,,,needs_coordinates
-160702886,"G.O.B.T., INC.",Oakbrook Terrace,DuPage,igb_licensee_list,17W517 Roosevelt Rd,Oakbrook Terrace,60181,,,needs_coordinates
+160702886,Gullivers Pizza & Pub,Oakbrook Terrace,DuPage,igb_licensee_list,17W517 Roosevelt Rd,Oakbrook Terrace,60181,,,needs_coordinates
 170701296,GA Gaming LLC,Madison,St. Clair,igb_licensee_list,11 Ohio St.,East St. Louis,62201,,,needs_coordinates
 170701486,"GALENA PRIME HOTELS, LLC",Galena,Jo Daviess,igb_licensee_list,11383 W US HIGHWAY 20,Galena,61036,,,needs_coordinates
 150701387,"Galena Properties, LLC",Gilman,Iroquois,igb_licensee_list,629 S Crescent St.,Gilman,60938,,,needs_coordinates
@@ -1144,7 +1144,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 210702773,"J & L Bestways, Inc.",Harrisburg,,,,,,,,needs_address_and_coordinates
 240703003,"J & L BESTWAYS, INC.",West City,,,,,,,,needs_address_and_coordinates
 120703792,"J & P Trails End, Inc.",Campus,,,,,,,,needs_address_and_coordinates
-180700590,"J & S HOSPITALITY, INC.",Oakbrook Terrace,DuPage,igb_licensee_list,17 W350 22nd St.,Oakbrook Terrace,60181,,,needs_coordinates
+180700590,Holiday Inn,Oakbrook Terrace,DuPage,igb_licensee_list,17 W350 22nd St.,Oakbrook Terrace,60181,,,needs_coordinates
 120703787,"J Town, Inc.",Crest Hill,Will,igb_licensee_list,2115 Plainfield rd,Crest Hill,60403,,,needs_coordinates
 130703604,"J&M Family, Fun & Food, Inc.",Springfield,Sangamon,igb_licensee_list,1754 W. Wabash Suite A,Springfield,62704,,,needs_coordinates
 190702229,"J's Petti-Coat Junction, Inc.",Bureau County,Bureau,igb_licensee_list,27915-2060 North Ave,Malden,61337,,,needs_coordinates
@@ -1807,7 +1807,7 @@ license,name,municipality,county,county_source,address,city,zip,lat,lon,status
 231000199,"Oasis Lily Lake, Inc.",Lily Lake,Kane,igb_licensee_list,44w322 Route 64,Lily Lake,60151,,,needs_coordinates
 171003954,"OASIS ON 20, INC.",Elgin,Kane,igb_licensee_list,3191 US HIGHWAY 20  UNIT C,Elgin,60124,,,needs_coordinates
 220702288,"OB's Cervezaria, LLC",Chenoa,,,,,,,,needs_address_and_coordinates
-180701638,OBT Holding Inc.,Oakbrook Terrace,DuPage,igb_licensee_list,17W731 Roosevelt Rd STE G,Oakbrook Terrace,60181,,,needs_coordinates
+180701638,Susie's Place,Oakbrook Terrace,DuPage,igb_licensee_list,17W731 Roosevelt Rd STE G,Oakbrook Terrace,60181,,,needs_coordinates
 170703358,"Oconee Mini Mart, LLC",Oconee,Shelby,igb_licensee_list,101 North Highway 51,Oconee,62553,,,needs_coordinates
 150704285,OFPKTS Corporation,Oak Forest,Cook,igb_licensee_list,4142 W 167TH ST,Oak Forest,60452,,,needs_coordinates
 250701999,"Old Dog, LLC",Canton,Fulton,igb_licensee_list,"23 W Pine St, Unit A",Canton,61520,,,needs_coordinates
