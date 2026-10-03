@@ -9,7 +9,7 @@ for r in m['establishments']:
     # Keep the live bundle lean: revenue source details and null/empty AP fields remain in statewide-master.json.
     keys=('county','name','address','city','state','zip','license','type','lat','lon','vgts','played','payback')
     d={k:r.get(k) for k in keys}
-    for k in ('legal_name','legal_address','hours','hours_source','hours_verified','public_name_source'):
+    for k in ('legal_name','legal_address','igb_dba','hours','hours_source','hours_verified','public_name_source'):
         v=r.get(k)
         if v not in (None,'',[],{}): d[k]=v
     # License is the permanent IGB key. UI/local-state IDs must not depend on
@@ -22,7 +22,7 @@ for r in m['establishments']:
         v=r.get(k)
         if v not in (None,'',[],{},'unknown','none',0): d[k]=v
     # Unknown is the frontend default, so omitting it saves substantial payload size.
-    d['_public_search']=' '.join(c(d.get(k)).lower() for k in ('name','address','city','state','zip','license','county') if c(d.get(k)))
+    d['_public_search']=' '.join(c(d.get(k)).lower() for k in ('name','legal_name','igb_dba','address','city','state','zip','license','county') if c(d.get(k)))
     op=c(d.get('terminal_operator')).lower()
     if op: d['_search']=d['_public_search']+' '+op
     live.append(d)
